@@ -1,0 +1,12 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section6 of Supply page.
+// -----------------------------------------------------------------------------
+
+section#section6.peace {
+  h2 {}
+  p {
+    @media screen and (min-width: $csseco_bp_768) {
+      text-align: left;
+    }
+  }
+}

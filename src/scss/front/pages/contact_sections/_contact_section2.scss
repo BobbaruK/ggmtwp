@@ -1,0 +1,48 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section2 of Contact page.
+// -----------------------------------------------------------------------------
+
+section#section2.getintouch {
+  background-color: lighten($brand-color, 60);
+  h2 {}
+  ul {
+    list-style: none;
+    li {
+      align-items: center;
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: .5rem;
+      svg {
+        margin-right: 10px;
+        max-width: 30px;
+        #location #location_inner_circle,
+        #location #location_2 #location_location_inner_circle,
+        #mail #mail_inner_circle, 
+        #phone #phone_inner_circle {
+          fill: $brand-color;
+          stroke: $brand-color;
+        }
+        #mail #mail_envelope #mail_envelope_bottom,
+        #mail #mail_envelope #mail_envelope_top,
+        #mail #mail_envelope #mail_envelope_2 {
+          fill: $brand-secondary-color;
+          stroke: $brand-color;
+        }
+        #location_2 #location_location,
+        #phone #phone_phone {
+          fill: $brand-secondary-color;
+          stroke: $brand-secondary-color;
+        }
+      }
+      @media screen and (min-width: $csseco_bp_576) {
+        margin-bottom: 1rem;
+      }
+      @media screen and (min-width: $csseco_bp_992) {
+        margin-bottom: 1.5rem;
+      }
+    }
+  }
+  .forms {
+    background-color: rgba($bg-color, .4);
+  }
+}

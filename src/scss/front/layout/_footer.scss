@@ -1,0 +1,61 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+
+footer#footer.site_footer {
+  background-color: #1D1E20;
+  color: $bg-color;
+  font-size: 12px;
+  text-align: center;
+  .footer_menu {
+    ul {
+      align-items: center;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      list-style: none;
+      margin: 0 0 1rem;
+      padding: 0;
+      position: relative;
+      &::after {
+        background-color: $bg-color;
+        bottom: 0;
+        content: "";
+        height: 1px;
+        max-width: 380px;
+        position: absolute;
+        width: 100%;
+      }
+      li {
+        line-height: 1;
+        margin-bottom: 1rem;
+        &:first-child { 
+          // display: none; // if fist-child its not home comment this shit
+        }
+        &:not(:last-child) {
+          border-right: 1px solid $bg-color;
+          padding: 0 15px 0 0;
+          margin-right: 15px;
+        }
+        a {
+          color: $bg-color;
+          &:hover {
+            color: $brand-secondary-color;
+          }
+        }
+      }
+    }
+  }
+  p {
+    margin: 0;
+  }
+  @media screen and (min-width: $csseco_bp_576) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: $csseco_bp_768) {
+    font-size: 15px;
+  }
+  @media screen and (min-width: $csseco_bp_992) {
+    font-size: 16px;
+  }
+}

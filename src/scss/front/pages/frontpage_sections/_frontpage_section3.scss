@@ -1,0 +1,213 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section3 of Front-page.
+// -----------------------------------------------------------------------------
+
+section#section3.tmapproach {
+  > .container {
+    max-width: 1530px;
+    width: 100%;
+  }
+  h2 {}
+  .tma_card_wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    .tma_card {
+      text-align: center;
+      margin-bottom: 2rem;
+      position: relative;
+      width: 100%;
+      .tma_card_inner {
+        .icon {
+          margin-bottom: 1rem;
+          text-align: center;
+          img, svg {
+            max-width: 150px;
+            &#fps3_icon1 {
+              #outer_circle,
+              #arrow,
+              #user1 #user1_outer_circle,
+              #user1 #user1_shape #user1_body,
+              #user1 #user1_shape #user1_tie #user1_bottom_tie,
+              #user1 #user1_shape #user1_tie #user1_top_tie,
+              #user1 #user1_shape #user1_head,
+              #user2 #user2_outer_circle,
+              #user2 #user2_shape #user2_head,
+              #the_frame #top_frame #top_frame_circle,
+              #the_frame #inner_frame #fr,
+              #the_frame #inner_frame #bullet1,
+              #the_frame #inner_frame #text1,
+              #the_frame #inner_frame #checked2,
+              #the_frame #inner_frame #bullet2,
+              #the_frame #inner_frame #text2,
+              #the_frame #inner_frame #bullet3,
+              #the_frame #inner_frame #text3,
+              #the_frame #inner_frame #checked4,
+              #the_frame #inner_frame #bullet4,
+              #the_frame #inner_frame #text4,
+              #dollar #dollar_outer_circle,
+              #fdisk #fdisk_body,
+              #hand #hand1,
+              #hand #hand2 {
+                fill: $bg-color;
+                stroke: $brand-color;
+              }
+              #fps3_icon1 {
+                fill: red;
+              }            
+              #user2 #user2_shape #user2_body,
+              #the_frame #top_frame #top_frame_poly,
+              #the_frame #outher_frame,
+              #fdisk #fdisk_reader, 
+              #fdisk #fdisk_roundthing {
+                fill: lighten($brand-color, 40);
+                stroke: $brand-color;
+              }            
+              #dollar #dollar_sign #s_shape,
+              #dollar #dollar_sign #line_shape,
+              #fdisk #fdisk_line1,
+              #fdisk #fdisk_line2,
+              #fdisk #fdisk_line3 {
+                fill: none;
+                stroke: $brand-color;
+              }            
+              #inner_circle {
+                fill: $brand-secondary-color;
+                stroke: $brand-secondary-color;
+              }            
+            }
+            @media screen and (min-width: $csseco_bp_768) {
+              max-height: 130px;
+              max-width: none;
+            }
+          }
+        }
+        h3 {
+          font-weight: bold;
+        }
+        p {}
+        a.read {
+          color: $brand-color;
+          font-weight: bold;
+        }
+      }
+      &::before,
+      &::after {
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: "";
+        display: none;
+        position: absolute;
+        @media screen and (min-width: $csseco_bp_1200) {
+          display: block;
+        }
+      }
+      &.tma_card_1 {
+        &::before {
+          background-image: url(../imgs/frontpage/section3/line1.png);
+          height: 170px;
+          left: -80px;
+          top: -45px;
+          width: 170px;
+          z-index: -1;
+          // @media screen and (min-width: 1400px) {
+          //   height: 200px;
+          //   left: -80px;
+          //   top: -65px;
+          //   width: 200px;
+          // }
+          // @media screen and (min-width: 1500px) {
+
+          // }
+        }
+        &::after {
+          background-image: url(../imgs/frontpage/section3/line2.png);
+          height: 240px;
+          right: -120px;
+          top: 10px;
+          width: 240px;
+          z-index: -1;
+          // @media screen and (min-width: 1400px) {
+          //   height: 280px;
+          //   right: -140px;
+          //   top: -20px;
+          //   width: 270px;
+          // }
+          // @media screen and (min-width: 1500px) {
+
+          // }
+        }
+        @media screen and (min-width: $csseco_bp_1200) {}
+      }
+      &.tma_card_2 {
+        &::after {
+          background-image: url(../imgs/frontpage/section3/line3.png);
+          height: 240px;
+          right: -110px;
+          top: 0px;
+          width: 240px;
+          z-index: -1;
+        }
+        @media screen and (min-width: $csseco_bp_1200) {
+          padding-top: 160px;
+        }
+      }
+      &.tma_card_3 {
+        &::after {
+          background-image: url(../imgs/frontpage/section3/line4.png);
+          height: 210px;
+          right: -120px;
+          top: 30px;
+          width: 240px;
+          z-index: -1;
+        }
+        @media screen and (min-width: $csseco_bp_1200) {}
+      }
+      &.tma_card_4 {
+        &::after {
+          background-image: url(../imgs/frontpage/section3/line5.png);
+          height: 210px;
+          right: -120px;
+          top: -10px;
+          width: 240px;
+          z-index: -1;
+        }
+        @media screen and (min-width: $csseco_bp_1200) {
+          padding-top: 160px;
+        }
+      }
+      &.tma_card_5 {
+        &::after {
+          background-image: url(../imgs/frontpage/section3/line6.png);
+          height: 80px;
+          right: -70px;
+          top: -10px;
+          width: 160px;
+          z-index: -1;
+        }
+        @media screen and (min-width: $csseco_bp_768) and (max-width: 1199px) {
+          flex: 0 0 100%;
+          max-width: 100%;
+        }
+        @media screen and (min-width: $csseco_bp_1200) {}
+      }
+      @media screen and (min-width: $csseco_bp_768) {
+        // max-width: 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+        padding: 0 15px;
+      }
+      @media screen and (min-width: $csseco_bp_1200) {
+        flex: 0 0 20%;
+        max-width: 20%;
+      }
+    }
+  }
+  @media screen and (min-width: $csseco_bp_1200) {
+    // background-image: url(../imgs/frontpage/section4/dotted_line.png);
+    // background-position: center;
+    // background-repeat: no-repeat;
+  }
+}

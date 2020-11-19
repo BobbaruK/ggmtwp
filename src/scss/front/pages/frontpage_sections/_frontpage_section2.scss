@@ -1,0 +1,25 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section2 of Front-page.
+// -----------------------------------------------------------------------------
+
+section#section2.whyus {
+  background-color: $brand-grey;
+  overflow: hidden;
+  position: relative;
+  .safe {
+    font-size: 84px;
+    line-height: 62px;
+  }
+  h2 {}
+  p {
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_992) {
+      margin-left: auto;
+      margin-right: auto;
+      max-width: 70%;
+    }
+  }
+  .btn_wrapper {
+    text-align: center;
+  }
+}

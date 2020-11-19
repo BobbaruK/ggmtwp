@@ -1,0 +1,148 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section5 of Front-page.
+// -----------------------------------------------------------------------------
+
+section#section5.testimonials {
+  .slick-slider.slick-initialized {
+    position: relative;
+    .slick-list {
+      .slick-slide.slide_wrapper {
+        padding: 0;
+        .slide_inner {
+          background-color: $bg-color;
+          display: flex;
+          flex-direction: column;
+          h3, p {
+            margin: 0;
+            padding: 0.5rem;
+          }
+          h3 {
+            align-items: center;
+            background-color: $brand-color;
+            color: $bg-color;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            i, svg {
+              margin-right: auto;
+            }
+            span {
+              flex-grow: 1;
+            }
+          }
+          p {
+            background-color: $bg-color;
+          }
+          @media screen and (min-width: $csseco_bp_576) {
+            outline: 2px solid $brand-color;
+          }
+        }
+        &.slick-active {}
+        &.slick-center {
+          position: relative;
+          .slide_inner {
+            flex-direction: column-reverse;
+            &::before,
+            &::after {
+              background: $bg-color;
+              border: 2px solid $brand-color;
+              content: "";
+              display: none;
+              height: 100%;
+              position: absolute;
+              width: 100%;
+              z-index: -5;
+              @media screen and (min-width: $csseco_bp_576) {
+                display: block;
+              }
+            }
+            &::before {
+              bottom: auto;
+              left: -10px;
+              right: auto;
+              top: -10px;
+            }
+            &::after {
+              bottom: -10px;
+              left: auto;
+              right: -10px;
+              top: auto;
+            }
+            @media screen and (min-width: $csseco_bp_576) {
+              transform: scale(1.05);
+            }
+          }
+          @media screen and (min-width: $csseco_bp_576) {}
+        }
+        @media screen and (min-width: $csseco_bp_576) {
+          padding: 1rem;
+        }
+      }
+      @media screen and (min-width: $csseco_bp_992) {
+        width: 95%;
+        margin: 0 auto;
+      }
+      @media screen and (min-width: 1400px) {
+        width: 100%;
+        margin: 0;
+      }
+    }
+    .slick-dots {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      list-style: none;
+      margin: 0;
+      padding: 1.5rem 0 0;
+      li {
+        margin: 0 5px;
+        button {
+          background-color: $brand-color;
+          border: none;
+          border-radius: 50%;
+          display: block;
+          height: 15px;
+          text-indent: -9999px;
+          width: 15px;
+        }
+        &.slick-active {
+          button {
+            background-color: $brand-secondary-color;
+          }
+        }
+      }
+    }
+    .slick-arrow {
+      background-color: $bg-color;
+      background-image: url(../imgs/frontpage/section5/arrow.png);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+      border: none;
+      border-radius: 50%;
+      bottom: auto;
+      height: 30px;
+      position: absolute;
+      text-indent: -9999px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 30px;
+      &.slick-prev {
+        left: -15px;
+        right: auto;
+        @media screen and (min-width: 1400px) {
+          left: -35px;
+        }
+      }
+      &.slick-next {
+        transform: scale(-1) translateY(15px);
+        filter: FlipH;
+        left: auto;
+        right: -15px;
+        @media screen and (min-width: 1400px) {
+          right: -35px;
+        }
+      }
+    }
+  }
+}

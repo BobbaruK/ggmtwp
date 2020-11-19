@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the burger-menu component.
+// -----------------------------------------------------------------------------
+
+.burgerWrapper {
+  flex-flow: row-reverse;
+  .burger {
+    align-items: center;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    padding: 5px;
+    width: 40px;
+    .bar {
+      background-color: $brand-secondary-color;
+      border-radius: $border-radius;
+      height: 4px;
+      position: relative;
+      transform: rotate(0);
+      transition: transform ease-in-out $animation_time;
+      width: 100%;
+      &::before,
+      &::after {
+        background-color: $brand-secondary-color;
+        border-radius: $border-radius;
+        content: '';
+        height: 4px;
+        left: 0;
+        position: absolute;
+        right: 0;
+        width: 100%;
+      }
+      &::before {
+        top: -8px;
+        transition: opacity ease-in-out $animation_time;
+      }
+      &::after {
+        bottom: -8px;
+        transition: all ease-in-out $animation_time;
+      }
+    }
+    &.burger_close {
+      .bar {
+        transform: rotate(405deg);
+        &::before {
+          opacity: 0;
+          transition: opacity ease-in-out $animation_time;
+        }
+        &::after {
+          bottom: 0;
+          transform: rotate(-90deg);
+          transition: all ease-in-out $animation_time;
+        }
+      }
+    }
+  }
+}

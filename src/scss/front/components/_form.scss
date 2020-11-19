@@ -1,0 +1,44 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the form component.
+// -----------------------------------------------------------------------------
+.forms {
+  background-color: $bg-color;
+  border-radius: $border-radius;
+  margin: 0 auto;
+  max-width: 750px;
+  padding: 20px;
+  width: 100%;
+  input[type=text],
+  input[type=email],
+  input[type=tel],
+  select {
+    background-color: $bg-color;
+  }
+  .phoneW {
+    .phone-prefix,	
+    .phone-number {
+      float: left;
+      width: 100%;
+    }
+    .phone-prefix {
+      border-right: 1px solid grey;
+      border-radius: $border-radius 0 0 $border-radius;
+      max-width: 75px;
+      
+    }	
+    .phone-number {
+      border-left: medium none;
+      border-radius: 0 $border-radius $border-radius 0;
+      max-width: calc(100% - 75px);
+    }
+  }
+  button[type=submit] {
+    min-width: 200px;
+    @media screen and (min-width: $csseco_bp_576) {
+      min-width: 250px;      
+    }
+  }
+  label {
+    display: none;
+  }
+}

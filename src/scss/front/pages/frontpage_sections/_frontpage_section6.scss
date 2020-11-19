@@ -1,0 +1,81 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section6 of Front-page.
+// -----------------------------------------------------------------------------
+
+section#section6.control {
+  background-color: $brand-grey;
+  > .container {
+    position: relative;
+  }
+  p, ul {
+    text-align: center;
+  }
+  p {
+    @media screen and (min-width: $csseco_bp_992) {
+      margin: 0 auto;
+      max-width: 50%;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {      
+      max-width: 55%;
+    }
+  }
+  .truck {
+    display: none;
+    bottom: -42px;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+
+      // wheels
+    #roata_spate1, 
+    #roata_spate2,
+    #roata_fata  {
+      animation: roata_obst 350ms linear infinite;
+      transform-origin: center;
+      transform-box: fill-box;
+      .roata_cauciuc {
+        fill: $brand-color;
+        stroke: $bg-color;
+      }
+      .roata_janta {
+        fill: $bg-color;
+        stroke: $brand-color;
+      }
+      .roata_valva {
+        fill: lighten($brand-color, 50);
+        stroke: $bg-color;
+      }
+    }
+    #roata_spate1 {
+      animation-delay: 50ms;
+    }
+    #roata_spate2 {
+      animation-delay: 100ms;      
+    }
+      // Smoke
+    #fum1,
+    #fum2 {
+      fill: lighten($brand-color, 50);
+    }
+    #fum1 {
+      animation: fum 750ms ease-in-out infinite;
+    }
+    #fum2 {
+      animation: fum 850ms ease-in-out infinite 250ms;
+    }
+      // Portbagaj
+    #portbagaj {
+      fill: $brand-secondary-color;
+    }
+      // Caroserie
+    #caroserie {
+      fill: $brand-color;
+    }
+    @media screen and (min-width: $csseco_bp_992) {
+      display: block;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {
+      bottom: -52px;
+    }
+  }
+}

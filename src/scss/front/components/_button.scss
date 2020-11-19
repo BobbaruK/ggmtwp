@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the button component.
+// -----------------------------------------------------------------------------
+
+.cssecoBtn {
+  background-color: $brand-color;
+  border-radius: $border-radius;
+  border: 1px solid $brand-color;
+  color: $brand-color;
+  display: inline-block;
+  font-weight: bold;
+  min-width: 250px;
+  overflow: hidden;
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+  width: auto;
+  span {
+    position: relative;
+    z-index: 1;
+  }
+  &::after {
+		background: $brand-secondary-color;
+    bottom: -5px;
+    border-radius: 70px;
+		content: "";
+		left: -30%;
+		position: absolute;
+		top: -5px;
+		transition: left 0.5s ease-in-out;
+		width: 180%;
+		z-index: 0;
+	}
+	&:hover {
+    background-color: $brand-color;
+    border-color: $brand-secondary-color;
+		color: $bg-color;
+		&::after {
+			left: 127%;
+		}
+	}
+}

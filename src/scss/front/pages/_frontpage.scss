@@ -1,0 +1,163 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the Front-page.
+// -----------------------------------------------------------------------------
+
+#site-wrapper.fp {
+
+  h2 {
+    text-align: center;
+  }
+
+  .bgfp {
+    background-image: url(../imgs/frontpage/header_fp_bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    > .container {
+      position: relative;
+      &::after {
+        background-color: $bg-color;
+        bottom: 0;
+        content: "";
+        display: none;
+        height: 100%;
+        position: absolute;
+        right: -10000px;
+        width: 10000px;
+        z-index: 2;
+        @media screen and (min-width: $csseco_bp_1200) {
+          display: block;
+        }
+      }
+    }
+    .white_circle {
+      background: $bg-color;
+      border: 5px solid $brand-grey;
+      border-radius: 50%;
+      display: none;
+      height: 700px;
+      position: absolute;
+      right: -310px;
+      top: -100px;
+      width: 700px;
+      z-index: 1;
+      .bg2 { 
+        background: $bg-color;
+        background-image: url(../imgs/frontpage/header_fp_bg2.jpg);
+        background-position: -410px top;
+        background-repeat: no-repeat;
+        background-size: cover;       
+        height: 100%;  
+        opacity: 0;
+        transition: $animation_time opacity ease-in-out;
+        visibility: hidden;
+        width: 1200px;
+        @media screen and (min-width: 1400px) {
+          background-position: -350px top;
+        }
+      }
+      @media screen and (min-width: $csseco_bp_1200) {
+        display: block;
+      }
+    }
+    .yellow_shape {
+      background-image: url(../imgs/frontpage/yellow_shape.png);
+      background-position: 100% 0;
+      background-repeat: no-repeat;
+      background-size: contain;
+      display: none;
+      height: 500px;
+      opacity: 1;
+      position: absolute;
+      right: -430px;
+      top: -80px;
+      transition: $animation_time all ease-in-out;
+      visibility: visible;
+      width: 750px;
+      z-index: 3;
+      &::after {
+        background-image: url(../imgs/frontpage/drawing.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;
+        content: "";
+        height: 500px;
+        left: -10px;
+        position: absolute;
+        top: 30px;
+        width: 500px;
+        z-index: 4;
+      }
+      @media screen and (min-width: $csseco_bp_1200) {
+        display: block;
+      }
+      @media screen and (min-width: 1400px) {
+        top: -40px;
+      }
+    }
+    .colorfade {
+      /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ffffff+0,ffffff+30,ffffff+100&0+0,1+30,1+100 */
+      background: -moz-linear-gradient(left,  rgba($bg-color,0) 0%, rgba($bg-color,1) 30%, rgba($bg-color,1) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(left,  rgba($bg-color,0) 0%,rgba($bg-color,1) 30%,rgba($bg-color,1) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to right,  rgba($bg-color,0) 0%,rgba($bg-color,1) 30%,rgba($bg-color,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 ); /* IE6-9 */
+      content: "";
+      // display: none;
+      height: 100%;
+      opacity: 0;
+      position: absolute;
+      right: -790px;
+      top: 0;
+      transition: 0 opacity ease-in-out;
+      width: 700px;
+      z-index: 10;
+    }
+    &.next_dheader {
+      .white_circle {
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+        border-right-color: transparent;
+        overflow: hidden;
+        z-index: 4;
+        .bg2 {
+          opacity: 1;
+          visibility: visible;
+        }
+        @media screen and (min-width: $csseco_bp_1200) {
+          display: block;
+        }
+        @media screen and (min-width: 1400px) {
+          background-position: center;
+        }
+      }
+      .yellow_shape { 
+        opacity: 0; 
+        visibility: hidden;
+      }
+      .colorfade {
+        opacity: 1;
+      }
+    }
+  }
+  .reliability {
+    position: relative;
+    .reliability_txt {
+      color: grey;
+      font-size: 130px;
+      line-height: 152px;
+      left: 160px;
+      position: absolute;
+      transform: rotate(-90deg) translate(-50%,-17px);
+    }
+  }
+
+  @import 'frontpage_sections/frontpage_section1';
+  @import 'frontpage_sections/frontpage_section2';
+  @import 'frontpage_sections/frontpage_section3';
+  @import 'frontpage_sections/frontpage_section4';
+  @import 'frontpage_sections/frontpage_section5';
+  @import 'frontpage_sections/frontpage_section6';
+  @import 'frontpage_sections/frontpage_section7';
+
+}

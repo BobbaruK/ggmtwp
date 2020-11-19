@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all application-wide Sass variables.
+// -----------------------------------------------------------------------------
+
+// Colors
+// Bootstrap overwrite
+$theme-colors: (
+  "primary"                   :   #0074d9,
+  "secondary"                 :   #6c757d,
+  "success"                   :   #28a745,
+  "info"                      :   #17a2b8,
+  "warning"                   :   #ffc107,
+  "danger"                    :   #dc3545,
+  "light"                     :   #f8f9fa,
+  "dark"                      :   #343a40
+);
+
+// Colors
+$brand-color                  :   #252a5e; 
+// $brand-color                  :   green; 
+$brand-secondary-color        :   #fdc20f;
+$brand-grey                   :   darken(#f5f8fb, 5);
+$brand-danger-color				    :   #F7011A;
+$brand-success-color				  :   #30AB2F;
+$bg-color                     :   #ffffff;
+// $bg-color                     :   red;
+$text-color                   :   $brand-color;
+
+// Social media colors
+$sm_youtube					          :   #b31217;
+$sm_twitter					          :   #55acee;
+$sm_linkedin					        :   #0077b5;
+$sm_instagram				          :   #E1306C;
+$sm_googlep					          :   #dc4e41;
+$sm_facebook					        :   #3b5998;
+$sm_mail						          :   #9C9DA0;
+
+// CSSeco BreakPoints
+$csseco_bp_320	              :    320px;
+$csseco_bp_576	              :    576px;
+$csseco_bp_768	              :    768px;
+$csseco_bp_992	              :    992px;
+$csseco_bp_1200	              :    1200px;
+
+
+// CSS variables
+:root {
+
+  // Spacing
+  --margin_padding_bottom     :     20px;
+  @media screen and (min-width: $csseco_bp_576) {
+    --margin_padding_bottom   :     30px;
+  }
+  @media screen and (min-width: $csseco_bp_768) {
+    --margin_padding_bottom   :     35px;
+  }
+  @media screen and (min-width: $csseco_bp_992) {
+    --margin_padding_bottom   :     40px;
+  }
+  @media screen and (min-width: $csseco_bp_1200) {
+    --margin_padding_bottom   :     50px;
+  }
+
+}
+
+// Misc
+    // Bootstrap overwrite
+$border-radius                :     .5rem;
+
+    // Animation time
+$animation_time               :     320ms;
+
+    // Custom height for featured image
+$featured_height					    :     200px;

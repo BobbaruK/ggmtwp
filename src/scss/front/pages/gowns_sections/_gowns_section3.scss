@@ -1,0 +1,61 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section3 of Gowns page.
+// -----------------------------------------------------------------------------
+
+section#section3.disposablegowns {
+  h2 {}
+  .lecards_wrapper {
+    .lecard {
+      .lecard_inner {
+        .ttl,
+        .pct {
+          width: 100%;
+        }
+        .ttl {
+          h3 {
+            span {
+              &::before { // from .bull
+              }
+            }
+          }
+        }
+        .pct {
+          align-items: flex-start;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          padding: 1rem .5rem;
+          text-align: left;
+          ul {
+            margin: 0;
+            li {
+              margin-top: 10px;
+              ul {
+                margin-left: 15px;
+              }
+            }
+          }
+          @media screen and (min-width: $csseco_bp_768) {
+            min-height: 300px;
+          }
+          @media screen and (min-width: $csseco_bp_1200) {
+            min-height: 530px;
+          }
+        }
+      }
+      .desc {
+        p {}
+      }
+      @media screen and (min-width: $csseco_bp_768) {
+        flex: 0 0 49%;
+        margin-right: 0.3%;
+        width: 49%;
+      }
+      @media screen and (min-width: $csseco_bp_1200) {
+        flex: 0 0 24.8%;
+        margin-right: 0.2%;
+        width: 24.8%;
+      }
+    }
+  }
+}

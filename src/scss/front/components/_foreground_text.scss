@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the foreground-text component.
+// -----------------------------------------------------------------------------
+
+.foreground_txt {
+  bottom: 50%;
+  display: none;
+  font-weight: 700;
+  left: 100%;
+  opacity: .1;
+  overflow: hidden;
+  position: absolute;
+  text-transform: uppercase;
+  transform-origin: bottom left;
+  transform: rotate(-90deg) translate(-50%,-17px);
+  z-index: 10;
+  @media screen and (min-width: $csseco_bp_992) {
+    display: block;
+  }
+}

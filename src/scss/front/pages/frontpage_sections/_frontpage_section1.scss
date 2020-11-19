@@ -1,0 +1,42 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section1 of Front-page.
+// -----------------------------------------------------------------------------
+
+section#section1.subHeader {
+  h1 {
+    color: $bg-color;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+    span {
+      color: $brand-secondary-color;
+      display: block;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {
+      text-align: left;
+    }
+  }
+  p {
+    color: $bg-color;
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_1200) {
+      text-align: left;
+    }
+  }
+  .btn_wrapper {
+    text-align: center;
+    .cssecoBtn {}
+    @media screen and (min-width: $csseco_bp_1200) {
+      text-align: left;
+    }
+  }
+  @media screen and (min-width: $csseco_bp_1200) {
+    padding-top: calc(var(--margin_padding_bottom)*1.5);
+    padding-bottom: calc(var(--margin_padding_bottom)*1.5);
+  }
+  @media screen and (min-width: 1400px) {
+    padding-top: calc(var(--margin_padding_bottom)*2);
+    padding-bottom: calc(var(--margin_padding_bottom)*2);
+  }
+}

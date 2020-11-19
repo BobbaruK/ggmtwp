@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section4 of Gowns page.
+// -----------------------------------------------------------------------------
+
+section#section4.disposable {
+  h2 {}
+  ul {
+    li {}
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 250px;
+    width: 100%;
+    @media screen and (min-width: $csseco_bp_1200) {
+      max-width: 350px;
+    }
+  }
+}

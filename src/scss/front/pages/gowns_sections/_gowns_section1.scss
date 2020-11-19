@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section1 of Gowns page.
+// -----------------------------------------------------------------------------
+
+section#section1.disposablegowns {
+  h1 {}
+  p {
+    &:nth-child(3) {
+      @media screen and (min-width: $csseco_bp_1200) {
+        margin-bottom: 2.5rem;
+        text-align: left;
+      }
+    }
+  }
+  .btn_wrapper {
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_768) {
+      text-align: left;
+    }
+  }
+  img {
+    margin: 1rem auto 0;
+  }
+}

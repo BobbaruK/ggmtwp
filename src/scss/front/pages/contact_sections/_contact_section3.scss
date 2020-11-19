@@ -1,0 +1,20 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section3 of Contact page.
+// -----------------------------------------------------------------------------
+
+section#section3.realtime {
+  background-image: url(../imgs/contact/section3/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: var(--margin_padding_bottom);
+  padding: var(--margin_padding_bottom) 0;
+  h2 {
+    color: #FFF;
+    text-transform: uppercase;
+    margin: 0;
+    @media screen and (min-width: $csseco_bp_992) {
+      margin: 1rem 0;
+    }
+  }
+}

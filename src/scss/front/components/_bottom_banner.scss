@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the bottom_banner component.
+// -----------------------------------------------------------------------------
+
+.bottom_banner {
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  min-height: 200px;
+  margin-bottom: var(--margin_padding_bottom);
+  h2,
+  .btn_wrapper {
+    text-align: center;
+  }
+  h2 {
+    color: $bg-color;
+    margin: 0 auto;
+  }
+  .btn_wrapper {
+    margin-top: 1.5rem;
+  }
+  @media screen and (min-width: $csseco_bp_576) {}
+  @media screen and (min-width: $csseco_bp_768) {
+    min-height: 220px;
+  }
+  @media screen and (min-width: $csseco_bp_992) {
+    min-height: 260px;
+  }
+  @media screen and (min-width: $csseco_bp_1200) {
+    min-height: 280px;
+  }
+}

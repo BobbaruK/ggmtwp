@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section1 of Contact page.
+// -----------------------------------------------------------------------------
+
+section#section1.safe_imports {
+  h1 {}
+  p,
+  ul {
+    @media screen and (min-width: $csseco_bp_1200) {
+      margin-bottom: 2.5rem;
+    }
+  }
+  .btn_wrapper {
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_992) {
+      text-align: left;
+    }
+  }
+  img {
+    margin-top: 1rem;
+    @media screen and (min-width: $csseco_bp_576) {
+      margin-top: 2rem;
+    }
+    @media screen and (min-width: $csseco_bp_992) {
+      margin: 0;
+    }
+  }
+}

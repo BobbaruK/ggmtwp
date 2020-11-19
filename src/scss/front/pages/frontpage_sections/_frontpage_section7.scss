@@ -1,0 +1,17 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section7 of Front-page.
+// -----------------------------------------------------------------------------
+
+section#section7.contact {
+  background-image: url(../imgs/frontpage/section7/bg.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  h2 {
+    color: $brand-secondary-color;
+    & + p {
+      color: $bg-color;
+      text-align: center;
+    }
+  }
+}

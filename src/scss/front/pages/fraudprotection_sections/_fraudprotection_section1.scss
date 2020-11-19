@@ -1,0 +1,57 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section1 of Fraud protection page.
+// -----------------------------------------------------------------------------
+
+section#section1.fpqa {
+  border-bottom: 1px solid $brand-grey;
+  padding: 0;
+  overflow: hidden;
+  > .container { // bs overwrite
+    padding-bottom: var(--margin_padding_bottom);
+    padding-top: var(--margin_padding_bottom);
+    position: relative;
+    > .palnie_bgs {
+      top: -3px; 
+      .bg {
+        background-image: url(../imgs/fraud_protection/section1/bg.png);
+        background-position: center right;
+      }
+      @media screen and (min-width: $csseco_bp_768) {
+        right: -120px;
+      }
+      @media screen and (min-width: $csseco_bp_992) {
+        right: -170px;
+        width: 550px;
+      }
+      @media screen and (min-width: $csseco_bp_1200) {
+        width: 620px;
+      }
+    }
+  }
+  h1 {
+    @media screen and (min-width: $csseco_bp_576) {
+      padding: 0 40px;
+    }
+    @media screen and (min-width: $csseco_bp_768) {
+      padding: 0 10px 0 0;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {
+      margin-bottom: 2.5rem;
+    }
+  }
+  p {
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_768) {
+      text-align: left;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {
+      margin-bottom: 2.5rem;
+    }
+  }
+  .btn_wrapper {
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_768) {
+      text-align: left;
+    }
+  }
+}

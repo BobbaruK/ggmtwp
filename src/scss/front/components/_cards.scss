@@ -1,0 +1,74 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the card component.
+// -----------------------------------------------------------------------------
+
+.lecards_wrapper {
+  display: block;
+  .lecard {
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    margin-bottom: 2rem;
+    .lecard_inner {
+      border: 1px solid $brand-color;
+      .ttl,
+      .pct {
+        padding: 1rem 0;
+      }
+      .ttl {
+        border-bottom: 1px solid $brand-color;
+        h3 {
+          margin: 0;
+          span {
+            &::before { // from .bull
+              bottom: 0;
+              height: 30px;
+              left: -10px;
+              top: auto;
+              width: 30px;
+            }
+          }
+        }
+      }
+      .pct {
+        .pct_inner {
+          background-position: center;
+          background-repeat: no-repeat;
+          background-size: contain;
+          height: 350px;
+          width: 100%;
+        }
+      }
+    }
+    .desc {
+      align-content: center;
+      background-color: $brand-color;
+      color: $bg-color;
+      display: flex;
+      flex-flow: column;
+      flex-grow: 1;
+      justify-content: center;
+      margin-top: 0.3rem;
+      padding: 1rem 10px;
+      p {
+        margin: 0;
+      }
+    }
+    @media screen and (min-width: $csseco_bp_768) {
+      flex: 0 0 49%;
+      margin-right: 0.3%;
+      width: 49%;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {
+      flex: 0 0 33%;
+      margin-bottom: 0;
+      width: 33%;
+    }
+  }
+  @media screen and (min-width: $csseco_bp_768) {
+    display: flex;
+    flex-wrap: wrap;
+    // justify-content: space-between;
+    justify-content: flex-start;
+  }
+}

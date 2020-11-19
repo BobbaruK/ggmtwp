@@ -1,0 +1,43 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to css animations
+// -----------------------------------------------------------------------------
+
+
+// ----------
+// Frontpage sect 3 - icon1
+// ----------
+@keyframes outerCircle {
+  from {
+    transform: rotateZ(0deg);
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
+}
+
+// ----------
+// Truck animations
+// ----------
+@keyframes roata_obst {
+  0% {
+    transform: translateY(0) rotateZ(0deg);
+  }
+  50% {
+    transform: translateY(-0.5px) rotateZ(180deg);
+  }
+  100% {
+    transform: translateY(0) rotateZ(360deg);
+  }
+}
+
+@keyframes fum {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translateX(1px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}

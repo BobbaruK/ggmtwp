@@ -1,0 +1,28 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+
+header#header.site_header {
+  padding: 15px 0;
+  &:not(.frontpage_header) {
+    background-color: $brand-color;    
+  }
+  .logoWrapper {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    img.header_logo {
+      max-height: 30px;
+      @media screen and (min-width: $csseco_bp_768) {
+        max-height: 40px;
+      }
+      @media screen and (min-width: $csseco_bp_992) {
+        max-height: 50px;
+      }
+    }
+  }
+}
+
+header#header.site_header.frontpage_header {
+  
+}

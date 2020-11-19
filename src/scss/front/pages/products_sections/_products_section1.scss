@@ -1,0 +1,22 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section1 of Products page.
+// -----------------------------------------------------------------------------
+
+section#section1.top {
+  h1 {}
+  p {
+    @media screen and (min-width: $csseco_bp_576) {
+      text-align: center;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {
+      margin-bottom: 2.5rem;
+      text-align: left;
+    }
+  }
+  .btn_wrapper {
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_1200) {
+      text-align: left;
+    }
+  }
+}
