@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package fxoroV3
+  * @package cssecoST
   * includes/back/templates/csseco-theme-opts.php
   *
   */
@@ -10,9 +10,9 @@
 
 <?php
 
-	function fxoroV3_theme_options() {}
+	function cssecoST_theme_options() {}
 
-	function fxoroV3_post_formats() {
+	function cssecoST_post_formats() {
 		$options = get_option( 'csseco_post_formats' );
 		$formats = array( 'aside', 'gallery', 'link', 'image', 'quote', 'status', 'video', 'audio', 'chat' );
 		$output = '';
@@ -28,7 +28,7 @@
 <?php settings_errors(); ?>
 <form method="post" action="options.php">
 	<?php 
-		settings_fields( 'fxoroV3-theme-support' );
+		settings_fields( 'cssecoST-theme-support' );
 		do_settings_sections( 'csseco_theme_support_page' );
 		submit_button(); 
 	?>

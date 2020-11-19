@@ -1,7 +1,7 @@
 
 <?php
 /**
- * @package fxoroV3
+ * @package cssecoST
  * front/shortcodes.php
  *
  * Shortcodes Functions

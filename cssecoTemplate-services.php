@@ -1,7 +1,7 @@
 <?php
 /**
   * Template Name: Services
-  * @package fxoroV3
+  * @package cssecoST
   * cssecoTemplatePage-services.php
   */
 

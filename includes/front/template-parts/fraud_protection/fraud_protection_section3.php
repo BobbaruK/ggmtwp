@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package fxoroV3
+  * @package cssecoST
   * includes/front/template-parts/fraud_protection/fraud_protection_section3.php
   */
 ?>

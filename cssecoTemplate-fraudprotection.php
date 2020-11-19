@@ -1,7 +1,7 @@
 <?php
 /**
   * Template Name: Fraud Protection
-  * @package fxoroV3
+  * @package cssecoST
   * cssecoTemplatePage-fraud_protection.php
   */
 

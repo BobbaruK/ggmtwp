@@ -1,6 +1,6 @@
 <?php
 /**
- * @package fxoroV3
+ * @package cssecoST
  * includes/front/template-parts/single.php
  *
  * Single Post Tempalte

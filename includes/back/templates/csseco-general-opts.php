@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package fxoroV3
+  * @package cssecoST
   * includes/back/templates/csseco-admin-opts.php
   *
   */
@@ -10,9 +10,9 @@
 
 <?php
 
-	function fxoroV3_general_options() {}
+	function cssecoST_general_options() {}
 
-	function fxoroV3_logo() {
+	function cssecoST_logo() {
 		$logoPct = esc_attr( get_option( 'logo' ) );
 		if ( empty( $logoPct ) ) {
 			echo '<input type="button" value="Upload logo" id="uploadButton" class="button button-secondary" />';
@@ -26,20 +26,20 @@
 		echo '<input type="hidden" name="logo" value="' . $logoPct . '" id="siteLogoB" />';
 	}
 
-	function fxoroV3_social_options() {}
+	function cssecoST_social_options() {}
 
-	function fxoroV3_smtw() {
+	function cssecoST_smtw() {
 		$twh = esc_attr( get_option( 'tw' ) );
 		echo '<input type="text" name="tw" id="" value="'.$twh.'" placeholder="Twitter Handler" />';
 		echo '<p class="description">Without @</p>';
 	}
 
-	function fxoroV3_smfb() {
+	function cssecoST_smfb() {
 		$fbh = esc_attr( get_option( 'fb' ) );
 		echo '<input type="text" name="fb" id="" value="'.$fbh.'" placeholder="Facebook Handler" />';
 	}
 
-	function fxoroV3_smgp() {
+	function cssecoST_smgp() {
 		$gph = esc_attr( get_option( 'gp' ) );
 		echo '<input type="text" name="gp" id="" value="'.$gph.'" placeholder="Google Plus Handler" />';
 	}
@@ -50,7 +50,7 @@
 <?php settings_errors(); ?>
 <form method="post" action="options.php">
 	<?php 
-		settings_fields( 'fxoroV3-setting-group' );
+		settings_fields( 'cssecoST-setting-group' );
 		do_settings_sections( 'csseco_theme_create_page' );
 		submit_button(); 
 	?>

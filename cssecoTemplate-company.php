@@ -1,7 +1,7 @@
 <?php
 /**
   * Template Name: Company
-  * @package fxoroV3
+  * @package cssecoST
   * cssecoTemplatePage-contact.php
   */
 

@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package fxoroV3
+  * @package cssecoST
   * includes/cleanup.php
   */
 /* remove version number(string) from js and css files */

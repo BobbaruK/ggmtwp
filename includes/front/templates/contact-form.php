@@ -1,6 +1,6 @@
 <?php
 /**
- * @package fxoroV3
+ * @package cssecoST
  * includes/front/templates/contact-form.php
  *
  * Comment Navigation Template

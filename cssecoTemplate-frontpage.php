@@ -1,7 +1,7 @@
 <?php
 /**
   * Template Name: Front Page
-  * @package fxoroV3
+  * @package cssecoST
   * cssecoTemplatePage-contact_us.php
   */
 

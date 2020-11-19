@@ -1,7 +1,7 @@
 <?php
 /**
   * Template Name: Gowns
-  * @package fxoroV3
+  * @package cssecoST
   * cssecoTemplatePage-gowns.php
   */
 
