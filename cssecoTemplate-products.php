@@ -1,7 +1,7 @@
 <?php
 /**
   * Template Name: Products
-  * @package fxoroV3
+  * @package cssecoST
   * cssecoTemplatePage-products.php
   */
 

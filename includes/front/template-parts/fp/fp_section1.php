@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package fxoroV3
+  * @package cssecoST
   * includes/front/template-parts/fp/fp_section1.php
   */
 ?>

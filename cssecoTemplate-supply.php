@@ -1,7 +1,7 @@
 <?php
 /**
   * Template Name: Supply
-  * @package fxoroV3
+  * @package cssecoST
   * cssecoTemplatePage-supply.php
   */
 

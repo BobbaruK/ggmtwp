@@ -1,5 +1,5 @@
 /**
-  * @package fxoroV3
+  * @package cssecoST
   * js/csseco.admin.js
   */
 jQuery(document).ready(function($){

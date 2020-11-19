@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package fxoroV3
+  * @package cssecoST
   * includes/vendor/bootsrap_pagination.php
   */
 

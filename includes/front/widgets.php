@@ -1,6 +1,6 @@
 <?php
 /**
-  * @package fxoroV3
+  * @package cssecoST
   * includes/front/widgets.php
   *
   */
@@ -11,7 +11,7 @@
 //}
 
 // Save posts views
-function fxoroV3_save_post_views( $postID ) {
+function cssecoST_save_post_views( $postID ) {
 	
 	$metaKey = 'csseco_post_views';
 	$views = get_post_meta( $postID, $metaKey, true );
@@ -43,7 +43,7 @@ class CSSeco_Popular_Posts_Widget extends WP_Widget {
 	// backend display
 	public function form( $instance ) {
 		
-		$title = ( !empty( $instance[ 'title' ] ) ? $instance[ 'title' ] : __( 'Popular Posts', 'fxoroV3' ) );
+		$title = ( !empty( $instance[ 'title' ] ) ? $instance[ 'title' ] : __( 'Popular Posts', 'cssecoST' ) );
 		$tot = ( !empty( $instance[ 'tot' ] ) ? absint( $instance[ 'tot' ] ) : 4 );
 		
 		$output = '<p>';

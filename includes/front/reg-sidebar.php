@@ -1,15 +1,15 @@
 <?php
 /**
- * @package fxoroV3
+ * @package cssecoST
  * includes/front/reg-widgets.php
  *
  * Register sidebar and widgets
  */
 function csseco_sidebar_widgets_init() {
 	register_sidebar( array (
-		'name'              => __('Sidebar', 'fxoroV3'),
+		'name'              => __('Sidebar', 'cssecoST'),
 		'id'                => 'csseco_sidebar',
-		'description'       => __( 'Widget area', 'fxoroV3'),
+		'description'       => __( 'Widget area', 'cssecoST'),
 		'class'             => '',
 		'before_widget'     => '<section id="%1$s" class="csseco-widget %2$s">',
 		'after_widget'      => '</section>',
