@@ -1,0 +1,32 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section2 of Reusable Gowns page.
+// -----------------------------------------------------------------------------
+
+section#section2.about {
+  background-color: $brand-grey;
+  background-image: url(../imgs/texture.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  > .container {
+    padding-bottom: var(--margin_padding_bottom);
+    padding-top: var(--margin_padding_bottom);
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_992) {
+      background-image: url(../imgs/gowns/section2/bg.png);
+      background-position: center left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      text-align: left;
+    }
+  }
+  h2, 
+  p {
+    @media screen and (min-width: $csseco_bp_992) {
+      text-align: right;
+    }
+  }
+  h2 {}
+  p {}
+}
