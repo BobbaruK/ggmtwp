@@ -83,11 +83,11 @@ jQuery(function ($) {
 	//============
 	$('.burger').on("click", function() {
 
-		if ( $(this).hasClass("burger_close") ) {
+		if ( $(this).hasClass("burger--close") ) {
 
 			$(".leMenu").removeClass("show", animation_time);
 			$("#header").removeClass("menu_opened", animation_time);
-			$(this).removeClass("burger_close");
+			$(this).removeClass("burger--close");
 			$("#cssecoMenu .menu-item-has-children").removeClass("menu_open").find(".sub-menu").slideUp(animation_time, "linear");;
 			$("body").removeAttr("style");
 
@@ -95,7 +95,7 @@ jQuery(function ($) {
 
 			$(".leMenu").addClass("show", animation_time);
 			$("#header").addClass("menu_opened", animation_time);
-			$(this).addClass("burger_close");
+			$(this).addClass("burger--close");
 			$("body").css("overflow", "hidden");
 
 		}
@@ -114,7 +114,7 @@ jQuery(function ($) {
 
 			$(".leMenu").addClass("on_desktop").removeClass("on_mobile").removeClass("show");
 			$(".menu-item-has-children").removeClass("menu_open");
-			$(".burger").removeClass("burger_close");
+			$(".burger").removeClass("burger--close");
 			$(".sub-menu").removeAttr("style");
 			$("body").css("overflow", "");
 

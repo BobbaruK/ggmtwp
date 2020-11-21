@@ -11,7 +11,7 @@
       <div class="col-12 col-xl-6">
         <h1>Import Distribution <span>You Can Trust</span></h1>
         <p>GGMT offers a wide variety of supply chain services tailor made to fit your needs. Our unrivaled service makes us a trusted choice for the world's leading healthcare institutions. We protect your order from start to finish.</p>
-        <div class="btn_wrapper">
+        <div class="cssecoBtnWrapper">
           <a href="#" class="cssecoBtn"><span>Start Now</span></a>
         </div>
       </div>

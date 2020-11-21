@@ -11,7 +11,7 @@
       <div class="col-12 col-md-8">
         <h1 class="bull"><span>Fraud Protection with Quality Assurance & Quality Control Solutions</span></h1>
         <p>Laboratory testing &bull; Paper certification &bull; Factory verification</p>
-        <div class="btn_wrapper">
+        <div class="cssecoBtnWrapper">
           <a href="#" class="cssecoBtn"><span>Start today</span></a>
         </div>
       </div>

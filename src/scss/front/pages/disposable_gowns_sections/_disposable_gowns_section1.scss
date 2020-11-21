@@ -12,10 +12,9 @@ section#section1.disposablegowns {
       }
     }
   }
-  .btn_wrapper {
-    text-align: center;
+  .cssecoBtnWrapper {
     @media screen and (min-width: $csseco_bp_768) {
-      text-align: left;
+      justify-content: flex-start;
     }
   }
   img {

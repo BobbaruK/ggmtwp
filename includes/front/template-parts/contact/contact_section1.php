@@ -16,7 +16,7 @@
           <li>Finding the product you are looking for</li>
           <li>Working only with the right specification and certification</li>
         </ul>
-        <div class="btn_wrapper">
+        <div class="cssecoBtnWrapper">
           <a href="#" class="cssecoBtn"><span>Send a message</span></a>
         </div>
       </div>

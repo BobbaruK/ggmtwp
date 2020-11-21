@@ -12,7 +12,7 @@
         <h1 class="bull"><span>Disposable Gowns</span></h1>
         <p>Your wish is our commend, <br> GGMT is proud to be a one-stop-shop for any PPE product needs.</p>
         <p>If you need it, we will get it.</p>
-        <div class="btn_wrapper">
+        <div class="cssecoBtnWrapper">
           <a href="#" class="cssecoBtn"><span>Start today</span></a>
         </div>
       </div>

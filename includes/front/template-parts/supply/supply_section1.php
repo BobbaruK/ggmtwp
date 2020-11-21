@@ -11,7 +11,7 @@
       <div class="col-12 col-md-8">
         <h1 class="bull"><span>Manufacturing & Supply Chain Services</span></h1>
         <p>Plan your strategy with optimization, problem predication, and unsurpassed experience.</p>
-        <div class="btn_wrapper">
+        <div class="cssecoBtnWrapper">
           <a href="#" class="cssecoBtn"><span>Start</span></a>
         </div>
       </div>

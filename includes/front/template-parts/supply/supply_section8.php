@@ -10,7 +10,7 @@
     <div class="row">
       <div class="col-12">
         <h2>Take Control Of Your Supply Chain Today</h2>
-        <div class="btn_wrapper">
+        <div class="cssecoBtnWrapper">
           <a href="#" class="cssecoBtn"><span>Contact</span></a>
         </div>
       </div>

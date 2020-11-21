@@ -12,7 +12,7 @@
     justify-content: center;
     padding: 5px;
     width: 40px;
-    .bar {
+    &__bar {
       background-color: $brand-secondary-color;
       border-radius: $border-radius;
       height: 4px;
@@ -40,8 +40,8 @@
         transition: all ease-in-out $animation_time;
       }
     }
-    &.burger_close {
-      .bar {
+    &--close {
+      .burger__bar {
         transform: rotate(405deg);
         &::before {
           opacity: 0;

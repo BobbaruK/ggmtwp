@@ -50,10 +50,9 @@ section#section1.find {
       margin-bottom: 2.5rem;
     }
   }
-  .btn_wrapper {
-    text-align: center;
+  .cssecoBtnWrapper {
     @media screen and (min-width: $csseco_bp_768) {
-      text-align: right;
+      justify-content: flex-end;
     }
   }
 }

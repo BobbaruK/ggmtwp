@@ -3,7 +3,12 @@
 // -----------------------------------------------------------------------------
 
 section#section1.top {
-  h1 {}
+  h1 { 
+    text-align: center; 
+    @media screen and (min-width: $csseco_bp_1200) {
+      text-align: left;
+    }
+  }
   p {
     @media screen and (min-width: $csseco_bp_576) {
       text-align: center;
@@ -13,10 +18,9 @@ section#section1.top {
       text-align: left;
     }
   }
-  .btn_wrapper {
-    text-align: center;
+  .cssecoBtnWrapper {
     @media screen and (min-width: $csseco_bp_1200) {
-      text-align: left;
+      justify-content: flex-start;
     }
   }
 }

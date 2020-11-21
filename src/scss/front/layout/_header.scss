@@ -11,7 +11,7 @@ header#header.site_header {
     align-items: center;
     display: flex;
     height: 100%;
-    img.header_logo {
+    img {
       max-height: 30px;
       @media screen and (min-width: $csseco_bp_768) {
         max-height: 40px;
@@ -23,6 +23,4 @@ header#header.site_header {
   }
 }
 
-header#header.site_header.frontpage_header {
-  
-}
+header#header.site_header.frontpage_header {}

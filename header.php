@@ -30,14 +30,14 @@
 					<div class="col-6 col-md-3">
 						<div class="logoWrapper">
 							<a href="<?php echo $site_url; ?>">
-								<img src="<?php echo get_template_directory_uri() ?>/dist/imgs/logos/GGMT_logo.png" alt="Logo" class="header_logo">
+								<img src="<?php echo get_template_directory_uri() ?>/dist/imgs/logos/GGMT_logo.png" alt="Logo">
 							</a>
 						</div>
 					</div>
 					<div class="col-6 d-flex flex-row-reverse align-items-center d-md-none">
 						<div class="burgerWrapper">
 							<div class="burger">
-								<div class="bar"></div>
+								<div class="burger__bar"></div>
 							</div>
 						</div>
 					</div>

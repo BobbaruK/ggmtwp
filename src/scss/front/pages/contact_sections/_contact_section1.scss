@@ -10,10 +10,9 @@ section#section1.safe_imports {
       margin-bottom: 2.5rem;
     }
   }
-  .btn_wrapper {
-    text-align: center;
-    @media screen and (min-width: $csseco_bp_992) {
-      text-align: left;
+  .cssecoBtnWrapper {
+    @media screen and (min-width: $csseco_bp_768) {
+      justify-content: flex-start;
     }
   }
   img {

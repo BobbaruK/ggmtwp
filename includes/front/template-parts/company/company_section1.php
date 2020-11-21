@@ -11,7 +11,7 @@
       <div class="col-12">
         <h1 class="bull"><span>We Are Globus Global</span></h1>
         <p>First impressions matter, but lasting impressions are everything.</p>
-        <div class="btn_wrapper">
+        <div class="cssecoBtnWrapper">
           <a href="#" class="cssecoBtn"><span>Start today</span></a>
         </div>
       </div>

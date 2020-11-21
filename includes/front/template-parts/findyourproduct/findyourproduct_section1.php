@@ -11,7 +11,7 @@
       <div class="col-12 col-md-8 offset-md-4">
         <h1 class="bull"><span>Having Trouble Finding Your Product? Seek, Find, & Deliver.</span></h1>
         <p>Cant find your needed product? With Seek, Find & Deliver GGMT helps you through the challenges.</p>
-        <div class="btn_wrapper">
+        <div class="cssecoBtnWrapper">
           <a href="#" class="cssecoBtn"><span>Start</span></a>
         </div>
       </div>

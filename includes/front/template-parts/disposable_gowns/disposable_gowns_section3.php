@@ -10,13 +10,13 @@
     <div class="row">
       <div class="col-12">
         <h2>Disposable Isolation Gown Details</h2>
-        <div class="lecards_wrapper">
+        <div class="lecardsWrapper">
           <div class="lecard">
-            <div class="lecard_inner">
-              <div class="ttl">
+            <div class="lecard__top">
+              <div class="lecard__ttl">
                 <h3 class="bull"><span>Non-AAMI (visitors)</span></h3>
               </div>
-              <div class="pct">
+              <div class="lecard__info">
                 <ul>
                   <li>
                     TEST 
@@ -39,16 +39,16 @@
                 </ul>
               </div>
             </div>
-            <div class="desc">
+            <div class=lecard__desc>
               <p>Minimal risk, to be used, for example, during basic care, standard isolation, cover gown for visitors, or in a standard medical unit</p>
             </div>
           </div>
           <div class="lecard">
-            <div class="lecard_inner">
-              <div class="ttl">
+            <div class="lecard__top">
+              <div class="lecard__ttl">
                 <h3 class="bull"><span>Level 1 AAMI</span></h3>
               </div>
-              <div class="pct">
+              <div class="lecard__info">
                 <ul>
                   <li>
                     TEST
@@ -71,16 +71,16 @@
                 </ul>
               </div>
             </div>
-            <div class="desc">
+            <div class=lecard__desc>
               <p>Low risk, to be used, for example, during blood draw, suturing, in the Intensive Care Unit (ICU), or a pathology lab</p>
             </div>
           </div>
           <div class="lecard">
-            <div class="lecard_inner">
-              <div class="ttl">
+            <div class="lecard__top">
+              <div class="lecard__ttl">
                 <h3 class="bull"><span>Level 2 AAMI</span></h3>
               </div>
-              <div class="pct">
+              <div class="lecard__info">
                 <ul>
                   <li>
                     TEST 
@@ -105,16 +105,16 @@
                 </ul>
               </div>
             </div>
-            <div class="desc">
+            <div class=lecard__desc>
               <p>Low to Moderate risk, to be used, for example, during blood draw, suturing, in the Intensive Care Unit (ICU), or a pathology lab</p>
             </div>
           </div>
           <div class="lecard">
-            <div class="lecard_inner">
-              <div class="ttl">
+            <div class="lecard__top">
+              <div class="lecard__ttl">
                 <h3 class="bull"><span>Level 3 AAMI</span></h3>
               </div>
-              <div class="pct">
+              <div class="lecard__info">
               <ul>
                   <li>
                     TEST 
@@ -139,7 +139,7 @@
                 </ul>
               </div>
             </div>
-            <div class="desc">
+            <div class=lecard__desc>
               <p>Moderate to High risk, to be used, for example, during arterial blood draw, inserting an Intravenous (IV) line, in the Emergency Room, or for trauma cases</p>
             </div>
           </div>

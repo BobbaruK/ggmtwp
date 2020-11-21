@@ -24,11 +24,9 @@ section#section1.subHeader {
       text-align: left;
     }
   }
-  .btn_wrapper {
-    text-align: center;
-    .cssecoBtn {}
+  .cssecoBtnWrapper {
     @media screen and (min-width: $csseco_bp_1200) {
-      text-align: left;
+      justify-content: flex-start;
     }
   }
   @media screen and (min-width: $csseco_bp_1200) {

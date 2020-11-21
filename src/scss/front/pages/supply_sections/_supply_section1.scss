@@ -48,10 +48,9 @@ section#section1.manufacturing {
       margin-bottom: 2.5rem;
     }
   }
-  .btn_wrapper {
-    text-align: center;
+  .cssecoBtnWrapper {
     @media screen and (min-width: $csseco_bp_768) {
-      text-align: left;
+      justify-content: flex-start;
     }
   }
 }

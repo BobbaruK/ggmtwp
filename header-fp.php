@@ -39,7 +39,7 @@
 							<div class="col-6 d-flex flex-row-reverse align-items-center d-md-none">
 								<div class="burgerWrapper">
 									<div class="burger">
-										<div class="bar"></div>
+										<div class="burger__bar"></div>
 									</div>
 								</div>
 							</div>

@@ -51,7 +51,7 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <div class="btn_wrapper">
+        <div class="moreBtnWrapper">
           <a href="<?php echo get_home_url(); ?>/products/" class="more">More products</a>
         </div>
       </div>

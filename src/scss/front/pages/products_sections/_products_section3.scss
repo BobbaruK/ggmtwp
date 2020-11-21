@@ -53,25 +53,24 @@ section#section3.tabs {
     .tab-content {
       .tab-pane {
         // display: block;
-        padding: 1.5rem 0 0;
-        .lecards_wrapper {
+        padding:  0;
+        .lecardsWrapper {
           .lecard {
-            .lecard_inner {
-              .ttl,
-              .pct {}
-              .ttl {
-                h3 {
-                  span {
-                    &::before { // from .bull
-                    }
+            &d__top {}
+            &d__ttl,
+            &d__pct {}
+            &d__ttl {
+              h3 {
+                span {
+                  &::before { // from .bull
                   }
                 }
               }
-              .pct {
-                .pct_inner {}
-              }
             }
-            .desc {
+            &d__pct {
+              .bgpct {}
+            }
+            &d__desc {
               p {}
             }
           }
