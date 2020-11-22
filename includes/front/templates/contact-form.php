@@ -775,7 +775,7 @@
       </div>
     </div>
     <div class="col-12">
-      <div class="form-group inputWrapper m-0 text-center">
+      <div class="form-group inputWrapper m-0 cssecoBtnWrapper">
         <button type="submit" class="cssecoBtn" id="submit"><span>Send</span></button>
       </div>
     </div>

@@ -9,10 +9,10 @@ const terser = require('gulp-terser');
 const postcss = require('gulp-postcss');
 const autoprefixer = require('autoprefixer');
 const cssnano = require('cssnano');
-var replace = require('gulp-replace');
+const replace = require('gulp-replace');
 const tinypng = require('gulp-tinypng-compress');
 const webp = require('gulp-webp');
-var jsonMinify = require('gulp-json-minify');
+const jsonMinify = require('gulp-json-minify');
 
 // File paths
 const files = {
@@ -30,12 +30,8 @@ const files = {
   imgPathTo: 'dist/imgs/',
   svgsimgPath: 'src/imgs/**/*.svg',
   svgsimgPathTo: 'dist/imgs/',
-  svgsimgPath_b: 'dist/imgs/**/*.svg',
-  svgsimgPathTo_b: 'src/imgs/',
   gifsimgPath: 'src/imgs/**/*.gif',
   gifsimgPathTo: 'dist/imgs/',
-  gifsimgPath_b: 'dist/imgs/**/*.gif',
-  gifsimgPathTo_b: 'src/imgs/',
 };
 
 // Sass task: compiles the style.scss file into style.css
@@ -100,6 +96,30 @@ function jsTaskBS() {
     .pipe(dest('vendor/bootstrap/js/'));
 }
 
+function jquery(){
+  return src('node_modules/jquery/dist/jquery.min.js')
+      // .pipe(terser()) 
+      .pipe(dest('vendor/jquery/'));
+}
+
+function popperjs(){
+  return src('node_modules/popper.js/dist/umd/popper.min.js')
+      // .pipe(terser()) 
+      .pipe(dest('vendor/popper/'));
+}
+
+function gsap(){
+  return src('node_modules/gsap/dist/gsap.min.js')
+      // .pipe(terser()) 
+      .pipe(dest('vendor/gsap/'));
+}
+
+function gsap_scrollTrigger(){
+  return src('node_modules/gsap/dist/ScrollTrigger.min.js')
+      // .pipe(terser()) 
+      .pipe(dest('vendor/gsap/'));
+}
+
 function jsTables() {
   return (
     src([
@@ -131,14 +151,6 @@ function copygifs() {
   return src(files.gifsimgPath).pipe(dest(files.gifsimgPathTo));
 }
 
-// Delete svgs and gifs
-function deletesvgs() {
-  return src(files.svgsimgPath, { read: false }).pipe(clean());
-}
-function deletegifs() {
-  return src(files.gifsimgPath, { read: false }).pipe(clean());
-}
-
 // Minify Img
 function minImg() {
   return src(files.imgPath)
@@ -151,14 +163,6 @@ function minImg() {
       })
     )
     .pipe(dest(files.imgPathTo));
-}
-
-// Copy back svg and gif imgs for development
-function copysvgs_b() {
-  return src(files.svgsimgPath_b).pipe(dest(files.svgsimgPathTo_b));
-}
-function copygifs_b() {
-  return src(files.gifsimgPath_b).pipe(dest(files.gifsimgPathTo_b));
 }
 
 // Webp Images
@@ -216,16 +220,16 @@ exports.end = series(
   jsTaskFront,
   jsTaskBack,
   jsTaskBS,
+  jquery,
+  popperjs,
+  gsap,
+  gsap_scrollTrigger,
   jsTables,
   jsonUgly,
   copysvgs,
   copygifs,
-  deletesvgs,
-  deletegifs,
-  minImg,
+  // minImg,
   // webpimgs,
-  copysvgs_b,
-  copygifs_b
   // editHTML,
   // editCSS
 );

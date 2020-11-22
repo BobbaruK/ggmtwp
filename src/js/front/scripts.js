@@ -22,6 +22,8 @@ jQuery(function ($) {
 
 	$(window).on("scroll", function(event){
 
+		ScrollTrigger.refresh();
+
 		var st = $(this).scrollTop();
 
 		function transScroll() {
@@ -267,3 +269,93 @@ jQuery(function ($) {
 		]
 	});
 });
+
+//============
+// GSAP Animations
+//============
+gsap.registerPlugin(ScrollTrigger);
+
+let gsap_interval = setInterval(function(){
+	if( document.getElementById("preloader-counter").innerHTML === "100%" ){
+		clearInterval(gsap_interval);
+
+		let fp_supply = gsap.timeline({
+			scrollTrigger: {
+				trigger: ".supply",
+				start: "top 95%",
+				end: "150px 2%",
+				toggleActions: "play complete complete complete",
+				// markers: true
+			}
+		});
+		
+		let fp_truck = gsap.timeline({
+			scrollTrigger: {
+				trigger: ".control",
+				start: "top 80%",
+				end: "150px 2%",
+				toggleActions: "play complete complete complete",
+				// markers: true
+			}
+		});
+		
+		let fp_subheader = gsap.timeline({
+			duration: .5,
+			scrollTrigger: {
+				trigger: ".subHeader",
+				toggleActions: "play complete complete complete",
+				// markers: true
+			}
+		});
+		
+		fp_supply.from(".supply h2",{ 
+						duration: .5, 
+						ease: "back", 
+						opacity: 0, 
+						y: "360px", })
+					.from(".supply p", { 
+						duration: .5, 
+						opacity: 0, 
+						y: "-360px", 
+					}, "-=.3")
+					.from(".supply .supply_slider", { 
+						duration: .5, 
+						opacity: 0, 
+						y: "360px", 
+					}, "+=.2")
+					.set('.supply .supply_slider', { 
+						zIndex:5 
+					})
+					.from(".supply .moreBtnWrapper", { 
+						duration: .5, 
+						opacity: 0, 
+						y: "360px", 
+					}, "-=.4");
+		
+		fp_truck.from(".truck",{ 
+						duration: 1, 
+						ease: "ease", 
+						opacity: 0, 
+						x: "-360px", 
+					});
+		
+		fp_subheader.from(".subHeader h1",{ 
+						ease: "ease", 
+						stagger: .2,
+						opacity: 0, 
+						x: "-360px", 
+					})
+					.from(".subHeader p",{ 
+						ease: "ease", 
+						stagger: .2,
+						opacity: 0, 
+						x: "-360px", 
+					}).from(".subHeader .cssecoBtnWrapper",{ 
+						ease: "ease", 
+						stagger: .2,
+						opacity: 0, 
+						x: "-360px", 
+					});
+		
+	}
+}, 0.2);
