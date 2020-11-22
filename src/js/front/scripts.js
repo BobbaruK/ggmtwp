@@ -7,11 +7,11 @@ jQuery(function ($) {
 	//============
 	let timesRun = 0;
 	let interval = setInterval(function(){
-			timesRun += 1;
-			if(timesRun === 4){
-					clearInterval(interval);
-			}
-			$(".bgfp").toggleClass("next_dheader");
+		timesRun += 1;
+		if(timesRun === 4){
+			clearInterval(interval);
+		}
+		$(".bgfp").toggleClass("next_dheader");
 	}, 5000);
 
 
