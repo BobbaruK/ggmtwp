@@ -292,7 +292,7 @@ function gsap_frontpage() {
 			start: "top center",
 			end: "bottom 2%",
 			toggleActions: "restart complete complete reverse",
-			markers: true
+			// markers: true
 		}
 	});
 	
