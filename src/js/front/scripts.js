@@ -289,10 +289,10 @@ function gsap_frontpage() {
 	let fp_supply = gsap.timeline({
 		scrollTrigger: {
 			trigger: ".supply",
-			start: "top 65%",
+			start: "top center",
 			end: "bottom 2%",
 			toggleActions: "restart complete complete reverse",
-			// markers: true
+			markers: true
 		}
 	});
 	
@@ -332,12 +332,12 @@ function gsap_frontpage() {
 					duration: .5, 
 					opacity: 0, 
 					y: "-360px", 
-				}, "-=.3")
+				}, "-=.4")
 				.from(".supply .supply_slider", { 
 					duration: .5, 
 					opacity: 0, 
 					y: "360px", 
-				}, "-=.3")
+				}, "-=.4")
 				.set('.supply .supply_slider', { 
 					zIndex:5 
 				})
