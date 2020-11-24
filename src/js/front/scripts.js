@@ -374,7 +374,7 @@ function gsap_frontpage() {
 			start: "top center",
 			end: "bottom 2%",
 			toggleActions: "play none none none",
-			markers: true
+			// markers: true
 		},
 		onComplete: () => {
 
@@ -429,16 +429,7 @@ function gsap_frontpage() {
 
 			
 			
-			fp_se_hover.forEach( function(elem, index) {
-
-
-				// console.log(elem.classList)
-				let asta = fp_se_hover[index];
-				let aia = asta.querySelector(".icon");
-
-				let mata = document.getElementById("fps3_icon1")
-
-				
+			fp_se_hover.forEach( function(elem, index) {				
 		
 				fp_se_hover[index].addEventListener("mouseenter", () => {
 
@@ -593,9 +584,6 @@ function gsap_frontpage() {
 	//------------------------------------------------
 
 }
-
-
-
 
 let gsap_interval = setInterval(function(){
 	if( document.getElementById("preloader-counter").innerHTML === "100%" ){

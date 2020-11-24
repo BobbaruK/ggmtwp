@@ -89,7 +89,7 @@
           <div class="tma_card tma_card_2">
             <div class="tma_card_inner">
               <div class="icon_wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon2.png" alt="Icon" id="otherIcon"  class="icon">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon2.png" alt="Icon" id="otherIcon" class="icon">
               </div>
               <h3>Building Custom Strategies</h3>
               <p>Everything is better when its made just for you, and we tailor our services to fit your exact needs. An extensive network of local experts gives you total access to everything that China has to offer.</p>
@@ -99,7 +99,7 @@
           <div class="tma_card tma_card_3">
             <div class="tma_card_inner">
               <div class="icon_wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon3.png" alt="Icon">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon3.png" alt="Icon" class="icon">
               </div>
               <h3>A Personal Touch</h3>
               <p>Since we do most of our manufacturing in our own factories we are able to provide access to up-to-the-minute order tracking and monitoring with a personal, on-sight agent. </p>
@@ -109,7 +109,7 @@
           <div class="tma_card tma_card_4">
             <div class="tma_card_inner">
               <div class="icon_wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon4.png" alt="Icon">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon4.png" alt="Icon" class="icon">
               </div>
               <h3>Complete Oversight</h3>
               <p>In the event that we need outside help we personally inspect, verify, and certify everywhere we do business.  We take safety seriously and make sure that everything we produce meets any and all requirements.</p>
@@ -119,7 +119,7 @@
           <div class="tma_card tma_card_5">
             <div class="tma_card_inner">
               <div class="icon_wrapper">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon5.png" alt="Icon">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon5.png" alt="Icon" class="icon">
               </div>
               <h3>Secure Shipping</h3>
               <p>Secure packaging ensures that your product arrives exactly as it left and ready to use. In addition, customs experts guarantee that your order makes it to you without incident.</p>
