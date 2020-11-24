@@ -48,7 +48,13 @@ function csseco_load_scripts() {
 	wp_enqueue_script( 'gsap_scripts', get_template_directory_uri().'/vendor/gsap/gsap.min.js', array(), $gsapVer, true );
 	
 	// GSAP	- ScrollTrigger
-	wp_enqueue_script( 'gsap_scrollTrigger_scripts', get_template_directory_uri().'/vendor/gsap/ScrollTrigger.min.js', array(), $gsapVer, true );
+	wp_enqueue_script( 'gsap_ScrollTrigger_scripts', get_template_directory_uri().'/vendor/gsap/ScrollTrigger.min.js', array(), $gsapVer, true );
+
+	// GSAP	- TextPlugin 
+	wp_enqueue_script( 'gsap_TextPlugin_scripts', get_template_directory_uri().'/vendor/gsap/TextPlugin.min.js', array(), $gsapVer, true );
+
+	// GSAP	- CSSRulePlugin 
+	wp_enqueue_script( 'gsap_CSSRulePlugin_scripts', get_template_directory_uri().'/vendor/gsap/CSSRulePlugin.min.js', array(), $gsapVer, true );
 
 	// Popper.js
 	// popper.min.js is used for dropdowns, popover and tooltips

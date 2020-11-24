@@ -17,8 +17,8 @@
         <div class="tma_card_wrapper">
           <div class="tma_card tma_card_1">
             <div class="tma_card_inner">
-              <div class="icon">
-                <svg xmlns="http://www.w3.org/2000/svg" id="fps3_icon1" width="180" height="175" viewBox="0 0 180 175">
+              <div class="icon_wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" id="fps3_icon1" class="icon" width="180" height="175" viewBox="0 0 180 175">
                   <circle id="outer_circle" cx="87.5" cy="83.5" r="82.5" stroke-opacity="0.992157" stroke-width="2" stroke-linecap="round" stroke-dasharray="9 15" fill="red"/>
                   <circle id="inner_circle" cx="87" cy="83" r="62.5"/>
                   <g id="fdisk">
@@ -88,8 +88,8 @@
           </div>
           <div class="tma_card tma_card_2">
             <div class="tma_card_inner">
-              <div class="icon">
-                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon2.png" alt="Icon">
+              <div class="icon_wrapper">
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon2.png" alt="Icon" id="otherIcon"  class="icon">
               </div>
               <h3>Building Custom Strategies</h3>
               <p>Everything is better when its made just for you, and we tailor our services to fit your exact needs. An extensive network of local experts gives you total access to everything that China has to offer.</p>
@@ -98,7 +98,7 @@
           </div>
           <div class="tma_card tma_card_3">
             <div class="tma_card_inner">
-              <div class="icon">
+              <div class="icon_wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon3.png" alt="Icon">
               </div>
               <h3>A Personal Touch</h3>
@@ -108,7 +108,7 @@
           </div>
           <div class="tma_card tma_card_4">
             <div class="tma_card_inner">
-              <div class="icon">
+              <div class="icon_wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon4.png" alt="Icon">
               </div>
               <h3>Complete Oversight</h3>
@@ -118,7 +118,7 @@
           </div>
           <div class="tma_card tma_card_5">
             <div class="tma_card_inner">
-              <div class="icon">
+              <div class="icon_wrapper">
                 <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon5.png" alt="Icon">
               </div>
               <h3>Secure Shipping</h3>

@@ -19,7 +19,8 @@ section#section3.tmapproach {
       position: relative;
       width: 100%;
       .tma_card_inner {
-        .icon {
+        cursor: pointer;
+        .icon_wrapper {
           margin-bottom: 1rem;
           text-align: center;
           img, svg {
@@ -75,7 +76,7 @@ section#section3.tmapproach {
               #inner_circle {
                 fill: $brand-secondary-color;
                 stroke: $brand-secondary-color;
-              }            
+              }
             }
             @media screen and (min-width: $csseco_bp_768) {
               max-height: 130px;
@@ -89,6 +90,7 @@ section#section3.tmapproach {
         p {}
         a.read {
           color: $brand-color;
+          display: block;
           font-weight: bold;
         }
       }

@@ -120,6 +120,18 @@ function gsap_scrollTrigger(){
       .pipe(dest('vendor/gsap/'));
 }
 
+function gsap_CSSRulePlugin(){
+  return src('node_modules/gsap/dist/CSSRulePlugin.min.js')
+      // .pipe(terser()) 
+      .pipe(dest('vendor/gsap/'));
+}
+
+function gsap_TextPlugin(){
+  return src('node_modules/gsap/dist/TextPlugin.min.js')
+      // .pipe(terser()) 
+      .pipe(dest('vendor/gsap/'));
+}
+
 function jsTables() {
   return (
     src([
@@ -224,6 +236,8 @@ exports.end = series(
   popperjs,
   gsap,
   gsap_scrollTrigger,
+  gsap_CSSRulePlugin,
+  gsap_TextPlugin,
   jsTables,
   jsonUgly,
   copysvgs,

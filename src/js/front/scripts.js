@@ -209,7 +209,7 @@ jQuery(function ($) {
 
 
 	//============
-	// Scroll to...
+	// Slick Slider
 	// https://kenwheeler.github.io/slick/
 	//============
 	$('.testimonials_slider').slick({
@@ -274,29 +274,306 @@ jQuery(function ($) {
 // GSAP Animations
 //============
 gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(TextPlugin);
+gsap.registerPlugin(CSSRulePlugin);
 
 function gsap_frontpage() {
 
-	let fp_subheader = gsap.timeline({
-		duration: .5,
+	//------------------------------------------------
+	// section1 - subheader
+	//------------------------------------------------
+	let fp_s1_h1 = document.querySelector(".subHeader h1");
+	let fp_s1_p = document.querySelector(".subHeader p");
+	let fp_s1_btnw = document.querySelector(".subHeader .cssecoBtnWrapper");
+	//---
+	const fp_subheader = gsap.timeline({
+		delay: 1,
+		defaults: { // children inherit these defaults
+			duration: .5,
+			ease: "ease" 
+		},
+	});
+	//---
+	fp_subheader
+		.from(fp_s1_h1 ,{ 
+			opacity: 0, 
+			x: "-360px", 
+		})
+		.from(fp_s1_btnw ,{
+			opacity: 0, 
+			x: "-360px", 
+		}, "-=.5")
+		.from(fp_s1_p ,{
+			duration: 2,
+			text: {
+				value: " ",
+			},
+		})
+	//------------------------------------------------
+
+
+	//------------------------------------------------	
+	// section2 - whyus
+	//------------------------------------------------
+	let fp_s2_h2 = document.querySelector(".whyus h2");
+	let fp_s2_p = document.querySelector(".whyus p");
+	let fp_s2_btnw = document.querySelector(".whyus .cssecoBtnWrapper");
+	//---
+	const fp_whyus = gsap.timeline({
+		delay: .5,
+		defaults: { // children inherit these defaults
+			duration: .5,
+			ease: "ease" 
+		},
+		stagger: .2,
+	}); 
+	//---
+	fp_whyus
+		.from(fp_s2_h2, {
+			opacity: 0, 
+			y: "20px",
+		})
+		.from(fp_s2_btnw, {
+			opacity: 0, 
+			y: "20px",
+		})
+		.from(fp_s2_p ,{
+			duration: 2,
+			text: {
+				value: " ",
+			},
+		})
+	//------------------------------------------------
+
+
+	//------------------------------------------------
+	// section3 - tmapproach
+	//------------------------------------------------
+	let fp_s3_h2 = document.querySelector(".tmapproach h2");
+	let fp_s3_1st_line = CSSRulePlugin.getRule("#site-wrapper.fp section#section3.tmapproach .tma_card_wrapper .tma_card.tma_card_1:before");
+	let fp_s3_2nd_line = CSSRulePlugin.getRule("#site-wrapper.fp section#section3.tmapproach .tma_card_wrapper .tma_card.tma_card_1:after");
+	let fp_s3_3rd_line = CSSRulePlugin.getRule("#site-wrapper.fp section#section3.tmapproach .tma_card_wrapper .tma_card.tma_card_2:after");
+	let fp_s3_4th_line = CSSRulePlugin.getRule("#site-wrapper.fp section#section3.tmapproach .tma_card_wrapper .tma_card.tma_card_3:after");
+	let fp_s3_5th_line = CSSRulePlugin.getRule("#site-wrapper.fp section#section3.tmapproach .tma_card_wrapper .tma_card.tma_card_4:after");
+	let fp_s3_6th_line = CSSRulePlugin.getRule("#site-wrapper.fp section#section3.tmapproach .tma_card_wrapper .tma_card.tma_card_5:after");
+	let fp_s3_icons = document.querySelectorAll(".tma_card .icon");
+	let fp_s3_card_ttl = document.querySelectorAll(".tma_card_inner h3");
+	let fp_s3_card_p = document.querySelectorAll(".tma_card_inner p");
+	let fp_s3_card_rm = document.querySelectorAll(".tma_card_inner .read");
+	let fp_se_hover = document.querySelectorAll(".tma_card");
+	//---
+	const fp_tma = gsap.timeline({
+		delay: .5,
+		defaults: { // children inherit these defaults
+			duration: .35,
+			ease: "ease" 
+		},
 		scrollTrigger: {
-			trigger: ".subHeader",
+			trigger: ".tmapproach",
+			// start: "top 80%",
+			start: "top center",
+			end: "bottom 2%",
+			toggleActions: "play none none none",
+			markers: true
+		},
+		onComplete: () => {
+
+			let user1 = document.getElementById("user1");
+			let user2 = document.getElementById("user2");
+			let arrow = document.getElementById("arrow");
+			let the_frame = document.getElementById("the_frame");
+			let dollar = document.getElementById("dollar");
+			let hand = document.getElementById("hand");
+			let fdisk = document.getElementById("fdisk");
+			// Hover animation
+			const fps3_icon1 = gsap.timeline({
+				paused: true,
+				defaults: { // children inherit these defaults
+					duration: .25,
+					ease: "ease" 
+				},
+			});
+			fps3_icon1
+				.to(user1, {
+					scale: 1.2,
+					x: "-5px",
+				})
+				.to(user2, {
+					scale: 1.2,
+				}, "-=.15")
+				.to(arrow, {
+					scale: 1.2,
+					y: "-5px",
+					rotate: "-20deg"
+				}, "-=.15")
+				.to(the_frame, {
+					scale: 1.1,
+					x: "-8px",
+					y: "-17px",
+				}, "-=.20")
+				.to(dollar, {
+					scale: 1.1,
+					y: "-7px",
+					ease: "back",
+				}, "-=.20")
+				.to(hand, {
+					duration: .5,
+					x: "10px",
+					ease: "elastic",
+				}, "-=.10")
+				.to(fdisk, {
+					duration: .5,
+					x: "10px",
+					ease: "elastic",
+				}, "-=.5")
+
+			
+			
+			fp_se_hover.forEach( function(elem, index) {
+
+
+				// console.log(elem.classList)
+				let asta = fp_se_hover[index];
+				let aia = asta.querySelector(".icon");
+
+				let mata = document.getElementById("fps3_icon1")
+
+				
+		
+				fp_se_hover[index].addEventListener("mouseenter", () => {
+
+					switch(fp_s3_icons[index].id) {
+						case "fps3_icon1":
+							fps3_icon1.play();
+							break;
+						case "otherIcon":
+							console.log("yeeee:")
+							break;
+						default:
+							console.log("hover!")
+					}
+					
+				});
+				
+				fp_se_hover[index].addEventListener("mouseleave", () => {
+
+					switch(fp_s3_icons[index].id) {
+						case "fps3_icon1":
+							fps3_icon1.reverse();
+							break;
+						case "otherIcon":
+							console.log("out:")
+							break;
+						default:
+							console.log("hover!")
+					}
+
+				});
+		
+			})
+		}
+	}); 
+	//---
+	fp_tma
+		.from(fp_s3_h2, {
+			opacity: 0, 
+			y: "60px",
+		})
+		.from(fp_s3_icons, {
+			duration: 1,
+			ease: "elastic",
+			scale: 0,
+			stagger: .1,
+		}, "-=.30")
+		.from(fp_s3_card_ttl, {
+			opacity: 0,
+			y: 200,
+		}, "-=1")
+		.from(fp_s3_card_p, {
+			opacity: 0,
+			y: 200,
+		}, "-=.9")
+		.from(fp_s3_card_rm, {
+			opacity: 0,
+			x: -200,
+		}, "-=.9")
+		.from(fp_s3_1st_line, {
+			duration: .5,
+			left: "-9000px",
+		}, "-=.3")
+		.from(fp_s3_2nd_line, {
+			duration: .5,
+			right: "9000px"
+		}, "-=.4")
+		.from(fp_s3_3rd_line, {
+			duration: .5,
+			right: "9000px"
+		}, "-=.4")
+		.from(fp_s3_4th_line, {
+			duration: .5,
+			right: "9000px"
+		}, "-=.4")
+		.from(fp_s3_5th_line, {
+			duration: .5,
+			right: "9000px"
+		}, "-=.4")
+		.from(fp_s3_6th_line, {
+			duration: .5,
+			right: "9000px"
+		}, "-=.4")
+	//------------------------------------------------
+
+
+
+	//------------------------------------------------
+	// section4 - supply
+	//------------------------------------------------
+
+	//---
+	const fp_supply = gsap.timeline({
+
+
+		duration: 0.5,
+		scrollTrigger: {
+			trigger: ".supply",
+			start: "top 90%",
+			end: "bottom 2%",
 			toggleActions: "play complete complete complete",
 			// markers: true
 		}
 	});
+	//---
+	fp_supply
+		.from(".supply h2",{ 
+			ease: "back", 
+			opacity: 0, 
+			y: "360px", })
+		.from(".supply p", { 
+			opacity: 0, 
+			y: "-360px", 
+		}, "-=.4")
+		.from(".supply .supply_slider", { 
+			opacity: 0, 
+			y: "360px", 
+		}, "-=.4")
+		.set('.supply .supply_slider', { 
+			zIndex:5 
+		})
+		.from(".supply .moreBtnWrapper", { 
+			opacity: 0, 
+			ease: "back",
+			y: "360px", 
+		}, "-=.3");
+	//------------------------------------------------
 
-	let fp_supply = gsap.timeline({
-		scrollTrigger: {
-			trigger: ".supply",
-			start: "top center",
-			end: "bottom 2%",
-			toggleActions: "restart complete complete reverse",
-			// markers: true
-		}
-	});
-	
-	let fp_truck = gsap.timeline({
+
+
+	//------------------------------------------------
+	// section6 - control
+	//------------------------------------------------
+
+	//---
+	const fp_truck = gsap.timeline({
 		scrollTrigger: {
 			trigger: ".control",
 			start: "top center",
@@ -305,57 +582,20 @@ function gsap_frontpage() {
 			// markers: true
 		}
 	});
-
-	fp_subheader.from(".subHeader h1",{ 
-		ease: "ease", 
-		opacity: 0, 
-		x: "-360px", 
-	})
-	.from(".subHeader p",{ 
-		ease: "ease", 
-		opacity: 0, 
-		x: "-360px", 
-	})
-	.from(".subHeader .cssecoBtnWrapper",{ 
-		ease: "ease", 
-		opacity: 0, 
-		x: "-360px", 
-	});
-	
-	
-	fp_supply.from(".supply h2",{ 
-					duration: .5, 
-					ease: "back", 
-					opacity: 0, 
-					y: "360px", })
-				.from(".supply p", { 
-					duration: .5, 
-					opacity: 0, 
-					y: "-360px", 
-				}, "-=.4")
-				.from(".supply .supply_slider", { 
-					duration: .5, 
-					opacity: 0, 
-					y: "360px", 
-				}, "-=.4")
-				.set('.supply .supply_slider', { 
-					zIndex:5 
-				})
-				.from(".supply .moreBtnWrapper", { 
-					duration: .5, 
-					opacity: 0, 
-					ease: "back",
-					y: "360px", 
-				}, "-=.3");
-	
-	fp_truck.from(".truck",{ 
-					duration: 1, 
-					ease: "ease", 
-					opacity: 0, 
-					x: "-760px", 
-				})
+	//---
+	fp_truck
+		.from(".truck",{ 
+			duration: 1, 
+			ease: "ease", 
+			opacity: 0, 
+			x: "-760px", 
+		});
+	//------------------------------------------------
 
 }
+
+
+
 
 let gsap_interval = setInterval(function(){
 	if( document.getElementById("preloader-counter").innerHTML === "100%" ){
