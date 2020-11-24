@@ -6,37 +6,37 @@
 ?>
 
 <section id="section3" class="tabs">
-  <div class="tabsnav">
+  <div class="cssecoTabsWrapper">
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-            <li class="nav-item" role="presentation">
-              <a class="nav-link active" id="gowns-tab" data-toggle="tab" href="#gowns" role="tab" aria-controls="gowns" aria-selected="true">Gowns</a>
+          <ul class="nav nav-tabs cssecoTabs" id="myTab" role="tablist">
+            <li class="nav-item cssecoTabs__item" role="presentation">
+              <a class="nav-link cssecoTabs__link active" id="gowns-tab" data-toggle="tab" href="#gowns" role="tab" aria-controls="gowns" aria-selected="true">Gowns</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="shoeheadcover-tab" data-toggle="tab" href="#shoeheadcover" role="tab" aria-controls="shoeheadcover" aria-selected="false">Shoe & head cover</a>
+            <li class="nav-item cssecoTabs__item" role="presentation">
+              <a class="nav-link cssecoTabs__link" id="shoeheadcover-tab" data-toggle="tab" href="#shoeheadcover" role="tab" aria-controls="shoeheadcover" aria-selected="false">Shoe & head cover</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="respirators-tab" data-toggle="tab" href="#respirators" role="tab" aria-controls="respirators" aria-selected="false">Respirators</a>
+            <li class="nav-item cssecoTabs__item" role="presentation">
+              <a class="nav-link cssecoTabs__link" id="respirators-tab" data-toggle="tab" href="#respirators" role="tab" aria-controls="respirators" aria-selected="false">Respirators</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="surgicalmasks-tab" data-toggle="tab" href="#surgicalmasks" role="tab" aria-controls="surgicalmasks" aria-selected="false">Surgical Masks</a>
+            <li class="nav-item cssecoTabs__item" role="presentation">
+              <a class="nav-link cssecoTabs__link" id="surgicalmasks-tab" data-toggle="tab" href="#surgicalmasks" role="tab" aria-controls="surgicalmasks" aria-selected="false">Surgical Masks</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="examinationgloves-tab" data-toggle="tab" href="#examinationgloves" role="tab" aria-controls="examinationgloves" aria-selected="false">Examination gloves</a>
+            <li class="nav-item cssecoTabs__item" role="presentation">
+              <a class="nav-link cssecoTabs__link" id="examinationgloves-tab" data-toggle="tab" href="#examinationgloves" role="tab" aria-controls="examinationgloves" aria-selected="false">Examination gloves</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="kits-tab" data-toggle="tab" href="#kits" role="tab" aria-controls="kits" aria-selected="false">Kits</a>
+            <li class="nav-item cssecoTabs__item" role="presentation">
+              <a class="nav-link cssecoTabs__link" id="kits-tab" data-toggle="tab" href="#kits" role="tab" aria-controls="kits" aria-selected="false">Kits</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="gogglesglasses-tab" data-toggle="tab" href="#gogglesglasses" role="tab" aria-controls="gogglesglasses" aria-selected="false">Goggles and Glasses</a>
+            <li class="nav-item cssecoTabs__item" role="presentation">
+              <a class="nav-link cssecoTabs__link" id="gogglesglasses-tab" data-toggle="tab" href="#gogglesglasses" role="tab" aria-controls="gogglesglasses" aria-selected="false">Goggles and Glasses</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="overallsuit-tab" data-toggle="tab" href="#overallsuit" role="tab" aria-controls="overallsuit" aria-selected="false">Overall Suit</a>
+            <li class="nav-item cssecoTabs__item" role="presentation">
+              <a class="nav-link cssecoTabs__link" id="overallsuit-tab" data-toggle="tab" href="#overallsuit" role="tab" aria-controls="overallsuit" aria-selected="false">Overall Suit</a>
             </li>
-            <li class="nav-item" role="presentation">
-              <a class="nav-link" id="apron-tab" data-toggle="tab" href="#apron" role="tab" aria-controls="apron" aria-selected="false">Apron</a>
+            <li class="nav-item cssecoTabs__item" role="presentation">
+              <a class="nav-link cssecoTabs__link" id="apron-tab" data-toggle="tab" href="#apron" role="tab" aria-controls="apron" aria-selected="false">Apron</a>
             </li>
           </ul>
         </div>

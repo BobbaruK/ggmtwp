@@ -1,3 +1,15 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the #section6 of Disposable Gowns page.
 // -----------------------------------------------------------------------------
+
+section#section6.disposableGownsMaterials {
+  h2, h3 {
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 350px;
+    width: 100%;
+  }
+}

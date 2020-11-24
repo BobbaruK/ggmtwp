@@ -4,51 +4,6 @@
 
 section#section3.tabs {
   padding-top: 0;
-  .tabsnav {
-    // background-color: $brand-color;
-    ul.nav { // bs overwrite
-      border: medium none;
-      flex-wrap: nowrap;
-      overflow-x: auto;
-      overflow-y: hidden;
-      padding: 2px 0;
-      li.nav-item {
-        background-color: transparent;
-        border: medium none;
-        &:not(:last-child) {
-          // border-right: 1px solid $bg-color;
-          margin-right: 5px;
-        }
-        a.nav-link {
-          border: 1px solid $brand-color;
-          border-radius: $border-radius * 4;
-          color: $brand-color;
-          padding: 0.1rem 0.3rem;
-          &:hover {
-            // color: $brand-secondary-color;
-            font-weight: bold; 
-          }
-          &.active {
-            background-color: transparent;
-            // border: medium none;
-            // color: $brand-secondary-color;
-            font-weight: bold;
-          }
-          @media screen and (min-width: $csseco_bp_1200) {
-            padding: .5rem 0.7rem;
-          }
-        }
-        @media screen and (max-width: 1199px) {
-          text-align: center;
-          min-width: 190px;
-        }
-      }
-      @media screen and (min-width: $csseco_bp_1200) {
-        align-items: center;
-        justify-content: center;
-      }
-    }
-  }
   .taburi {
     .tab-content {
       .tab-pane {

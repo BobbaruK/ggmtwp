@@ -1,3 +1,15 @@
 // -----------------------------------------------------------------------------
 // This file contains styles that are specific to the #section5 of Disposable Gowns page.
 // -----------------------------------------------------------------------------
+
+section#section5.speciality_gowns {
+  h2 {
+    text-align: center;
+  }
+  h3 {
+    font-weight: bold;
+  }
+  img, svg {
+    margin-bottom: 1rem;
+  }
+}

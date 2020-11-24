@@ -206,7 +206,7 @@
 
     // BS Tables
     // * https://getbootstrap.com/docs/4.5/content/tables/
-// @import "../../../node_modules/bootstrap/scss/tables";                     // Optional
+@import "../../../node_modules/bootstrap/scss/tables";                     // Optional
 
     // BS Toast
     // * search in './gulpfile.js' for 'jsTaskBS' task
@@ -287,6 +287,7 @@
 @import 'components/cards';
 @import 'components/foreground_text';
 @import 'components/form';
+@import 'components/innerpagemenu';
 @import 'components/menu';
 @import 'components/palnie_bgs';
 @import 'components/tables';

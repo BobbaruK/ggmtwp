@@ -2,18 +2,30 @@
 // This file contains styles that are specific to the #section4 of Disposable Gowns page.
 // -----------------------------------------------------------------------------
 
-section#section4.disposable {
-  h2 {}
-  ul {
-    li {}
+section#section4.gown_styles_wrapper {
+  > section {
+    padding-top: 0;
   }
-  img {
-    display: block;
-    margin: 0 auto;
-    max-width: 250px;
-    width: 100%;
-    @media screen and (min-width: $csseco_bp_1200) {
-      max-width: 350px;
+  h2,
+  h2 + p {
+    text-align: center;
+  }
+  h4 {
+    text-align: center;
+  }
+  img, svg {
+    margin-bottom: 1rem;
+  }
+  section#section4-1.gown_styles {}
+  section#section4-2.gown_styles__fastenings,
+  section#section4-3.gown_styles__cuffs {
+    .det {
+      ul {}
+    }
+  }
+  section#section4-4.gown_styles__speciality_gowns {
+    ul {
+      margin: 0;
     }
   }
 }

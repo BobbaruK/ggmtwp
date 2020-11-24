@@ -2,55 +2,41 @@
 // This file contains styles that are specific to the #section3 of Disposable Gowns page.
 // -----------------------------------------------------------------------------
 
-section#section3.disposablegowns {
+section#section3.about {
+  background-color: $brand-grey;
+  background-image: url(../imgs/texture.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: contain;
+  padding: 0;
+  > .container {
+    padding-bottom: var(--margin_padding_bottom);
+    padding-top: var(--margin_padding_bottom);
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_992) {
+      background-image: url(../imgs/gowns/section2/bg.png);
+      background-position: center left;
+      background-repeat: no-repeat;
+      background-size: contain;
+      text-align: left;
+    }
+  }
+  h2, 
+  p {
+    @media screen and (min-width: $csseco_bp_992) {
+      text-align: right;
+    }
+  }
   h2 {}
-  .lecardsWrapper {
-    .lecard {
-      &__top {}
-      &__ttl,
-      &__info {
-        width: 100%;
-      }
-      &__ttl {
-        h3 {
-          span {
-            &::before { // from .bull
-            }
-          }
-        }
-      }
-      &__info {
-        align-items: flex-start;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        padding: 1rem .5rem;
-        text-align: left;
-        ul {
-          margin: 0;
-          li {
-            margin-top: 10px;
-            ul {
-              margin-left: 15px;
-            }
-          }
-        }
-        @media screen and (min-width: $csseco_bp_768) {
-          min-height: 300px;
-        }
-        @media screen and (min-width: $csseco_bp_1200) {
-          min-height: 530px;
-        }
-      }
-      &__desc {
-        p {}
-      }
-      @media screen and (min-width: $csseco_bp_768) {
-        max-width: 49%;
-      }
-      @media screen and (min-width: $csseco_bp_1200) {
-        max-width: 24.7%;
-      }
+  p {}
+}
+section#section3-1.subabout {
+  ul {
+    margin: 0;
+  }
+  .tears {
+    svg {
+      fill: $brand-color;
     }
   }
 }
