@@ -64,8 +64,7 @@
     </div>
     <div class="row">
       <div class="col-12">
-        <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/gowns/section6/pic.png" alt="Disposable Gown Materials
-" width="300">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/gowns/disposable_gowns/section6/pic.png" alt="Disposable Gown Materials">
       </div>
     </div>
   </div>

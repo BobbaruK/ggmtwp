@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="col-12 col-md-6 d-md-flex align-items-center justify-content-center">
-        <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/gowns/section1/map.png" alt="Map">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/gowns/disposable_gowns/section1/wqad.png" alt="Map">
       </div>
     </div>
   </div>

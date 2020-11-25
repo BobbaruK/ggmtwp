@@ -20,6 +20,10 @@ jQuery(function ($) {
 	//============
 	var lastScrollTop = 0;
 
+	$(window).on("resize", function(){
+		ScrollTrigger.refresh();
+	})
+
 	$(window).on("scroll", function(event){
 
 		ScrollTrigger.refresh();
@@ -274,8 +278,8 @@ jQuery(function ($) {
 // GSAP Animations
 //============
 gsap.registerPlugin(ScrollTrigger);
-gsap.registerPlugin(TextPlugin);
-gsap.registerPlugin(CSSRulePlugin);
+// gsap.registerPlugin(TextPlugin);
+// gsap.registerPlugin(CSSRulePlugin);
 
 function gsap_frontpage() {
 
@@ -522,8 +526,6 @@ function gsap_frontpage() {
 
 	//---
 	const fp_supply = gsap.timeline({
-
-
 		duration: 0.5,
 		scrollTrigger: {
 			trigger: ".supply",
@@ -585,11 +587,116 @@ function gsap_frontpage() {
 
 }
 
+function gsap_disposableGowns() {
+
+	let dg_gsapTrigger = document.querySelectorAll(".page-template-cssecoTemplate-disposablegowns #section5 > section .container");
+	let dg_disposableGownsTables = document.querySelectorAll(".page-template-cssecoTemplate-disposablegowns #section5 > section .container .table-responsive table");
+	let dg_disposableGownsTxt = document.querySelectorAll(".page-template-cssecoTemplate-disposablegowns #section5 > section .container .txtWrapper");
+
+	dg_gsapTrigger.forEach(function(elem, index){
+
+		const dg_tableParentHeight = dg_disposableGownsTables[index].parentNode.offsetHeight;
+		const dg_txtParentHeight = dg_disposableGownsTxt[index].parentNode.offsetHeight;
+		
+		const dg_pinInTable = gsap.timeline();
+		const dg_pinInTxt = gsap.timeline();
+
+		// console.log(document)
+
+		if (screen.width > 991) {
+
+			ScrollTrigger.create({
+				trigger: dg_disposableGownsTables[index],
+				start: "top 120px",
+				end: () => "+=" + (dg_tableParentHeight - dg_disposableGownsTables[index].offsetHeight),
+				// scrub: 3,
+				pin: true,
+				pinSpacing: false,
+				anticipatePin: 1,
+				animation: dg_pinInTable,
+				// markers: true,
+				// id: "table" + index,
+			});
+			ScrollTrigger.create({
+				trigger: dg_disposableGownsTxt[index],
+				start: "top 140px",
+				end: () => "+=" + (dg_txtParentHeight - dg_disposableGownsTxt[index].offsetHeight),
+				// scrub: 3,
+				pin: true,
+				pinSpacing: false,
+				anticipatePin: 1,
+				animation: dg_pinInTxt,
+				// markers: true,
+				// id: "text" + index,
+			});
+			
+		}
+
+	});
+
+}
+
+function gsap_reusableGowns() {
+
+	let rg_gsapTrigger = document.querySelectorAll(".page-template-cssecoTemplate-reusablegowns #section4 > section .container");
+	let rg_reusableGownsTables = document.querySelectorAll(".page-template-cssecoTemplate-reusablegowns #section4 > section .container .table-responsive table");
+	let rg_reusableGownsTxt = document.querySelectorAll(".page-template-cssecoTemplate-reusablegowns #section4 > section .container .txtWrapper");
+	
+	console.log(rg_gsapTrigger)
+
+	rg_gsapTrigger.forEach(function(elem, index){
+
+		const rg_tableParentHeight = rg_reusableGownsTables[index].parentNode.offsetHeight;
+		const rg_txtParentHeight = rg_reusableGownsTxt[index].parentNode.offsetHeight;
+
+		
+		const rg_pinInTable = gsap.timeline();
+		const rg_pinInTxt = gsap.timeline();
+
+		// console.log(document)
+
+		if (screen.width > 991) {
+
+			ScrollTrigger.create({
+				trigger: rg_reusableGownsTables[index],
+				start: "top 120px",
+				end: () => "+=" + (rg_tableParentHeight - rg_reusableGownsTables[index].offsetHeight),
+				// end: "bottom",
+				// scrub: 3,
+				pin: true,
+				pinSpacing: false,
+				anticipatePin: 1,
+				animation: rg_pinInTable,
+				// markers: true,
+				// id: "table" + index,
+			});
+			ScrollTrigger.create({
+				trigger: rg_reusableGownsTxt[index],
+				start: "top 140px",
+				end: () => "+=" + (rg_txtParentHeight - rg_reusableGownsTxt[index].offsetHeight),
+				// scrub: 3,
+				pin: true,
+				pinSpacing: false,
+				anticipatePin: 1,
+				animation: rg_pinInTxt,
+				// markers: true,
+				// id: "text" + index,
+			});
+			
+		}
+
+	});
+
+}
+
+
 let gsap_interval = setInterval(function(){
 	if( document.getElementById("preloader-counter").innerHTML === "100%" ){
 		clearInterval(gsap_interval);
 
 		gsap_frontpage();
+		gsap_disposableGowns();
+		gsap_reusableGowns();
 		
 	}
 }, 0.2);

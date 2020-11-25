@@ -26,7 +26,7 @@
                 <th>Liquid Challenge</th>
                 <th>Result</th>
                 <th>Expected Barrier Effectiveness</th>
-                <th>?</th>
+                <th>Risk Assessment</th>
               </tr>
             </thead>
             <tbody>

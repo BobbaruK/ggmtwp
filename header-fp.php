@@ -32,7 +32,7 @@
 							<div class="col-6 col-md-3">
 								<div class="logoWrapper">
 									<a href="<?php echo $site_url; ?>">
-										<img src="<?php echo get_template_directory_uri() ?>/dist/imgs/logos/GGMT_logo.png" alt="Logo" class="header_logo">
+										<img src="<?php echo get_template_directory_uri() ?>/dist/imgs/logos/GGMT_logo2.png" alt="Logo" class="header_logo">
 									</a>
 								</div>
 							</div>

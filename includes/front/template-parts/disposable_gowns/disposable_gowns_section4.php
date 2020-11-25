@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
           <h6>Fasteners are available for:</h6>
           <ul>
             <li>Back / neck ties</li>
@@ -28,7 +28,7 @@
             <li>Open back</li>
           </ul>
         </div>
-        <div class="col-12 col-md-6">
+        <div class="col-12 col-md-6 col-lg-4">
           <h6>Cuffs are available:</h6>
           <ul>
             <li>Elastic cuffs</li>
@@ -52,9 +52,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-4 d-flex flex-column">
-          <img class="fastenings_image" src="https://via.placeholder.com/460x460" alt="">
-          <h4>Back/Neck Tie</h4>
+        <div class="col-12 col-md-4 d-flex flex-column mb-5 mb-md-0">
+          <img class="" src="https://via.placeholder.com/460x460" alt="">
+          <h3>Back/Neck Tie</h3>
           <div class="det">
             <ul>
               <li>Back/neck ties allow for highly custom fit</li>
@@ -63,9 +63,9 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-4 d-flex flex-column">
-          <img class="fastenings_image" src="https://via.placeholder.com/460x460" alt="">
-          <h4>Hook-and-Loop</h4>
+        <div class="col-12 col-md-4 d-flex flex-column mb-5 mb-md-0">
+          <img class="" src="https://via.placeholder.com/460x460" alt="">
+          <h3>Hook-and-Loop</h3>
           <div class="det">
             <ul>
               <li>Hook-and-loop fastener allows rapid donning</li>
@@ -74,9 +74,9 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-4 d-flex flex-column">
-          <img class="fastenings_image" src="https://via.placeholder.com/460x460" alt="">
-          <h4>Over-the-Head</h4>
+        <div class="col-12 col-md-4 d-flex flex-column mb-4 mb-md-0">
+          <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/gowns/disposable_gowns/section4/Over-the-Head.png" alt="Over-the-Hea">
+          <h3>Over-the-Head</h3>
           <div class="det">
             <ul>
               <li>Over-the-head gowns offer maximum protection</li>
@@ -96,9 +96,9 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column">
-          <img class="fastenings_image" src="https://via.placeholder.com/460x460" alt="">
-          <h4>Elastic Cuff</h4>
+        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-5 mb-lg-0">
+          <img class="" src="https://via.placeholder.com/460x460" alt="">
+          <h3>Elastic Cuff</h3>
           <div class="det">
             <ul>
               <li>Ideal for low-fluid settings</li>
@@ -107,9 +107,9 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column">
-          <img class="fastenings_image" src="https://via.placeholder.com/460x460" alt="">
-          <h4>Knit Cuff</h4>
+        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-5 mb-lg-0">
+          <img class="" src="https://via.placeholder.com/460x460" alt="">
+          <h3>Knit Cuff</h3>
           <div class="det">
             <ul>
               <li>Knit cuffs provide maximum comfort</li>
@@ -119,9 +119,9 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column">
-          <img class="fastenings_image" src="https://via.placeholder.com/460x460" alt="">
-          <h4>Thumb Loop</h4>
+        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-5 mb-md-0">
+          <img class="" src="https://via.placeholder.com/460x460" alt="">
+          <h3>Thumb Loop</h3>
           <div class="det">
             <ul>
               <li>Thumb loops allow for rapid donning</li>
@@ -132,8 +132,8 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-3 d-flex flex-column">
-          <img class="fastenings_image" src="https://via.placeholder.com/460x460" alt="">
-          <h4>Straight Cuff</h4>
+        <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/gowns/disposable_gowns/section4/Straight-Cuff.png" alt="Over-the-Hea">
+          <h3>Straight Cuff</h3>
           <div class="det">
             <ul>
               <li>Straight cuffs allow for rapid donning</li>

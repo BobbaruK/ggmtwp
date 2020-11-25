@@ -3,7 +3,13 @@
 // -----------------------------------------------------------------------------
 
 #site-wrapper {
+  .table-responsive { // bs overwrite 
+    overflow-y: visible;
+    height: 100%;
+  }
+  
   table {
+    margin: 0;
     thead,
     tbody {
       tr th,
@@ -30,5 +36,12 @@
         }
       }
     }
+
+    .tableHead {
+      background-color: $brand-color;
+      color: $brand-secondary-color;
+      font-weight: bold;
+    }
+
   }
 }

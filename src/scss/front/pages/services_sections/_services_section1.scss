@@ -25,4 +25,9 @@ section#section1.supervision {
       margin-bottom: 2.5rem;
     }
   }
+  .cssecoBtnWrapper {
+    @media screen and (min-width: $csseco_bp_768) {
+      justify-content: flex-start;
+    }
+  }
 }

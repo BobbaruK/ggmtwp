@@ -3,6 +3,8 @@
 // -----------------------------------------------------------------------------
 
 section#section4.gown_styles_wrapper {
+  background-color: $brand-grey;
+  padding: 0;
   > section {
     padding-top: 0;
   }
@@ -10,22 +12,47 @@ section#section4.gown_styles_wrapper {
   h2 + p {
     text-align: center;
   }
-  h4 {
+  h3 {
     text-align: center;
   }
   img, svg {
+    border-radius: 10px;
     margin-bottom: 1rem;
+    @extend %boxShadow_top;
   }
-  section#section4-1.gown_styles {}
+  section#section4-1.gown_styles {
+    background-image: url(../imgs/gowns/disposable_gowns/section4/textura.png);
+    background-position: center center;
+    background-size: cover;
+    padding-top: var(--margin_padding_bottom);
+    h6,
+    ul {
+      text-align: center;
+    }
+    ul {
+      list-style: none;
+    }
+  }
   section#section4-2.gown_styles__fastenings,
   section#section4-3.gown_styles__cuffs {
+    h2 {
+      position: relative;
+      &::before {
+        background-color: rgba($brand-color, .4);
+        content: "";
+        height: 1px;
+        left: 50%;
+        position: absolute;
+        transform: translateX(-50%);
+        top: -20px;
+        width: 60%;
+      }
+    }
     .det {
-      ul {}
+      ul { margin: 0; }
     }
   }
   section#section4-4.gown_styles__speciality_gowns {
-    ul {
-      margin: 0;
-    }
+    ul { margin: 0; }
   }
 }
