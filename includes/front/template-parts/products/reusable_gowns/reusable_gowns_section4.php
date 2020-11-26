@@ -19,7 +19,7 @@
         <div class="col-12 col-lg-6">
           <div class="txtWrapper">
             <div class="img_wrapper">
-              <img class="fastenings_image" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section4/repellant_gowns.png" alt="">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section4/repellant_gowns.png" alt="">
             </div>
             <h3>Non-fluid repellant gowns</h3>
             <p>For situations where fluid protection is not an issue, non-repellent gowns are a great alternative to disposables. Ideal uses include visitors, nursery care, labor & delivery, or routine activities.</p>
@@ -133,7 +133,7 @@
         <div class="col-12 col-lg-6 order-1 order-lg-2">
           <div class="txtWrapper">
             <div class="img_wrapper">
-              <img class="fastenings_image" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section4/gowns.png" alt="">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section4/gowns.png" alt="">
             </div>
             <h3>Gowns</h3>
             <p>For procedures with a low to medium risk of exposure our reusable AAMI level 1 - 3 non-surgical, fluid resistant gowns are a fantastic alternative to disposables.  Recommended for situations such as ER, blood drawing, soil sorting, contact precaution, and more.</p>
@@ -148,7 +148,7 @@
         <div class="col-12 col-lg-6">
           <div class="txtWrapper">
             <div class="img_wrapper">
-              <img class="fastenings_image" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section4/head_covers.png" alt="">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section4/head_covers.png" alt="">
             </div>
             <h3>Head Covers</h3>
             <p>For procedures with a low to medium risk of exposure our reusable AAMI level 1 - 2 non-surgical, fluid resistant caps are a fantastic alternative to disposables.  Recommended for situations such as ER, blood drawing, soil sorting, contact precaution, and more.</p>

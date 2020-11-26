@@ -1,7 +1,6 @@
 <?php
 /**
   * @package cssecoST
-  * includes/front/template-parts/products/gowns_section6.php
   */
 ?>
 

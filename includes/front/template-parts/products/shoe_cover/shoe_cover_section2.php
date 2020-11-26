@@ -1,7 +1,7 @@
 <?php
 /**
   * @package cssecoST
-  * includes/front/template-parts/products/gowns_section2.php
+  * includes/front/template-parts/products/shoe_cover/shoe_cover_section2.php
   */
 ?>
 
@@ -11,11 +11,10 @@
       <div class="col-12">
         <div class="cssecoTabsWrapper">
           <ul class="cssecoTabs">
-            <li class="cssecoTabs__item"><a href="#section3" class="cssecoTabs__link csseco_scrollTo">About Gowns</a></li>
-            <li class="cssecoTabs__item"><a href="#section4" class="cssecoTabs__link csseco_scrollTo">Gown Styles</a></li>
-            <li class="cssecoTabs__item"><a href="#section5" class="cssecoTabs__link csseco_scrollTo">Specialty Gowns</a></li>
-            <li class="cssecoTabs__item"><a href="#section6" class="cssecoTabs__link csseco_scrollTo">Gown Materials</a></li>
-            <li class="cssecoTabs__item"><a href="#section7" class="cssecoTabs__link csseco_scrollTo">Safety Information</a></li>
+            <li class="cssecoTabs__item"><a href="#section3" class="cssecoTabs__link csseco_scrollTo">About Shoe Covers</a></li>
+            <li class="cssecoTabs__item"><a href="#section4" class="cssecoTabs__link csseco_scrollTo">Shoe Cover Types</a></li>
+            <li class="cssecoTabs__item"><a href="#section5" class="cssecoTabs__link csseco_scrollTo">Materials</a></li>
+            <li class="cssecoTabs__item"><a href="#section6" class="cssecoTabs__link csseco_scrollTo">Safety Information</a></li>
           </ul>
         </div>
       </div>

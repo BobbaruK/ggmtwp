@@ -1,0 +1,27 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section1 of Head Cover page.
+// -----------------------------------------------------------------------------
+
+section#section1.headcover {
+  h1 {}
+  p {
+    text-align: center;
+    &:nth-child(3) {
+      @media screen and (min-width: $csseco_bp_1200) {
+        margin-bottom: 2.5rem;
+        text-align: left;
+      }
+    }
+    @media screen and (min-width: $csseco_bp_768) {
+      text-align: left;
+    }
+  }
+  .cssecoBtnWrapper {
+    @media screen and (min-width: $csseco_bp_768) {
+      justify-content: flex-start;
+    }
+  }
+  img {
+    margin: 1rem auto 0;
+  }
+}

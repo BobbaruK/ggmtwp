@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the Head Cover page.
+// -----------------------------------------------------------------------------
+
+.page-template-cssecoTemplate-head_cover {
+  @import 'head_cover_sections/head_cover_section1';
+  @import 'head_cover_sections/head_cover_section2';
+  @import 'head_cover_sections/head_cover_section3';
+  @import 'head_cover_sections/head_cover_section4';
+  @import 'head_cover_sections/head_cover_section5';
+  @import 'head_cover_sections/head_cover_section6';
+  @import 'head_cover_sections/head_cover_section7';
+}

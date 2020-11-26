@@ -1,7 +1,6 @@
 <?php
 /**
   * @package cssecoST
-  * includes/front/template-parts/products/gowns_section8.php
   */
 ?>
 
@@ -9,7 +8,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>Questions about disposable gowns?<br class="d-none d-sm-block"> Contact one of our knowledgeable agents to get started on finding the perfect solution for your organization.</h2>
+        <h2>Questions about coveralls?<br class="d-none d-sm-block">  Contact one of our knowledgeable agents to get started on finding the perfect solution for your organization.</h2>
         <div class="cssecoBtnWrapper">
           <a href="#" class="cssecoBtn"><span>Contact us</span></a>
         </div>

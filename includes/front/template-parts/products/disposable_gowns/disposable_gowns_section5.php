@@ -19,7 +19,7 @@
         <div class="col-12 col-lg-6">
           <div class="txtWrapper">
             <div class="img_wrapper">
-              <img class="fastenings_image" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/01.png" alt="">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/01.png" alt="">
             </div>
             <h3>Chemotherapy gowns</h3>
             <p>Made from a highly protective polyethylene coated material and tested ASTM F739-12 against top 11 chemotherapy drugs.</p>
@@ -140,7 +140,7 @@
         <div class="col-12 col-lg-6 order-1 order-lg-2">
           <div class="txtWrapper">
             <div class="img_wrapper">
-              <img class="fastenings_image" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/02.png" alt="">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/02.png" alt="">
             </div>
             <h3>Decontamination gowns</h3>
             <p>Made from ASTM 1670 and ASTM 1671 tested, polyethylene coated materials, these gowns offer full resistance viral and fluid contaminants.</p>
@@ -155,7 +155,7 @@
         <div class="col-12 col-lg-6">
         <div class="txtWrapper">
           <div class="img_wrapper">
-            <img class="fastenings_image" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/03.png" alt="">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/03.png" alt="">
           </div>
           <h3>Visitors gowns</h3>
           <p>Recommended for visitors in low-risk, low-fluid environments these multi-ply AAMI level 1 disposable gowns offer the highest degree of breathability and comfort while still providing protection from low levels of splash or spray.</p>
@@ -244,7 +244,7 @@
         <div class="col-12 col-lg-6 order-1 order-lg-2 flex-column">
           <div class="txtWrapper">
             <div class="img_wrapper">
-              <img class="fastenings_image" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/04.png" alt="">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/04.png" alt="">
             </div>
             <h3>Disposable Aprons</h3>
             <p>Intended for use by persons working in low-fluid, non-risk environments, disposable aprons offer a degree of cover over the torso from liquid and solid contaminants.</p>

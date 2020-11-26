@@ -1,145 +1,158 @@
 <?php
 /**
   * @package cssecoST
-  * includes/front/template-parts/products/gowns_section4.php
+  * includes/front/template-parts/products/shoe_cover/shoe_cover_section4.php
   */
 ?>
 
-<section id="section4" class="gown_styles_wrapper">
-  <section id="section4-1" class="gown_styles">
+<section id="section4" class="ppe_types">
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2>Shoe cover types</h2>
+      </div>
+    </div> 
+  </div>
+  <section id="section4-1" class="shoecovers">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h2>Gown Styles</h2>
-          <p>All gowns available in sizes S - XXL. Natural rubber and Latex-free variants are available.</p>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-2">
-          <h6>Fasteners are available for:</h6>
-          <ul>
-            <li>Back / neck ties</li>
-            <li>Hook and loop</li>
-            <li>Over the head</li>
-          </ul>
-          <h6>Backs:</h6>
-          <ul>
-            <li>Full back</li>
-            <li>Open back</li>
-          </ul>
-        </div>
-        <div class="col-12 col-md-6 col-lg-4">
-          <h6>Cuffs are available:</h6>
-          <ul>
-            <li>Elastic cuffs</li>
-            <li>Knit cuffs</li>
-            <li>Straight cuffs</li>
-          </ul>
-          <h6>Sleeves:</h6>
-          <ul>
-            <li>Long sleeve</li>
-            <li>Short sleeve</li>
-          </ul>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="section4-2" class="gown_styles__fastenings">
-    <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <h2>Fastenings</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-4 d-flex flex-column mb-5 mb-md-0">
-          <img class="" src="https://via.placeholder.com/460x460" alt="">
-          <h3>Back/Neck Tie</h3>
-          <div class="det">
-            <ul>
-              <li>Back/neck ties allow for highly custom fit</li>
-              <li>Secure fastening</li>
-              <li>Long-term comfort</li>
-            </ul>
+        <div class="col-12 col-lg-6">
+          <div class="txtWrapper">
+            <div class="img_wrapper">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/shoe_cover/section4/1.png" alt="">
+            </div>
+            <h3>Ankle-high shoe covers</h3>
+            <p>Ideal for routine, day-to-day procedures ankle-high shoe covers feature an elastic band for a secure and comfortable fit and are designed to be easily slipped on and off for rapid use.  Available in a variety of materials and certified AAMI Level 1 or AAMI Level 2.</p>
           </div>
         </div>
-        <div class="col-12 col-md-4 d-flex flex-column mb-5 mb-md-0">
-          <img class="" src="https://via.placeholder.com/460x460" alt="">
-          <h3>Hook-and-Loop</h3>
-          <div class="det">
-            <ul>
-              <li>Hook-and-loop fastener allows rapid donning</li>
-              <li>Secure closure for extended wear</li>
-              <li>Increased protection</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-md-4 d-flex flex-column mb-4 mb-md-0">
-          <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section4/Over-the-Head.png" alt="Over-the-Hea">
-          <h3>Over-the-Head</h3>
-          <div class="det">
-            <ul>
-              <li>Over-the-head gowns offer maximum protection</li>
-              <li>Fit comfortably over most clothes</li>
-              <li>Easy to don</li>
-            </ul>
+        <div class="col-12 col-lg-6">
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td class="tableHead">AAMI Level 1</td>
+                  <td>
+                    <ul>
+                      <li>AATCC 42 tested</li>
+                      <li>Water impact ≤4.5g</li>
+                      <li>Minimal liquid resistance</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableHead">AAMI Level 2</td>
+                  <td>
+                    <ul>
+                      <li>AATCC 42 tested</li>
+                      <li>Water Impact ≤ 1.0 g</li>
+                      <li>AATCC 127 tested</li>
+                      <li>Hydrostatic Pressure ≥ 20 cm</li>
+                      <li>Low liquid resistance</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableHead">Available Materials</td>
+                  <td>
+                    <ul>
+                      <li>SMS multi-layer</li>
+                      <li>Spunbond Polypropylene</li>
+                      <li>Polyethylene Coated Polypropylene</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableHead">Recommended Uses</td>
+                  <td>
+                    <ul>
+                      <li>Minimal to low fluid procedures</li>
+                      <li>ICU / ER</li>
+                      <li>Prevent cross-contamination</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <section id="section4-3" class="gown_styles__cuffs">
+  <section id="section4-2" class="gowns">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h2>Cuffs</h2>
-        </div>
-      </div>
-      <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-5 mb-lg-0">
-          <img class="" src="https://via.placeholder.com/460x460" alt="">
-          <h3>Elastic Cuff</h3>
-          <div class="det">
-            <ul>
-              <li>Ideal for low-fluid settings</li>
-              <li>Versatile fit for any wearer</li>
-              <li>Maximum comfort</li>
-            </ul>
+        <div class="col-12 col-lg-6 order-2 order-lg-1">
+          <div class="table-responsive">
+            <table class="table table-bordered">
+              <tbody>
+                <tr>
+                  <td class="tableHead">AAMI Level 3</td>
+                  <td>
+                    <ul>
+                      <li>AATCC 42 tested</li>
+                      <li>Spray Impact ≤ 1.0 g</li>
+                      <li>AATCC 127 tested</li>
+                      <li>Hydrostatic Pressure ≥ 50 cm</li>
+                      <li>High liquid resistance</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableHead">AAMI Level 4</td>
+                  <td>
+                    <ul>
+                      <li>ASTM 1670 Tested</li>
+                      <li>No penetration at 2psi</li>
+                      <li>ASTM 1671 Tested</li>
+                      <li>No penetration at 2psi</li>
+                      <li>Protection from blood and viral contaminants</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableHead">Available Materials</td>
+                  <td>
+                    <ul>
+                      <li>SMS multi-layer</li>
+                      <li>Spunbond Polypropylene</li>
+                      <li>Polyethylene Coated Polypropylene</li>
+                      <li>Chlorinated Polyethylene</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableHead">Style Options</td>
+                  <td>
+                    <ul>
+                      <li>Elastic Ankle</li>
+                      <li>Hook-and-Loop Coverings</li>
+                      <li>Non-skid Bottom</li>
+                      <li>Anti-slip Foam Strips</li>
+                    </ul>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="tableHead">Recommended Uses</td>
+                  <td>
+                    <ul>
+                      <li>Chemotherapy</li>
+                      <li>OR</li>
+                      <li>Decontamination</li>
+                      <li>Viral Hazards</li>
+                    </ul>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
-        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-5 mb-lg-0">
-          <img class="" src="https://via.placeholder.com/460x460" alt="">
-          <h3>Knit Cuff</h3>
-          <div class="det">
-            <ul>
-              <li>Knit cuffs provide maximum comfort</li>
-              <li>Fully fluid resistant</li>
-              <li>Allow for rapid donning/removal</li>
-              <li>Secure fit on most wearers</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-5 mb-md-0">
-          <img class="" src="https://via.placeholder.com/460x460" alt="">
-          <h3>Thumb Loop</h3>
-          <div class="det">
-            <ul>
-              <li>Thumb loops allow for rapid donning</li>
-              <li>Prevents sleeve slide</li>
-              <li>Fits comfortably under most gloves</li>
-              <li>Increased protection</li>
-            </ul>
-          </div>
-        </div>
-        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column">
-        <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section4/Straight-Cuff.png" alt="Over-the-Hea">
-          <h3>Straight Cuff</h3>
-          <div class="det">
-            <ul>
-              <li>Straight cuffs allow for rapid donning</li>
-              <li>Fit over most gloves</li>
-              <li>most comfortable</li>
-            </ul>
+        <div class="col-12 col-lg-6 order-1 order-lg-2">
+          <div class="txtWrapper">
+            <div class="img_wrapper">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/shoe_cover/section4/2.png" alt="">
+            </div>
+            <h3>Knee-high boot covers</h3>
+            <p>Intended for procedures with a moderate to high risk of exposure, knee-high boot covers are available in AAMI Level 3 or AAMI Level 4.  Tested against top 11 chemotherapy drugs and offering protection from blood and viral contaminates as per ASTM 1670 and/or ASTM 1671, Level 4 boot covers offer the highest level of protection.</p>
           </div>
         </div>
       </div>
