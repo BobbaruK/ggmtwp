@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section3 of Supply page.
+// -----------------------------------------------------------------------------
+
+section#section3.reduces {
+  background-color: $brand-grey;
+  h2 {}
+  p {
+    @media screen and (min-width: $csseco_bp_768) {
+      text-align: left;
+    }
+  }
+}

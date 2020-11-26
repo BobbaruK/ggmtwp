@@ -1,0 +1,52 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section3 of Shoe Cover page.
+// -----------------------------------------------------------------------------
+
+section#section3.aboutDG {
+  padding: 0;
+  section#section3-1.aboutfirst {
+    background-color: $brand-grey;
+    background-image: url(../imgs/texture.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0;
+    > .container {
+      padding-bottom: var(--margin_padding_bottom);
+      padding-top: var(--margin_padding_bottom);
+      text-align: center;
+      @media screen and (min-width: $csseco_bp_992) {
+        background-image: url(../imgs/products/disposable_gowns/section2/bg.png);
+        background-position: center left;
+        background-repeat: no-repeat;
+        background-size: contain;
+        text-align: left;
+      }
+    }
+    h2 {
+      text-align: center;
+      @media screen and (min-width: $csseco_bp_992) {
+        text-align: right;
+      }
+    }
+    p {
+      text-align: left; 
+      @media screen and (min-width: $csseco_bp_992) {
+        text-align: right;
+      }
+    }
+    @media screen and (min-width: $csseco_bp_576) {
+      background-size: contain;
+    }
+  }
+  section#section3-2.subabout {
+    ul {
+      margin: 0;
+    }
+    .tears {
+      svg {
+        fill: $brand-color;
+      }
+    }
+  }
+}

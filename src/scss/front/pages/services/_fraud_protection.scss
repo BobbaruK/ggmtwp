@@ -1,0 +1,11 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the Fraud protection page.
+// -----------------------------------------------------------------------------
+
+.page-template-cssecoTemplate-fraud_protection {
+  @import 'fraud_protection_sections/fraud_protection_section1';
+  @import 'fraud_protection_sections/fraud_protection_section2';
+  @import 'fraud_protection_sections/fraud_protection_section3';
+  @import 'fraud_protection_sections/fraud_protection_section4';
+  @import 'fraud_protection_sections/fraud_protection_section5';
+}

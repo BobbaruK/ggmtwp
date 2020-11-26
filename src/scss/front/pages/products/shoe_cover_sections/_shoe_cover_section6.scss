@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section6 of Shoe Cover page.
+// -----------------------------------------------------------------------------
+
+section#section6.disposableGownsMaterials {
+  background-color: $brand-grey;
+  h2, h3 {
+    text-align: center;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section2 of Services page.
+// -----------------------------------------------------------------------------
+
+section#section2.redtape {
+  h2 {
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_768) {
+      text-align: right;
+    }
+  }
+  p {}
+  @media screen and (min-width: $csseco_bp_768) {
+    text-align: right;
+  }
+}

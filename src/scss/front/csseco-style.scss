@@ -298,14 +298,14 @@
 // 6. Page-specific styles
 // ======================================
 @import 'pages/front_page'; 
-@import 'pages/products'; 
-@import 'pages/disposable_gowns'; 
-@import 'pages/reusable_gowns'; 
+@import 'pages/products/products'; 
+@import 'pages/products/disposable_gowns'; 
+@import 'pages/products/reusable_gowns'; 
 @import 'pages/company'; 
-@import 'pages/services'; 
-@import 'pages/fraud_protection'; 
-@import 'pages/find_your_product'; 
-@import 'pages/supply'; 
+@import 'pages/services/services'; 
+@import 'pages/services/fraud_protection'; 
+@import 'pages/services/supply'; 
+@import 'pages/services/find_your_product'; 
 @import 'pages/contact'; 
 
 

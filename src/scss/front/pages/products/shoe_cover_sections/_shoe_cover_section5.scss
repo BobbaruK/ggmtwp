@@ -1,0 +1,35 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section5 of Shoe Cover page.
+// -----------------------------------------------------------------------------
+
+section#section5.speciality_gowns {
+  padding-bottom: 0;
+  h2 {
+    text-align: center;
+  }
+  h3 {}
+  p:last-child {
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+  }
+  .img_wrapper {
+    align-items: center;
+    // border: 1px solid $brand-color;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    @extend %boxShadow_top;
+    img {
+      margin: 1rem;
+    }
+  }
+  section#section5-1.chemotherapyGowns {
+    padding-top: 0;
+  }
+  section#section5-2.decontaminationGowns {}
+  section#section5-3.visitorsGowns {}
+  section#section5-4.disposableAprons {}
+}

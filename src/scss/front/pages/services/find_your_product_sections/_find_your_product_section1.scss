@@ -1,0 +1,58 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section1 of Find your product page.
+// -----------------------------------------------------------------------------
+
+section#section1.find {
+  border-bottom: 1px solid $brand-grey;
+  padding: 0;
+  overflow: hidden;
+  > .container { // bs overwrite
+    padding-bottom: var(--margin_padding_bottom);
+    padding-top: var(--margin_padding_bottom);
+    position: relative;
+
+    > .palnie_bgs {
+      top: -3px; 
+      .bg {
+        background-image: url(../imgs/finding_your_product/section1/bg.png);
+        background-position: center left;
+      }
+      @media screen and (min-width: $csseco_bp_768) {
+        left: -120px;
+      }
+      @media screen and (min-width: $csseco_bp_992) {
+        left: -210px;
+        width: 550px;
+      }
+      @media screen and (min-width: $csseco_bp_1200) {
+        width: 620px;
+      }
+    }
+  }
+  h1 {
+    @media screen and (min-width: $csseco_bp_576) {
+      padding: 0 40px;
+    }
+    @media screen and (min-width: $csseco_bp_768) {
+      padding: 0 10px 0 0;
+      text-align: right;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {
+      margin-bottom: 2.5rem;
+    }
+  }
+  p {
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_768) {
+      text-align: right;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {
+      margin-bottom: 2.5rem;
+    }
+  }
+  .cssecoBtnWrapper {
+    @media screen and (min-width: $csseco_bp_768) {
+      justify-content: flex-end;
+    }
+  }
+}
