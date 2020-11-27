@@ -297,11 +297,17 @@
 // ======================================
 // 6. Page-specific styles
 // ======================================
+@import 'pages/page_components/products_section1'; 
+@import 'pages/page_components/products_about'; 
+@import 'pages/page_components/products_pcttbl'; 
+@import 'pages/page_components/products_styles'; 
+@import 'pages/page_components/products_materials'; 
+
 @import 'pages/front_page'; 
 @import 'pages/products/products'; 
 @import 'pages/products/disposable_gowns'; 
 @import 'pages/products/reusable_gowns'; 
-@import 'pages/products/shoe_cover'; 
+@import 'pages/products/shoe_cover';
 @import 'pages/products/head_cover'; 
 @import 'pages/products/coveralls'; 
 @import 'pages/company'; 

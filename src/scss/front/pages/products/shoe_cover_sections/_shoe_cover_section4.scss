@@ -5,28 +5,11 @@
 
 section#section4.ppe_types {
   padding-bottom: 0;
-  h2 {
-    text-align: center;
-  }
+  h2 {}
   h3 {}
-  p:last-child {
-    margin: 0;
-  }
-  ul {
-    margin: 0;
-  }
-  .img_wrapper {
-    align-items: center;
-    // border: 1px solid $brand-color;
-    border-radius: 10px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 1rem;
-    @extend %boxShadow_top;
-    img {
-      margin: 1rem;
-    }
-  }
+  p {}
+  ul {}
+  .img_wrapper {}
   section#section4-1.shoecovers {}
   section#section4-2.gowns {}
 }

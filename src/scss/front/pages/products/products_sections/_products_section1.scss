@@ -3,24 +3,27 @@
 // -----------------------------------------------------------------------------
 
 section#section1.top {
-  h1 { 
-    text-align: center; 
+  h1 {
+    text-align: center;
     @media screen and (min-width: $csseco_bp_1200) {
       text-align: left;
     }
   }
   p {
-    @media screen and (min-width: $csseco_bp_576) {
-      text-align: center;
-    }
+    text-align: center;
     @media screen and (min-width: $csseco_bp_1200) {
       margin-bottom: 2.5rem;
+      // text-align: left;
+    }
+    @media screen and (min-width: $csseco_bp_1200) {
       text-align: left;
     }
   }
   .cssecoBtnWrapper {
+    justify-content: center;
     @media screen and (min-width: $csseco_bp_1200) {
       justify-content: flex-start;
     }
   }
+  img { margin: 0 auto; }
 }

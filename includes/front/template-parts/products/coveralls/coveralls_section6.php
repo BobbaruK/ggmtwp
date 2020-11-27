@@ -5,7 +5,7 @@
   */
 ?>
 
-<section id="section6" class="coverallsMaterials">
+<section id="section6" class="materials coverallsMaterials">
   <div class="container">
     <div class="row">
       <div class="col-12">

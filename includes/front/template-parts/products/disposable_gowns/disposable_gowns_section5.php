@@ -5,7 +5,7 @@
   */
 ?>
 
-<section id="section5" class="speciality_gowns">
+<section id="section5" class="product_pcttbl speciality_gowns">
   <div class="container">
     <div class="row">
       <div class="col-12">

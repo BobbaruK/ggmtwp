@@ -5,7 +5,7 @@
   */
 ?>
 
-<section id="section1" class="top">
+<section id="section1" class="section1 top">
   <div class="container">
     <div class="row">
       <div class="col-12 col-xl-6">

@@ -5,7 +5,7 @@
   */
 ?>
 
-<section id="section3" class="aboutDG">
+<section id="section3" class="products_about aboutDG">
   <section id="section3-1" class="aboutfirst">
     <div class="container">
       <div class="row">

@@ -3,35 +3,6 @@
 // -----------------------------------------------------------------------------
 
 section#section5.gown_styles_wrapper {
-  background-color: $brand-grey;
-  padding: 0;
-  > section {
-    position: relative;
-    &:not(:first-child) {
-      &::before {
-        background-color: rgba($brand-color, .4);
-        content: "";
-        height: 1px;
-        left: 50%;
-        position: absolute;
-        transform: translateX(-50%);
-        top: 0;
-        width: 35%;
-      }
-    }
-  }
-  h2,
-  h2 + p {
-    text-align: center;
-  }
-  h3 {
-    text-align: center;
-  }
-  img, svg {
-    border-radius: 10px;
-    margin-bottom: 1rem;
-    @extend %boxShadow_top;
-  }
   section#section5-1.ttl {
     background-image: url(../imgs/products/disposable_gowns/section4/textura.png);
     background-position: center center;

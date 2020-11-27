@@ -5,7 +5,7 @@
   */
 ?>
 
-<section id="section4" class="ppe_types">
+<section id="section4" class="product_pcttbl ppe_types">
   <div class="container">
     <div class="row">
       <div class="col-12">

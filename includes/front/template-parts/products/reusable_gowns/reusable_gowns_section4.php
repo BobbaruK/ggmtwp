@@ -5,7 +5,7 @@
   */
 ?>
 
-<section id="section4" class="reusablePpeTypes">
+<section id="section4" class="product_pcttbl reusablePpeTypes">
   <div class="container">
     <div class="row">
       <div class="col-12">

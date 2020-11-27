@@ -1,0 +1,29 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the Picture-Table sections of products pages.
+// -----------------------------------------------------------------------------
+
+.product_pcttbl {
+  h2 {
+    text-align: center;
+  }
+  h3 {}
+  p:last-child {
+    margin: 0;
+  }
+  ul {
+    margin: 0;
+  }
+
+  .img_wrapper {
+    align-items: center;
+    // border: 1px solid $brand-color;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    @extend %boxShadow_top;
+    img {
+      margin: 1rem;
+    }
+  }
+}

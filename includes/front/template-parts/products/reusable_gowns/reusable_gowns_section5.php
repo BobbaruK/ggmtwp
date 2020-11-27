@@ -5,8 +5,8 @@
   */
 ?>
 
-<section id="section5" class="gown_styles_wrapper">
-  <section id="section5-1" class="ttl">
+<section id="section5" class="products_styles gown_styles_wrapper">
+  <section id="section5-1" class="products_styles__ttl">
     <div class="container">
       <div class="row">
         <div class="col-12">

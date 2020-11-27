@@ -5,7 +5,7 @@
   */
 ?>
 
-<section id="section6" class="reusablePPEMaterials">
+<section id="section6" class="materials reusablePPEMaterials">
   <div class="container">
     <div class="row">
       <div class="col-12">

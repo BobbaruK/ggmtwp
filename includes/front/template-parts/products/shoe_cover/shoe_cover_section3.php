@@ -5,7 +5,7 @@
   */
 ?>
 
-<section id="section3" class="about">
+<section id="section3" class="products_about about">
   <div class="container">
     <div class="row">
       <div class="col-12 col-lg-6 offset-lg-6 d-flex flex-column justify-content-center">
