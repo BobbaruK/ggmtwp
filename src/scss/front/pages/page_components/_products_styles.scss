@@ -27,11 +27,14 @@
   h3 {
     text-align: center;
   }
-  img, svg {
+  .imgWrapper {
+    background-color: $bg-color;
     border-radius: 10px;
     margin-bottom: 1rem;
+    overflow: hidden;
     @extend %boxShadow_top;
-  }  
+    img, svg {}  
+  }
   .products_styles__ttl {
     background-image: url(../imgs/products/disposable_gowns/section4/textura.png);
     background-position: center center;

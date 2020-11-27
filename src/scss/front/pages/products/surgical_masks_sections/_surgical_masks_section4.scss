@@ -1,0 +1,19 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section4 of Covaralls page.
+// -----------------------------------------------------------------------------
+
+section#section4.sfm {
+  padding-bottom: 0;
+  h2 {}
+  h3 {}
+  p {}
+  ul {}
+  .img_wrapper {}
+  .txtWrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    height: 100%;
+  }
+}

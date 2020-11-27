@@ -4,7 +4,6 @@
 
 #site-wrapper {
   .table-responsive {}
-  
   table {
     margin: 0;
     thead,
@@ -28,7 +27,7 @@
         td {
           text-align: center;
           &:last-child {
-            text-align: left;
+            // text-align: left;
           }
         }
       }

@@ -25,7 +25,9 @@
       </div>
       <div class="row">
         <div class="col-12 col-md-4 d-flex flex-column mb-5 mb-md-0">
-          <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/sidetie.png" alt="Side Tie">
+          <div class="imgWrapper">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/sidetie.png" alt="Side Tie">
+          </div>
           <h3>Side Tie</h3>
           <div class="det">
             <ul>
@@ -36,7 +38,9 @@
           </div>
         </div>
         <div class="col-12 col-md-4 d-flex flex-column mb-5 mb-md-0">
-        <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/fullback.png" alt="Full Back">
+          <div class="imgWrapper">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/fullback.png" alt="Full Back">
+          </div>
           <h3>Full Back</h3>
           <div class="det">
             <ul>
@@ -47,7 +51,9 @@
           </div>
         </div>
         <div class="col-12 col-md-4 d-flex flex-column mb-4 mb-md-0">
-          <img class="" src="https://via.placeholder.com/460x460" alt="">
+          <div class="imgWrapper">
+            <img class="" src="https://via.placeholder.com/460x460" alt="">
+          </div>
           <h3>Backless</h3>
           <div class="det">
             <ul>
@@ -69,7 +75,9 @@
       </div>
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2 d-flex flex-column mb-5 mb-lg-0">
-          <img class="" src="https://via.placeholder.com/460x460" alt="">
+          <div class="imgWrapper">
+            <img class="" src="https://via.placeholder.com/460x460" alt="">
+          </div>
           <h3>Knit Cuff</h3>
           <div class="det">
             <ul>
@@ -81,7 +89,9 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
-        <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/straightcuff.png" alt="Straight Cuff">
+          <div class="imgWrapper">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/straightcuff.png" alt="Straight Cuff">
+          </div>
           <h3>Straight Cuff</h3>
           <div class="det">
             <ul>
@@ -103,7 +113,9 @@
       </div>
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2 d-flex flex-column mb-5 mb-lg-0">
-          <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/caps1.png" alt="Cap">
+          <div class="imgWrapper">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/caps1.png" alt="Cap">
+          </div>
           <h3></h3>
           <div class="det">
             <ul>
@@ -114,7 +126,9 @@
           </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
-        <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/caps2.png" alt="Cap">
+          <div class="imgWrapper">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/caps2.png" alt="Cap">
+          </div>
           <h3></h3>
           <div class="det">
             <ul>

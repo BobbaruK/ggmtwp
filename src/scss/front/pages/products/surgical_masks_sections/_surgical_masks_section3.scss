@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section3 of Covaralls page.
+// -----------------------------------------------------------------------------
+
+section#section3.about {
+  > .container {
+    @media screen and (min-width: $csseco_bp_992) {
+      background-image: url(../imgs/products/surgical_masks/section3/bg.png);
+    }
+  }
+  h2 {}
+  p {}
+}

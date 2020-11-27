@@ -19,7 +19,7 @@
         <div class="col-12 col-lg-6">
           <div class="txtWrapper">
             <div class="img_wrapper">
-              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/01.png" alt="">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section4/1.png" alt="">
             </div>
             <h3>Microporous Coveralls</h3>
             <p>Microporous coveralls allow for maximum breathability while providing full body protection from blood and fluids. Microporous coveralls represent a comfortable cost effective alternative to Tyvek.</p>
@@ -135,7 +135,7 @@
         <div class="col-12 col-lg-6 order-1 order-lg-2">
           <div class="txtWrapper">
             <div class="img_wrapper">
-              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/02.png" alt="">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section4/2.png" alt="">
             </div>
             <h3>Surgical Coveralls</h3>
             <p>For situations with high fluid or viral hazards our surgical coveralls provide the highest level of protection.  Made from heavy-weight materials surgical coveralls are certified AAMI level 4.</p>
@@ -150,7 +150,7 @@
         <div class="col-12 col-lg-6">
         <div class="txtWrapper">
           <div class="img_wrapper">
-            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/03.png" alt="">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section4/3.png" alt="">
           </div>
           <h3>Multi-layer Coveralls</h3>
           <p>Ideal for low-fluid situations - such as visitors areas - multi-layer coveralls offer comfort and breathability for the wearer.</p>
@@ -251,7 +251,7 @@
         <div class="col-12 col-lg-6 order-1 order-lg-2 flex-column">
           <div class="txtWrapper">
             <div class="img_wrapper">
-              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/04.png" alt="">
+              <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section4/4.png" alt="">
             </div>
             <h3>Spunbond Coveralls</h3>
             <p>Available in medium- or heavy-weight polypropylene our spunbond coveralls are comfortable and breathable for less critical areas such as waiting rooms.</p>

@@ -9,7 +9,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>Standard Information: FDA</h2>
+        <h2>Standard Information</h2>
       </div>
     </div>
     <div class="row">
@@ -18,7 +18,7 @@
           <table class="table table-bordered">
             <thead>
               <tr>
-                <th colspan="6">Gown Requirements at 4.0% AQL</th>
+                <th colspan="6">FDA Requirements at 4.0% AQL</th>
               </tr>
               <tr>
                 <th>Level</th>
