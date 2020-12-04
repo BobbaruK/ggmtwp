@@ -2,7 +2,6 @@
 /**
   * Template Name: Coveralls
   * @package cssecoST
-  * cssecoTemplate-coveralls.php
   */
 
 get_header(); ?>

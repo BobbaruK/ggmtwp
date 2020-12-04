@@ -3,7 +3,10 @@
 // -----------------------------------------------------------------------------
 
 section#section4.headCoveringTypes {
-  padding-bottom: 0;
+  padding: 0;
+  > section:not(:last-child) {
+    padding-bottom: 0;
+  }
   h2 {}
   h3 {}
   p {}

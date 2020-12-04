@@ -2,7 +2,6 @@
 /**
   * Template Name: Head Cover
   * @package cssecoST
-  * cssecoTemplate-head_cover.php
   */
 
 get_header(); ?>

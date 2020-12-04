@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section3 of Sanitizer page.
+// -----------------------------------------------------------------------------
+
+section#section3.about {
+  background: transparent;
+  > .container {
+    @media screen and (min-width: $csseco_bp_992) {
+      background-image: url(../imgs/products/sanitizer/section3/2.png);
+    }
+  }
+  h2 {}
+  p {}
+}

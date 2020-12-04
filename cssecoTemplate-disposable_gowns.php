@@ -2,7 +2,6 @@
 /**
   * Template Name: Disposable Gowns
   * @package cssecoST
-  * cssecoTemplate-disposablegowns.php
   */
 
 get_header(); ?>

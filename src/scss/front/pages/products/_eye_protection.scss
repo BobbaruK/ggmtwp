@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the Eye Cover page.
+// -----------------------------------------------------------------------------
+
+.page-template-cssecoTemplate-eye_cover {
+  @import 'eye_cover_sections/eye_cover_section1';
+  @import 'eye_cover_sections/eye_cover_section2';
+  @import 'eye_cover_sections/eye_cover_section3';
+  @import 'eye_cover_sections/eye_cover_section4';
+  @import 'eye_cover_sections/eye_cover_section5';
+  @import 'eye_cover_sections/eye_cover_section6';
+  @import 'eye_cover_sections/eye_cover_section7';
+}
+

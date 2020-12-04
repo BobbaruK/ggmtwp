@@ -8,7 +8,7 @@
 <section id="section1" class="supervision">
   <div class="container">
     <div class="row">
-      <div class="col-12 col-md-8 col-lg-12">
+      <div class="col-12 col-md-7 col-lg-6 col-lg-12">
         <h1 class="bull"><span>Local Inspection and Supervision</span></h1>
         <p>Our commitment to service means that you can order with confidence.</p>
         <div class="cssecoBtnWrapper">

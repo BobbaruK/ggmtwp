@@ -1,7 +1,6 @@
 <?php
 /**
   * @package cssecoST
-  * includes/front/template-parts/products/head_cover/head_cover_section6.php
   */
 ?>
 

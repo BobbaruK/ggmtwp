@@ -2,7 +2,6 @@
 /**
   * Template Name: Surgical Masks
   * @package cssecoST
-  * cssecoTemplate-surgical_masks.php
   */
 
 get_header(); ?>

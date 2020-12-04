@@ -9,7 +9,9 @@
     }
     h3 {}
     p:last-child {
-      margin: 0;
+      @media screen and (min-width: $csseco_bp_992) {
+        margin: 0;
+      }
     }
     ul {
       margin: 0;
@@ -32,6 +34,8 @@
       @extend %boxShadow_top;
       img {
         // margin: 1rem;
+        max-width: 80%;
+        margin: 1rem 0;
       }
     }
     table {

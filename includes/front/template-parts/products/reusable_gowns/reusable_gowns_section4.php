@@ -6,15 +6,14 @@
 ?>
 
 <section id="section4" class="product_pcttbl reusablePpeTypes">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2>Reusable PPE Types</h2>
-      </div>
-    </div> 
-  </div>
   <section id="section4-1" class="repellantGowns">
     <div class="container">
+      
+      <div class="row">
+        <div class="col-12">
+          <h2>Reusable PPE Types</h2>
+        </div>
+      </div> 
       <div class="row">
         <div class="col-12 col-lg-6">
           <div class="txtWrapper">

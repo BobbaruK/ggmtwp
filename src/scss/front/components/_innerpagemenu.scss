@@ -2,6 +2,9 @@
 // This file contains all styles related to the innerpagemenu component.
 // -----------------------------------------------------------------------------
 
+.tabmenu {
+  padding-top: 0;
+}
 .cssecoTabsWrapper {
   // background-color: $brand-color;
   ul.cssecoTabs { // bs overwrite

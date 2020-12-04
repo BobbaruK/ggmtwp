@@ -2,7 +2,6 @@
 /**
   * Template Name: Fraud Protection
   * @package cssecoST
-  * cssecoTemplatePage-fraud_protection.php
   */
 
 get_header(); ?>

@@ -2,7 +2,6 @@
 /**
   * Template Name: Contact
   * @package cssecoST
-  * cssecoTemplatePage-contact.php
   */
 
 get_header(); ?>

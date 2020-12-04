@@ -2,7 +2,6 @@
 /**
   * Template Name: Find your product
   * @package cssecoST
-  * cssecoTemplatePage-find_your_product.php
   */
 
 get_header(); ?>

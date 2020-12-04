@@ -2,7 +2,6 @@
 /**
   * Template Name: Products
   * @package cssecoST
-  * cssecoTemplatePage-products.php
   */
 
 get_header(); ?>

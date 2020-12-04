@@ -3,14 +3,16 @@
 // -----------------------------------------------------------------------------
 
 section#section4.reusablePpeTypes {
+  padding: 0;
+  > section:not(:last-child) {
+    padding-bottom: 0;
+  }
   h2 {}
   h3 {}
   p {}
   ul {}
   .img_wrapper {}
-  section#section4-1.repellantGowns {
-    padding-top: 0;
-  }
+  section#section4-1.repellantGowns {}
   section#section4-2.gowns {}
   section#section4-3.headCovers {}
 }

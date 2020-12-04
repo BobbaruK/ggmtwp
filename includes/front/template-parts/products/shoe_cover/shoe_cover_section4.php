@@ -6,15 +6,13 @@
 ?>
 
 <section id="section4" class="product_pcttbl ppe_types">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2>Shoe cover types</h2>
-      </div>
-    </div> 
-  </div>
   <section id="section4-1" class="shoecovers">
     <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Shoe cover types</h2>
+        </div>
+      </div> 
       <div class="row">
         <div class="col-12 col-lg-6">
           <div class="txtWrapper">

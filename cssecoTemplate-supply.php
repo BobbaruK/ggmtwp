@@ -2,7 +2,6 @@
 /**
   * Template Name: Supply
   * @package cssecoST
-  * cssecoTemplatePage-supply.php
   */
 
 get_header(); ?>

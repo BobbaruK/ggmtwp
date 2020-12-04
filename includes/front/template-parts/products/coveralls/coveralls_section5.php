@@ -24,7 +24,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-2 d-flex flex-column mb-5 mb-lg-0">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2 d-flex flex-column mb-5 mb-md-0">
           <div class="imgWrapper">
             <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section5/1.png" alt="">
           </div>
@@ -134,7 +134,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-5 mb-md-0">
+        <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-5 mb-lg-0">
           <div class="imgWrapper">
             <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section5/7.png" alt="">
           </div>

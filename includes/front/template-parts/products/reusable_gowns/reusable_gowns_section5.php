@@ -50,7 +50,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-4 d-flex flex-column mb-4 mb-md-0">
+        <div class="col-12 col-md-4 d-flex flex-column mb-md-0">
           <div class="imgWrapper">
             <img class="" src="https://via.placeholder.com/460x460" alt="">
           </div>
@@ -74,7 +74,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6 col-lg-4 offset-lg-2 d-flex flex-column mb-5 mb-lg-0">
+        <div class="col-12 col-md-6 col-lg-4 offset-lg-2 d-flex flex-column mb-5 mb-md-0">
           <div class="imgWrapper">
             <img class="" src="https://via.placeholder.com/460x460" alt="">
           </div>

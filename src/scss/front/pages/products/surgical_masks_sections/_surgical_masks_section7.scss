@@ -2,8 +2,16 @@
 // This file contains styles that are specific to the #section7 of Covaralls page.
 // -----------------------------------------------------------------------------
 
-section#section7.safetyInfo {
-  h2 {
-    text-align: center;
+section#section7 {
+  background-image: url(../imgs/texture-reversed.png);
+  background-position: center left;
+  h2, p {
+    text-align: left;
+  }
+  > .container {
+    @media screen and (min-width: $csseco_bp_992) {
+      background-image: url(../imgs/products/surgical_masks/section7/1.png);
+      background-position: center right;
+    }
   }
 }

@@ -1,0 +1,14 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the Thermometers page.
+// -----------------------------------------------------------------------------
+
+.page-template-cssecoTemplate-thermometers {
+  @import 'thermometers_sections/thermometers_section1';
+  @import 'thermometers_sections/thermometers_section2';
+  @import 'thermometers_sections/thermometers_section3';
+  @import 'thermometers_sections/thermometers_section4';
+  @import 'thermometers_sections/thermometers_section5';
+  @import 'thermometers_sections/thermometers_section6';
+  @import 'thermometers_sections/thermometers_section7';
+}
+

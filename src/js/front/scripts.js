@@ -225,7 +225,7 @@ jQuery(function ($) {
 		slidesToShow: 3,
 		responsive: [
 			{
-				breakpoint: 992,
+				breakpoint: 1200,
 				settings: {
 					arrows: false,
 					centerMode: true,

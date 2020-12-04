@@ -2,7 +2,6 @@
 /**
   * Template Name: Front Page
   * @package cssecoST
-  * cssecoTemplatePage-contact_us.php
   */
 
 get_header('fp'); ?>

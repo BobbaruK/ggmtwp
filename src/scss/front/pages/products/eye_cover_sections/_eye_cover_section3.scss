@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section3 of Eye Cover page.
+// -----------------------------------------------------------------------------
+
+section#section3.ep {
+  background-color: $brand-grey;
+  .img_wrapper {
+    box-shadow: none;
+  }
+  table {
+    background-color: $bg-color;
+  }
+}

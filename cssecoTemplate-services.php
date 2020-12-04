@@ -2,7 +2,6 @@
 /**
   * Template Name: Services
   * @package cssecoST
-  * cssecoTemplatePage-services.php
   */
 
 get_header(); ?>

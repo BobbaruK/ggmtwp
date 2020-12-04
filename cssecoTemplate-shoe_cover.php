@@ -2,7 +2,6 @@
 /**
   * Template Name: Shoe Cover
   * @package cssecoST
-  * cssecoTemplate-shoe_cover.php
   */
 
 get_header(); ?>

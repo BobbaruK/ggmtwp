@@ -18,7 +18,7 @@
           <div class="tma_card tma_card_1">
             <div class="tma_card_inner">
               <div class="icon_wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" id="fps3_icon1" class="icon" width="180" height="175" viewBox="0 0 180 175">
+                <!-- <svg xmlns="http://www.w3.org/2000/svg" id="fps3_icon1" class="icon" width="180" height="175" viewBox="0 0 180 175">
                   <circle id="outer_circle" cx="87.5" cy="83.5" r="82.5" stroke-opacity="0.992157" stroke-width="2" stroke-linecap="round" stroke-dasharray="9 15" fill="red"/>
                   <circle id="inner_circle" cx="87" cy="83" r="62.5"/>
                   <g id="fdisk">
@@ -79,7 +79,8 @@
                     </g>
                   </g>
                   <path id="arrow" d="M47.5 39.0054L64.6894 52.0136L47.5 65.9509V59V58.5H47H33.5V45.5H47H47.5V45V39.0054Z" fill="white" stroke="#252A5E"/>
-                </svg>
+                </svg> -->
+                <img src="<?php echo get_template_directory_uri(); ?>/dist/imgs/frontpage/section3/icon1.png" alt="Icon" id="otherIcon" class="icon">
               </div>
               <h3>Understanding Your Needs</h3>
               <p>Communication is the key to any long-term partnership and we work hard to make sure that we understand every aspect of your order, allowing you to relax and leave it to us.</p>

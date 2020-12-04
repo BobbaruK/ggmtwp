@@ -36,7 +36,7 @@
             </ul>
           </div>
         </div>
-        <div class="col-12 col-md-4 d-flex flex-column mb-5 mb-md-0">
+        <div class="col-12 col-md-4 d-flex flex-column ">
           <div class="imgWrapper">
             <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/surgical_masks/section5/2.png" alt="Full Back">
           </div>
@@ -113,7 +113,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4 d-flex flex-column mb-5 mb-lg-0">
+        <div class="col-12 col-md-6 offset-md-3 col-lg-4 offset-lg-4 d-flex flex-column">
           <div class="imgWrapper">
             <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/surgical_masks/section5/6.png" alt="Full Back">
           </div>

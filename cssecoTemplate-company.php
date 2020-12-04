@@ -2,7 +2,6 @@
 /**
   * Template Name: Company
   * @package cssecoST
-  * cssecoTemplatePage-contact.php
   */
 
 get_header(); ?>

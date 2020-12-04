@@ -6,15 +6,13 @@
 ?>
 
 <section id="section4" class="product_pcttbl headCoveringTypes">
-  <div class="container">
-    <div class="row">
-      <div class="col-12">
-        <h2>Head covering Types</h2>
-      </div>
-    </div> 
-  </div>
   <section id="section4-1" class="bouffantCaps">
     <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2>Head covering Types</h2>
+        </div>
+      </div> 
       <div class="row">
         <div class="col-12 col-lg-6 col-xl-4">
           <div class="img_wrapper">
