@@ -7,4 +7,27 @@ section#section7.safetyInfo {
   h2 {
     text-align: center;
   }
+  .leCard {
+    margin: 0 auto;
+    width: 100%;
+    .leCard__imgWrapper {
+      background-color: $bg-color;
+      border-radius: 10px;
+      margin: 0 auto;
+      max-width: 60%;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      @extend %boxShadow_top;
+      img {}
+    }
+    .leCard__caption {
+      p {
+        margin: 0;
+        text-align: center;
+      }
+    }
+    @media screen and (min-width: $csseco_bp_768) {
+      max-width: 300px;
+    }
+  }
 }

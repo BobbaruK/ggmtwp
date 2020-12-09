@@ -9,7 +9,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12">
-        <h2>Supplying Quality</h2>
+        <h2>Last Month Most Demanded Products</h2>
         <p>GGMT is commited to using only the highest quality materials and facilities</p>
       </div>
     </div>

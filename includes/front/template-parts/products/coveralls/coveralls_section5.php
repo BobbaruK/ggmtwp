@@ -76,7 +76,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-4 d-flex flex-column">
         <div class="imgWrapper">
-          <img class="img-fluid lazyload" src="https://via.placeholder.com/460x460" alt="">
+          <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section5/4.png" alt="">
         </div>
           <h3>Breathable Back</h3>
           <div class="det">
@@ -99,7 +99,7 @@
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2 d-flex flex-column mb-5 mb-lg-0">
           <div class="imgWrapper">
-            <img class="img-fluid lazyload" src="https://via.placeholder.com/460x460" alt="">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section5/5.png" alt="">
           </div>  
           <h3>Elastic</h3>
           <div class="det">
@@ -162,7 +162,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-4 mb-md-0">
           <div class="imgWrapper">
-            <img class="img-fluid lazyload" src="https://via.placeholder.com/460x460" alt="">
+          <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section5/9-1.png" alt="">
           </div>
           <h3>Static Dissipative</h3>
           <div class="det">
@@ -174,7 +174,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-4 mb-md-0">
           <div class="imgWrapper">
-            <img class="img-fluid lazyload" src="https://via.placeholder.com/460x460" alt="">
+            <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section5/10.png" alt="">
           </div>
           <h3>Striped</h3>
           <div class="det">

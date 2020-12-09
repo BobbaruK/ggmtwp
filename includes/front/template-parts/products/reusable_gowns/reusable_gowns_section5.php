@@ -52,7 +52,7 @@
         </div>
         <div class="col-12 col-md-4 d-flex flex-column mb-md-0">
           <div class="imgWrapper">
-            <img class="" src="https://via.placeholder.com/460x460" alt="">
+          <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/backless.png" alt="Full Back">
           </div>
           <h3>Backless</h3>
           <div class="det">
@@ -76,7 +76,7 @@
       <div class="row">
         <div class="col-12 col-md-6 col-lg-4 offset-lg-2 d-flex flex-column mb-5 mb-md-0">
           <div class="imgWrapper">
-            <img class="" src="https://via.placeholder.com/460x460" alt="">
+          <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section5/knitcuffs.png" alt="Straight Cuff">
           </div>
           <h3>Knit Cuff</h3>
           <div class="det">

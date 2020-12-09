@@ -131,6 +131,7 @@
             display: flex;
             justify-content: center;
             transition: transform ease-in-out $animation_time;
+            width: 30px;
           }
           &.menu_open {
             > ul.sub-menu {}

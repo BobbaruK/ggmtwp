@@ -1,7 +1,6 @@
 <?php
 /**
   * @package cssecoST
-  * includes/front/template-parts/products/coveralls/coveralls_section1.php
   */
 ?>
 

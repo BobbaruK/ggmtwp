@@ -41,4 +41,28 @@
   label {
     display: none;
   }
+
+  [type=radio],
+  [type=checkbox] {
+    display: inline;
+    height: auto;
+    width: auto;
+  }
+  [type=radio] + label,
+  [type=checkbox] + label {
+    display: inline;
+  }
+
+  
+}
+
+#contact_form {
+  background-color: rgba($bg-color, .4);
+}
+
+#customer_survey {
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 0;
+  padding-right: 0;
 }

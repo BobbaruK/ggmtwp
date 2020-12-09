@@ -87,33 +87,32 @@
             </thead>
             <tbody>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>EN ISO 22612 Resistance to microbial penetration-dry</td>
+                <td>Contaminated (Bacillus Subtilis)talcum powder</td>
+                <td>Determines the ability of dry fabric to resist penetration of particles</td>
+                <td>Lower colony forming units (CFU) means more resistant material to dry microbial penetration carrying microorganisms</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>EN ISO 22610 Resistance to microbial penetration—wet</td>
+                <td>Staphylococcus aureus suspension</td>
+                <td>Determines a fabric's resistance to penetration of bacteria in a liquid while being subjected to mechanical rubbing</td>
+                <td>Number of colonies formed after incubation, expressed in Barrier Index (IB), and higher IB means more resistant material to wet microbial penetration (IB=6.0 is the maximum achievable value, it means no penetration)</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>ISO 16603 Synthetic Blood Penetration Test</td>
+                <td>Surrogate Blood</td>
+                <td>Determines the ability of a material to resist the penetration of synthetic blood under constant contact</td>
+                <td>Material passing this test at higher pressure level is (kPa) considered more resistant to synthetic blood penetration at the specified pressure level (pressure range: 0 kPa to 20 kPa)</td>
               </tr>
               <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+                <td>ISO 16604 Viral Penetration Test</td>
+                <td>Bacteriophage (Phi-X174) challenge suspension</td>
+                <td>Determines the ability ofa material to resist the penetration of a microorganism under constant contact</td>
+                <td>Material passing this test at higher pressure level (kPa) is considered more resistant to viral penetration at the specified pressure level (pressure range: 0 kPa to 20 kPa)</td>
               </tr>
             </tbody>
           </table>
         </div>
-        <p>For more information on PPE safety standards please check out our Standards and Certifications page.</p>
       </div>
     </div>
   </div>

@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section4 of Company page.
+// -----------------------------------------------------------------------------
+
+section#section4.needs {
+  background-image: url(../imgs/company/company/section4/bg.png);
+  h2 {
+    @media screen and (min-width: $csseco_bp_992) {
+      max-width: 400px;
+      width: 100%;
+    }
+  }
+}

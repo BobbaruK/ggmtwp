@@ -1,0 +1,30 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section1 of Company page.
+// -----------------------------------------------------------------------------
+
+section#section1.globusglobal {
+  padding: 0;
+  > .container {
+    padding-bottom: var(--margin_padding_bottom);
+    padding-top: var(--margin_padding_bottom);
+    text-align: center;
+    @media screen and (min-width: $csseco_bp_768) {
+      background-image: url(../imgs/company/company/section1/bg.png);
+      background-position: center right;
+      background-repeat: no-repeat;
+      background-size: contain;
+      text-align: left;
+    }
+  }
+  h1 {}
+  p {
+    @media screen and (min-width: $csseco_bp_1200) {
+      margin-bottom: 2.5rem;
+    }
+  }
+  .cssecoBtnWrapper {
+    @media screen and (min-width: $csseco_bp_768) {
+      justify-content: flex-start;
+    }
+  }
+}

@@ -3,7 +3,7 @@
 // -----------------------------------------------------------------------------
 
 section#section2.getintouch {
-  background-color: lighten($brand-color, 60);
+  background-color: $brand-grey;
   h2 {}
   ul {
     list-style: none;
@@ -43,6 +43,6 @@ section#section2.getintouch {
     }
   }
   .forms {
-    background-color: rgba($bg-color, .4);
+    
   }
 }

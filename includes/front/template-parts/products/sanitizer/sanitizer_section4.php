@@ -130,7 +130,7 @@
         </div>
         <div class="col-12 col-md-6 col-lg-3 d-flex flex-column mb-4 mb-md-0">
           <div class="imgWrapper">
-            <img class="img-fluid lazyload" src="https://via.placeholder.com/460x460" alt="">
+          <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/sanitizer/section4/8.png" alt="">
           </div>
           <h3>Floor stands</h3>
           <div class="det">

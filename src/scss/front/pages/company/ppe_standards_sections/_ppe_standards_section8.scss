@@ -1,0 +1,18 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section8 of PPE Standards page.
+// -----------------------------------------------------------------------------
+
+section#section8.mes {
+  .img_wrapper {
+    box-shadow: none;
+  }
+  table {
+    tbody {
+      tr {
+        td:last-child {
+          text-align: center;
+        }
+      }
+    }
+  }
+}

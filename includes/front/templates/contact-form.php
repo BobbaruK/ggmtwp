@@ -1,13 +1,12 @@
 <?php
 /**
  * @package cssecoST
- * includes/front/templates/contact-form.php
  *
- * Comment Navigation Template
+ * Contact form
  */
 ?>
 
-<form action="" class="forms">
+<form action="" class="forms" id="contact_form">
   <div class="row">
     <div class="col-12">
       <div class="form-group inputWrapper">

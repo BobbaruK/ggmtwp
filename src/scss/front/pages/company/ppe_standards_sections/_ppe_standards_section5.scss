@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section5 of PPE Standards page.
+// -----------------------------------------------------------------------------
+
+section#section5.iso {
+  background: $brand-grey;
+  .img_wrapper {
+    box-shadow: none;
+  }
+  table {
+    background-color: $bg-color;
+  }
+}

@@ -1,0 +1,24 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section2 of Company page.
+// -----------------------------------------------------------------------------
+
+section#section2.trust {
+  background-color: $brand-grey;
+  background-image: url(../imgs/company/company/section2/bg_texture.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-color: $brand-grey;
+  border-style: solid;
+  border-width: 1px 0;
+  h2 {
+    margin: 2rem 0 0 0;
+    @media screen and (min-width: $csseco_bp_992) {
+      text-align: right;
+      margin: 0;
+    }
+  }
+  @media screen and (min-width: $csseco_bp_992) {
+    background-size: contain;
+  }
+}
