@@ -12,7 +12,7 @@
         <h1 class="bull"><span>If You Need It; We Will Find It</span></h1>
         <p>Your wish is our command, GGMT is proud to be a one stop shop for any PPE product demand.</p>
         <div class="cssecoBtnWrapper">
-          <a href="#" class="cssecoBtn"><span>Send a message</span></a>
+          <a href="<?php echo home_url() ?>/contact" class="cssecoBtn"><span>Send a message</span></a>
         </div>
       </div>
       <div class="col-12 col-xl-6 text-center">
