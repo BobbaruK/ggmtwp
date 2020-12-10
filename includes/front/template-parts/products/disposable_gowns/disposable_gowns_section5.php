@@ -15,7 +15,7 @@
       </div> 
       <div class="row">
         <div class="col-12 col-lg-6">
-          <div class="txtWrapper">
+          <div class="js-pinnedOnScroll">
             <div class="img_wrapper">
               <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/01.png" alt="">
             </div>
@@ -136,7 +136,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 order-1 order-lg-2">
-          <div class="txtWrapper">
+          <div class="js-pinnedOnScroll">
             <div class="img_wrapper">
               <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/02.png" alt="">
             </div>
@@ -159,8 +159,8 @@
           <p>Recommended for visitors in low-risk, low-fluid environments these multi-ply AAMI level 1 disposable gowns offer the highest degree of breathability and comfort while still providing protection from low levels of splash or spray.</p>
         </div>
         </div>
-        <div class="col-12 col-lg-6 d-flex ">
-          <div class="table-responsive">
+        <div class="col-12 col-lg-6">
+          <div class="table-responsive js-pinnedOnScroll">
             <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -203,8 +203,8 @@
   <section id="section5-4" class="disposableAprons">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex ">
-          <div class="table-responsive">
+        <div class="col-12 col-lg-6 order-2 order-lg-1">
+          <div class="table-responsive js-pinnedOnScroll">
             <table class="table table-bordered">
               <tbody>
                 <tr>

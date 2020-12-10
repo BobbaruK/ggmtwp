@@ -15,7 +15,7 @@
       </div> 
       <div class="row">
         <div class="col-12 col-lg-6">
-          <div class="txtWrapper">
+          <div class=" js-pinnedOnScroll">
             <div class="img_wrapper">
               <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/coveralls/section4/1.png" alt="">
             </div>
@@ -82,7 +82,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-lg-6 order-2 order-lg-1">
-          <div class="table-responsive">
+          <div class="table-responsive js-pinnedOnScroll">
             <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -154,8 +154,8 @@
           <p>Ideal for low-fluid situations - such as visitors areas - multi-layer coveralls offer comfort and breathability for the wearer.</p>
         </div>
         </div>
-        <div class="col-12 col-lg-6 d-flex ">
-          <div class="table-responsive">
+        <div class="col-12 col-lg-6">
+          <div class="table-responsive js-pinnedOnScroll">
             <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -203,8 +203,8 @@
   <section id="section4-4" class="spunbondCoveralls">
     <div class="container">
       <div class="row">
-        <div class="col-12 col-lg-6 order-2 order-lg-1 d-flex ">
-          <div class="table-responsive">
+        <div class="col-12 col-lg-6 order-2 order-lg-1">
+          <div class="table-responsive js-pinnedOnScroll">
             <table class="table table-bordered">
               <tbody>
                 <tr>

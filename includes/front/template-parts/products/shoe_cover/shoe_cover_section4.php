@@ -24,7 +24,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6">
-          <div class="table-responsive">
+          <div class="table-responsive js-pinnedOnScroll">
             <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -145,7 +145,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 order-1 order-lg-2">
-          <div class="txtWrapper">
+          <div class=" js-pinnedOnScroll">
             <div class="img_wrapper">
             <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/shoe_cover/section4/2.png" alt="">
             </div>

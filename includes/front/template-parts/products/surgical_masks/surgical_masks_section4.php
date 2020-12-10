@@ -21,7 +21,7 @@
         </div>
       </div>
       <div class="col-12 col-lg-6">
-        <div class="table-responsive">
+        <div class="table-responsive js-pinnedOnScroll">
           <table class="table table-bordered">
             <tbody>
               <tr>

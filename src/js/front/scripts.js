@@ -285,7 +285,7 @@ function gsap_frontpage() {}
 
 function gsap_disposableGowns() {
 
-	const pctelems = document.querySelectorAll(".txtWrapper")
+	const pctelems = document.querySelectorAll(".js-pinnedOnScroll")
 
 	pctelems.forEach( (elem, index) => {
 		
@@ -297,8 +297,8 @@ function gsap_disposableGowns() {
 			id: "elem" + index,  
 			pin: true,
 			pinSpacing: true,
-			// scrub: true,
-			markers: true
+			scrub: 1,
+			// markers: true
 		});
 
 		

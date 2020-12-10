@@ -11,7 +11,7 @@
       <div class="col-12">
         <h2>Your wish is our commend! <span>Globus Global is proud to be a one stop shop for all your PPE needs.</span></h2>
         <div class="cssecoBtnWrapper">
-          <a href="#" class="cssecoBtn"><span>Contact us</span></a>
+          <a href="<?php echo home_url() ?>/contact" class="cssecoBtn"><span>Contact us</span></a>
         </div>
       </div>
     </div>

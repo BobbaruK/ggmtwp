@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6">
-          <div class="table-responsive">
+          <div class="table-responsive js-pinnedOnScroll">
             <table class="table table-bordered">
               <tbody>
                 <tr>
@@ -130,7 +130,7 @@
           </div>
         </div>
         <div class="col-12 col-lg-6 order-1 order-lg-2">
-          <div class="txtWrapper">
+          <div class=" js-pinnedOnScroll">
             <div class="img_wrapper">
               <img class="" src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/reusable_gowns/section4/gowns.png" alt="">
             </div>
@@ -153,8 +153,8 @@
             <p>For procedures with a low to medium risk of exposure our reusable AAMI level 1 - 2 non-surgical, fluid resistant caps are a fantastic alternative to disposables.  Recommended for situations such as ER, blood drawing, soil sorting, contact precaution, and more.</p>
           </div>
         </div>
-        <div class="col-12 col-lg-6 d-flex ">
-          <div class="table-responsive">
+        <div class="col-12 col-lg-6">
+          <div class="table-responsive js-pinnedOnScroll">
             <table class="table table-bordered">
               <tbody>
                 <tr>

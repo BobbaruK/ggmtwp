@@ -11,7 +11,7 @@
       <div class="col-12">
         <h2>Take Control Of Your Supply Chain Today</h2>
         <div class="cssecoBtnWrapper">
-          <a href="#" class="cssecoBtn"><span>Contact us</span></a>
+          <a href="<?php echo home_url() ?>/contact" class="cssecoBtn"><span>Contact us</span></a>
         </div>
       </div>
     </div>
