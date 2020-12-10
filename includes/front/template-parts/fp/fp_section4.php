@@ -19,19 +19,25 @@
           <div class="text-center slide_wrapper">
             <div class="slide_inner">
               <h3>Surgical masks</h3>
-              <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/frontpage/section4/slide1.jpg" alt="">	
+              <a href="<?php echo home_url() ?>/surgical-masks/">
+                <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/frontpage/section4/slide1.jpg" alt="">	
+              </a>
             </div>
           </div>
           <div class="text-center slide_wrapper">
             <div class="slide_inner">
               <h3>Medical coverall</h3>
-              <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/frontpage/section4/slide2.jpg" alt="">
+              <a href="<?php echo home_url() ?>/coveralls/">
+                <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/frontpage/section4/slide2.jpg" alt="">
+              </a>
             </div>
           </div>
           <div class="text-center slide_wrapper">
             <div class="slide_inner">
               <h3>Examination gloves</h3>
-              <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/frontpage/section4/slide3.jpg" alt="">
+              <a href="<?php echo home_url() ?>/gloves/">
+                <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/frontpage/section4/slide3.jpg" alt="">
+              </a>
             </div>
           </div>
           <div class="text-center slide_wrapper">
@@ -43,7 +49,9 @@
           <div class="text-center slide_wrapper">
             <div class="slide_inner">
               <h3>Disposable gowns</h3>
-              <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/frontpage/section4/slide5.jpg" alt="">
+              <a href="<?php echo home_url() ?>/disposable-gowns/">
+                <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/frontpage/section4/slide5.jpg" alt="">
+              </a>
             </div>
           </div>
         </div>

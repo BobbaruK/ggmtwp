@@ -281,9 +281,129 @@ gsap.registerPlugin(ScrollTrigger);
 // gsap.registerPlugin(TextPlugin);
 // gsap.registerPlugin(CSSRulePlugin);
 
-function gsap_frontpage() {}
+function gsap_frontpage() {
+	
+	// fp section 3
+	const fp_s3_wrapper = document.querySelector("body.home #section3")
+	const fp_s3_h2 = document.querySelector("body.home #section3 h2")
+	const fp_s3_cardw = document.querySelectorAll("body.home #section3 .tma_card")
+	
+	let tailor_made = gsap.timeline({
+		defaults: {
+			duration: .4,
+			ease: "power1"
+		}
+	})
+	
+	tailor_made
+		.from([fp_s3_h2, fp_s3_cardw], {
+			y: 40,
+			opacity: 0,
+			stagger: .1
+		})
+	
+	
+	ScrollTrigger.create({
+		animation: tailor_made,
+		trigger: fp_s3_wrapper,
+		start: "top 95%",
+		end: "bottom 95%",
+		// markers: true
+	});
+	
+	// fp section 4
+	const fp_s4_wrapper = document.querySelector("body.home #section4")
+	const fp_s4_h2 = document.querySelector("body.home #section4 h2")
+	const fp_s4_p = document.querySelector("body.home #section4 p")
+	const fp_s4_slider = document.querySelector("body.home #section4 .supply_slider")
+	const fp_s4_slider_btn = document.querySelector("body.home #section4 .moreBtnWrapper")
 
-function gsap_disposableGowns() {
+	let most_demanded = gsap.timeline({
+		defaults: {
+			duration: .4,
+			ease: "power1"
+		}
+	})
+
+	most_demanded
+		.from([fp_s4_h2, fp_s4_p, fp_s4_slider, fp_s4_slider_btn], {
+			y: 40,
+			opacity: 0,
+			stagger: .1
+		})
+
+	ScrollTrigger.create({
+		animation: most_demanded,
+		trigger: fp_s4_wrapper,
+		start: "top 90%",
+		end: "bottom 90%",
+		// markers: true
+	});
+
+
+	// fp section 5
+	const fp_s5_wrapper = document.querySelector("body.home #section5")
+	const fp_s5_h2 = document.querySelector("body.home #section5 h2")
+	const fp_s5_slider = document.querySelector("body.home #section5 .testimonials_slider")
+
+	let testimonials = gsap.timeline({
+		defaults: {
+			duration: .4,
+			ease: "power1"
+		}
+	})
+
+	testimonials
+		.from([fp_s5_h2, fp_s5_slider], {
+			y: 40,
+			opacity: 0,
+			stagger: .1
+		})
+
+	ScrollTrigger.create({
+		animation: testimonials,
+		trigger: fp_s5_wrapper,
+		start: "top 90%",
+		end: "bottom 90%",
+		id: "faive",
+		// markers: true
+	});
+
+	// fp section 6 - truck
+	const fp_s6_wrapper = document.querySelector("body.home #section6")
+	const fp_s6_h2 = document.querySelector("body.home #section6 h2")
+	const fp_s6_p = document.querySelector("body.home #section6 p")
+	const fp_s6_truck = document.querySelector("body.home #section6 #truck")
+
+	let control = gsap.timeline({
+		defaults: {
+			duration: .4,
+			ease: "power1"
+		}
+	})
+
+	control
+		.from([fp_s6_h2, fp_s6_p], {
+			y: 40,
+			opacity: 0,
+			stagger: .1
+		}).from(fp_s6_truck, {
+			xPercent: -50,
+			opacity: 0
+		})
+
+
+	ScrollTrigger.create({
+		animation: control,
+		trigger: fp_s6_wrapper,
+		start: "top 80%",
+		end: "bottom 80%",
+		// markers: true
+	});
+	
+}
+
+function pinnedonscroll() {
 
 	const pctelems = document.querySelectorAll(".js-pinnedOnScroll")
 
@@ -294,7 +414,7 @@ function gsap_disposableGowns() {
 			start: "top 40px",
 			end: ()=> "+=" + (elem.parentElement.offsetHeight - elem.offsetHeight),
 			// end: "bottom 10px",
-			id: "elem" + index,  
+			id: "elem-" + index,  
 			pin: true,
 			pinSpacing: true,
 			scrub: 1,
@@ -304,19 +424,7 @@ function gsap_disposableGowns() {
 		
 	})
 
-
-
-	function scrollDisableOnMobile() {
-		if (screen.width < 992) {
-			ScrollTrigger.getAll().forEach(ST => ST.disable());
-		} else { 
-			ScrollTrigger.getAll().forEach(ST => ST.enable());
-		}
-	}
-	scrollDisableOnMobile()
-	window.addEventListener('resize', function(){
-		scrollDisableOnMobile()
-	});
+	
 
 }
 
@@ -328,8 +436,22 @@ let gsap_interval = setInterval(function(){
 		clearInterval(gsap_interval);
 
 		gsap_frontpage();
-		gsap_disposableGowns();
+		pinnedonscroll();
 		gsap_reusableGowns();
+
+
+		function scrollDisableOnMobile() {
+			if (screen.width < 992) {
+				ScrollTrigger.getAll().forEach(ST => ST.disable());
+				// ScrollTrigger.getById("")
+			} else { 
+				ScrollTrigger.getAll().forEach(ST => ST.enable());
+			}
+		}
+		scrollDisableOnMobile()
+		window.addEventListener('resize', function(){
+			scrollDisableOnMobile()
+		});
 		
 	}
 }, 0.2);

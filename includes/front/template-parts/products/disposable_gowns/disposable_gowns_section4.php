@@ -10,7 +10,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12">
-          <h2>Gown Styles</h2>
+          <h2 class="js-revealOnScroll">Gown Styles</h2>
           <p>All gowns available in sizes S - XXL. Natural rubber and Latex-free variants are available.</p>
         </div>
       </div>

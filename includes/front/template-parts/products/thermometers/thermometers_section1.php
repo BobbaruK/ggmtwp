@@ -15,7 +15,7 @@
         </div>
       </div>
       <div class="col-12 col-md-6 d-md-flex align-items-center justify-content-center">
-      <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/thermometers/section1/1.png" alt="">
+        <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/thermometers/section1/1.png" alt="">
       </div>
     </div>
   </div>
