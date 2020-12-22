@@ -365,7 +365,6 @@ function gsap_frontpage() {
 		trigger: fp_s5_wrapper,
 		start: "top 90%",
 		end: "bottom 90%",
-		id: "faive",
 		// markers: true
 	});
 
@@ -428,30 +427,22 @@ function pinnedonscroll() {
 
 }
 
-function gsap_reusableGowns() {}
 
 
-let gsap_interval = setInterval(function(){
-	if( document.getElementById("preloader-counter").innerHTML === "100%" ){
-		clearInterval(gsap_interval);
 
-		gsap_frontpage();
-		pinnedonscroll();
-		gsap_reusableGowns();
+// gsap_frontpage();
+pinnedonscroll();
 
 
-		function scrollDisableOnMobile() {
-			if (screen.width < 992) {
-				ScrollTrigger.getAll().forEach(ST => ST.disable());
-				// ScrollTrigger.getById("")
-			} else { 
-				ScrollTrigger.getAll().forEach(ST => ST.enable());
-			}
-		}
-		scrollDisableOnMobile()
-		window.addEventListener('resize', function(){
-			scrollDisableOnMobile()
-		});
-		
+function scrollDisableOnMobile() {
+	if (screen.width < 992) {
+		ScrollTrigger.getAll().forEach(ST => ST.disable());
+		// ScrollTrigger.getById("")
+	} else { 
+		ScrollTrigger.getAll().forEach(ST => ST.enable());
 	}
-}, 0.2);
+}
+scrollDisableOnMobile()
+window.addEventListener('resize', function(){
+	scrollDisableOnMobile()
+});
