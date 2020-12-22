@@ -51,14 +51,14 @@ function csseco_load_scripts() {
 	wp_enqueue_script( 'gsap_ScrollTrigger_scripts', get_template_directory_uri().'/vendor/gsap/ScrollTrigger.min.js', array(), $gsapVer, true );
 
 	// GSAP	- TextPlugin 
-	wp_enqueue_script( 'gsap_TextPlugin_scripts', get_template_directory_uri().'/vendor/gsap/TextPlugin.min.js', array(), $gsapVer, true );
+	// wp_enqueue_script( 'gsap_TextPlugin_scripts', get_template_directory_uri().'/vendor/gsap/TextPlugin.min.js', array(), $gsapVer, true );
 
 	// GSAP	- CSSRulePlugin 
-	wp_enqueue_script( 'gsap_CSSRulePlugin_scripts', get_template_directory_uri().'/vendor/gsap/CSSRulePlugin.min.js', array(), $gsapVer, true );
+	// wp_enqueue_script( 'gsap_CSSRulePlugin_scripts', get_template_directory_uri().'/vendor/gsap/CSSRulePlugin.min.js', array(), $gsapVer, true );
 
 	// Popper.js
 	// popper.min.js is used for dropdowns, popover and tooltips
-	wp_enqueue_script( 'popper', get_template_directory_uri().'/vendor/popper/popper.min.js', array('jquery'), $popperVer, true );
+	// wp_enqueue_script( 'popper', get_template_directory_uri().'/vendor/popper/popper.min.js', array('jquery'), $popperVer, true );
 
 	// Bootstrap.js
 	wp_enqueue_script( 'bs_scripts', get_template_directory_uri().'/vendor/bootstrap/js/bootstrap.js', array('jquery'), $slickVer, true );
@@ -70,13 +70,15 @@ function csseco_load_scripts() {
 	wp_enqueue_script( 'csseco_scripts', get_template_directory_uri().'/dist/js/csseco-scripts.js', array('jquery'), $cssecoScriptsVer, true );
 
 
-	if (is_page('disposable-gowns') || 
+	if (
+			is_page('disposable-gowns') || 
 			is_page('reusable-gowns') || 
 			is_page('shoe-cover') ||
 			is_page('coveralls') ||
-			is_page('surgical-masks')) {
-		// Fixed to scroll
-		wp_enqueue_script( 'gsap_scripts_fts', get_template_directory_uri().'/dist/js/gsap-fixtoscroll.js', array(), $cssecoScriptsVer, true );
+			is_page('surgical-masks')
+		) {
+			// Fixed to scroll
+			wp_enqueue_script( 'gsap_scripts_fts', get_template_directory_uri().'/dist/js/gsap-fixtoscroll.js', array(), $cssecoScriptsVer, true );
 	}
 	
 }
