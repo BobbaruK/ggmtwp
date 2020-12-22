@@ -68,6 +68,16 @@ function csseco_load_scripts() {
 
 	// Main scripts
 	wp_enqueue_script( 'csseco_scripts', get_template_directory_uri().'/dist/js/csseco-scripts.js', array('jquery'), $cssecoScriptsVer, true );
+
+
+	if (is_page('disposable-gowns') || 
+			is_page('reusable-gowns') || 
+			is_page('shoe-cover') ||
+			is_page('coveralls') ||
+			is_page('surgical-masks')) {
+		// Fixed to scroll
+		wp_enqueue_script( 'gsap_scripts_fts', get_template_directory_uri().'/dist/js/gsap-fixtoscroll.js', array(), $cssecoScriptsVer, true );
+	}
 	
 }
 add_action( 'wp_enqueue_scripts', 'csseco_load_scripts' ); 
