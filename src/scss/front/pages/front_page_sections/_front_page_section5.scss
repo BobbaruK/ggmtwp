@@ -10,6 +10,7 @@ section#section5.testimonials {
         padding: 0;
         .slide_inner {
           background-color: $bg-color;
+          position: relative;
           h3, p {
             margin: 0;
             padding: 0.5rem;
@@ -33,7 +34,19 @@ section#section5.testimonials {
             background-color: $bg-color;
             display: flex;
             justify-content: center;
-            min-height: 180px;
+            min-height: 200px;
+            &.ocupation {
+              background: transparent;
+              bottom: 0;
+              display: inline-block;
+              font-size: 70%;
+              font-style: italic;
+              font-weight: bold;
+              min-height: auto;
+              position: absolute;
+              right: 0;
+              width: auto;
+            }
           }
           @media screen and (min-width: $csseco_bp_576) {
             outline: 2px solid $brand-color;

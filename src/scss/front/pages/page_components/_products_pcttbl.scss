@@ -38,17 +38,5 @@
         margin: 1rem 0;
       }
     }
-    table {
-      tbody {
-        tr {
-          td {
-            text-align: center;
-            &:last-child {
-              text-align: left;
-            }
-          }
-        }
-      }
-    }
   }
 }

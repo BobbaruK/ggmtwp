@@ -6,6 +6,9 @@
   .table-responsive {}
   table {
     margin: 0;
+    @media screen and (max-width: 480px) {
+      font-size: 10px;
+    }
     thead,
     tbody {
       tr th,
@@ -32,12 +35,22 @@
         }
       }
     }
-
     .tableHead {
       background-color: $brand-color;
       color: $brand-secondary-color;
       font-weight: bold;
     }
-
+    &.lastLeft {
+      tbody {
+        tr {
+          td {
+            text-align: center;
+            &:last-child {
+              text-align: left;
+            }
+          }
+        }
+      }
+    }
   }
 }

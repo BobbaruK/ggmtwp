@@ -17,7 +17,7 @@
           <li>Working only with the right specification and certification</li>
         </ul>
         <div class="cssecoBtnWrapper">
-          <a href="#" class="cssecoBtn"><span>Send a message</span></a>
+          <a href="#section2" class="cssecoBtn csseco_scrollTo"><span>Send a message</span></a>
         </div>
       </div>
       <div class="col-12 col-lg-6 text-center">

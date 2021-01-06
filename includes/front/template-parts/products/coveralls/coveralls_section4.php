@@ -25,7 +25,7 @@
         </div>
         <div class="col-12 col-lg-6">
           <div class="table-responsive">
-            <table class="table table-bordered">
+            <table class="table table-bordered lastLeft">
               <tbody>
                 <tr>
                   <td class="tableHead">Recommended For</td>
@@ -83,7 +83,7 @@
       <div class="row">
         <div class="col-12 col-lg-6 order-2 order-lg-1">
           <div class="table-responsive js-pinnedOnScroll">
-            <table class="table table-bordered">
+            <table class="table table-bordered lastLeft">
               <tbody>
                 <tr>
                   <td class="tableHead">Recommended For</td>
@@ -156,7 +156,7 @@
         </div>
         <div class="col-12 col-lg-6">
           <div class="table-responsive js-pinnedOnScroll">
-            <table class="table table-bordered">
+            <table class="table table-bordered lastLeft">
               <tbody>
                 <tr>
                   <td class="tableHead">Recommended For</td>
@@ -205,7 +205,7 @@
       <div class="row">
         <div class="col-12 col-lg-6 order-2 order-lg-1">
           <div class="table-responsive js-pinnedOnScroll">
-            <table class="table table-bordered">
+            <table class="table table-bordered lastLeft">
               <tbody>
                 <tr>
                   <td class="tableHead">Recommended For</td>

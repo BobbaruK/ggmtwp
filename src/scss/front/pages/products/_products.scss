@@ -7,3 +7,26 @@
   @import 'products_sections/products_section2';
   @import 'products_sections/products_section3';
 }
+
+.page-template-cssecoTemplate-products_new {
+  @import 'products_sections/products_section1';
+  @import 'products_sections/products_section2_new';
+  
+
+  .imgWrapper {
+    align-items: center;
+    // border: 1px solid $brand-color;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+    overflow: hidden;
+    @extend %boxShadow_top;
+    img {
+      // margin: 1rem;
+      max-width: 80%;
+      margin: 1rem 0;
+    }
+  }
+
+}

@@ -21,7 +21,7 @@
       </div>
       <div class="col-12 col-lg-6">
         <div class="table-responsive">
-          <table class="table table-bordered">
+          <table class="table table-bordered lastLeft">
             <thead>
               <tr>
                 <th>EN445 STANDARD</th>

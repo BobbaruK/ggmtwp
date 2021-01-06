@@ -12,7 +12,7 @@
         <h1 class="bull"><span>Manufacturing & Supply Chain Services</span></h1>
         <p>Plan your strategy with optimization, problem predication, and unsurpassed experience.</p>
         <div class="cssecoBtnWrapper">
-          <a href="#" class="cssecoBtn"><span>Start</span></a>
+          <a href="#" class="cssecoBtn"><span>Order today</span></a>
         </div>
       </div>
     </div>

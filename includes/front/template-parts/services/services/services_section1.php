@@ -12,7 +12,7 @@
         <h1 class="bull"><span>Local Inspection and Supervision</span></h1>
         <p>Our commitment to service means that you can order with confidence.</p>
         <div class="cssecoBtnWrapper">
-          <a href="<?php echo home_url() ?>/contact" class="cssecoBtn"><span>Start today</span></a>
+          <a href="<?php echo home_url() ?>/contact" class="cssecoBtn"><span>Order today</span></a>
         </div>
       </div>
       <div class="col-12 d-md-none">

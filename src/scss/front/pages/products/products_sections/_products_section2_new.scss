@@ -1,0 +1,21 @@
+// -----------------------------------------------------------------------------
+// This file contains styles that are specific to the #section2 of Products page.
+// -----------------------------------------------------------------------------
+
+section#section2.demandedProducts {
+  border-color: $brand-grey;
+  border-style: solid;
+  border-width: 1px 0 0;
+  h2 {
+    // margin: 0;
+    text-align: center;
+    span {
+      color: $brand-secondary-color;
+    }
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    max-height: 400px;
+  }
+}

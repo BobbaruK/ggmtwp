@@ -22,20 +22,20 @@
             <li>Hook and loop</li>
             <li>Over the head</li>
           </ul>
-          <h6>Backs:</h6>
+          <h6 class="mt-4">Backs:</h6>
           <ul>
             <li>Full back</li>
             <li>Open back</li>
           </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-4">
-          <h6>Cuffs are available:</h6>
+          <h6 class="mt-4 mt-md-0">Cuffs are available:</h6>
           <ul>
             <li>Elastic cuffs</li>
             <li>Knit cuffs</li>
             <li>Straight cuffs</li>
           </ul>
-          <h6>Sleeves:</h6>
+          <h6 class="mt-4">Sleeves:</h6>
           <ul>
             <li>Long sleeve</li>
             <li>Short sleeve</li>

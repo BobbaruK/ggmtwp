@@ -80,7 +80,7 @@
             </tbody>
           </table>
         </div>
-        <p>For more information on PPE safety standards please check out our Standards and Certifications page.</p>
+        <p class="small">For more information on PPE safety standards please check out our <a href="<?php echo home_url() ?>/ppe-standards-and-certifications">Standards and Certifications</a> page.</p>
       </div>
     </div>
   </div>

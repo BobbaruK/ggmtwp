@@ -11,15 +11,24 @@ header#header.site_header {
     align-items: center;
     display: flex;
     height: 100%;
-    img {
-      max-height: 30px;
+    img, svg {
+      height: 30px;
       @media screen and (min-width: $csseco_bp_768) {
-        max-height: 40px;
+        height: 40px;
       }
       @media screen and (min-width: $csseco_bp_992) {
-        max-height: 50px;
+        height: 50px;
       }
     }
+  }
+  @media screen and (max-width: 767px) {
+    background-color: $brand-color;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
   }
 }
 

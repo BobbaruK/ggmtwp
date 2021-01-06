@@ -34,6 +34,9 @@ section#section2.getintouch {
           stroke: $brand-secondary-color;
         }
       }
+      a {
+        color: $brand-color;
+      }
       @media screen and (min-width: $csseco_bp_576) {
         margin-bottom: 1rem;
       }

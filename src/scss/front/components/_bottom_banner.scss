@@ -13,8 +13,13 @@
   margin-bottom: var(--margin_padding_bottom);
   h2 {
     color: $bg-color;
+    font-weight: normal;
+    line-height: 1.4;
     margin: 0 auto;
     text-align: center;
+    @media screen and (min-width: $csseco_bp_992) {
+      // font-size: 1.5rem;
+    }
   }
   .cssecoBtnWrapper {
     margin-top: 1.5rem;
