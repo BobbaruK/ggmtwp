@@ -6,6 +6,7 @@ section#section2.whyus {
   background-color: $brand-grey;
   overflow: hidden;
   position: relative;
+  z-index: 10;
   .safe {
     font-size: 84px;
     line-height: 62px;
