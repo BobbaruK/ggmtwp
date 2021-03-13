@@ -7,6 +7,9 @@
 	// Site url
 	$site_url = get_home_url();
 
+	// check if mobile or desktop
+	$user_agent = strtolower($_SERVER['HTTP_USER_AGENT']);
+	$is_mobile = is_numeric(strpos($user_agent, "mobile"));
 ?>
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -21,6 +24,7 @@
 	<?php } ?>
 	<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
+
 </head>
 <body <?php body_class(); ?>>
 	<div id="site-wrapper">
@@ -69,12 +73,21 @@
 					</div>
 					<div class="col-12 col-md-9">
 						<?php
-							wp_nav_menu( array( 
-								'theme_location'        =>      'primary',
-								'container'             =>      'nav',
-								'container_class'       =>      'header_menu leMenu',
-								'container_id'          =>      'cssecoMenu' //
-							) );
+							if($is_mobile){
+								wp_nav_menu( array( 
+									'theme_location'        =>      'primary',
+									'container'             =>      'nav',
+									'container_class'       =>      'header_menu leMenu on_mobile',
+									'container_id'          =>      'cssecoMenu' //
+									) );
+							}else{
+								wp_nav_menu( array( 
+									'theme_location'        =>      'primary',
+									'container'             =>      'nav',
+									'container_class'       =>      'header_menu leMenu on_desktop',
+									'container_id'          =>      'cssecoMenu' //
+									) );
+							}
 						?>
 					</div>
 				</div>

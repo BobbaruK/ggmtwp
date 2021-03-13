@@ -68,8 +68,14 @@ function csseco_load_scripts()
 
     // Main scripts
     wp_enqueue_script('csseco_scripts', get_template_directory_uri().'/dist/js/csseco-scripts.js', array('jquery'), $cssecoScriptsVer, true);
+    // wp_enqueue_script('csseco_scripts', get_template_directory_uri().'/src/js/scripts.js', array('jquery'), $cssecoScriptsVer, true);
     // main page form
     if (is_page(18)) {
+        wp_enqueue_script('validate-js', 'https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js', array('jquery'), $cssecoScriptsVer, true);
+        wp_enqueue_script('libphone-js', 'https://cdn.jsdelivr.net/npm/libphonenumber-js@1.7.19/bundle/libphonenumber-max.js', array('jquery'), $cssecoScriptsVer, true);
+        wp_enqueue_script('form-js', get_template_directory_uri().'/vendor/form-submit.js', array('jquery'), $cssecoScriptsVer, true);
+    }
+    if (is_page(20)) {
         wp_enqueue_script('validate-js', 'https://cdn.jsdelivr.net/npm/jquery-validation@1.19.2/dist/jquery.validate.js', array('jquery'), $cssecoScriptsVer, true);
         wp_enqueue_script('libphone-js', 'https://cdn.jsdelivr.net/npm/libphonenumber-js@1.7.19/bundle/libphonenumber-max.js', array('jquery'), $cssecoScriptsVer, true);
         wp_enqueue_script('form-js', get_template_directory_uri().'/vendor/form-submit.js', array('jquery'), $cssecoScriptsVer, true);

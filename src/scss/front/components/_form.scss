@@ -32,6 +32,9 @@
       max-width: calc(100% - 75px);
     }
   }
+  .error {
+    color: $brand-danger-color;
+  }
   button[type=submit] {
     min-width: 200px;
     @media screen and (min-width: $csseco_bp_576) {

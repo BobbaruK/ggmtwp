@@ -1,6 +1,6 @@
 // add error messages
 var successValidationMessage =
-  "Thank you for yur message! We will get back to you asa soon as possible.";
+  "Thank you for your message! We will get back to you as soon as possible.";
 var errValidationMsg =
   "An error occurred. Please refresh the page and try again.";
 var emailinvaliderrors = "Invalid Email";
@@ -146,14 +146,11 @@ function startValidation() {
         // minlength: 8,
         domainEmail: true,
       },
-      fname: {
+      name: {
         required: true,
         minlength: 2,
       },
-      lname: {
-        required: true,
-        minlength: 2,
-      },
+
       phone: {
         required: true,
         digits: true,
@@ -164,21 +161,25 @@ function startValidation() {
         required: true,
         minlength: 5,
       },
+      company: {
+        required: true,
+        minlength: 3,
+      },
     },
     messages: {
       email: {
         required: requiredfielderrors,
         domainEmail: emailinvaliderrors,
       },
-      fname: {
-        required: requiredfielderrors,
-        minlength: jQuery.validator.format(minlengtherrors),
-      },
-      lname: {
+      name: {
         required: requiredfielderrors,
         minlength: jQuery.validator.format(minlengtherrors),
       },
       message: {
+        required: requiredfielderrors,
+        minlength: minlengtherrors,
+      },
+      company: {
         required: requiredfielderrors,
         minlength: minlengtherrors,
       },
@@ -227,35 +228,27 @@ $(document).ready(function () {
   GetLocation();
   $("#submit").on("click", (e) => {
     e.preventDefault();
-    console.log($(".phone-prefix").val());
-    console.log($("#phone").val());
 
     if ($("#contact_form").valid()) {
-      let fname = $("#fname").val();
-      let lname = $("#lname").val();
+      let fname = $("#name").val();
       let email = $("#email").val();
       let phonePrefix = $(".phone-prefix").val();
-      let phoneNumber = $("#phone").val();
-
+      let phoneNumber = $(".phone-number").val();
+      let message = $("#message").val();
+      let company = $("#company").val();
       fname = $.trim(fname);
-      lname = $.trim(lname);
+      // lname = $.trim(lname);
       email = $.trim(email);
       phoneNumber = $.trim(phoneNumber);
       clientData = {
         EMail: email,
-        FirstName: fname,
-        LastName: lname,
-        Language: "en",
+        Name: fname,
+        Company: company,
+        // Language: "en",
         Country: currentcountryname,
-        PhoneCountryCode: phonePrefix,
-        Phone: phoneNumber,
-        CampaignName: "",
-        Advertiser: "",
-        Referrer: "",
-        CustomField: "",
-        AcceptTermsAndConditions: true,
-        ApproveReceiveCommercial: true,
-        IPAddress: currentip,
+        PhonePrefix: phonePrefix,
+        Phone:  phoneNumber,
+        Message: message,
         IPCountry: ipcountry,
       };
 
@@ -265,19 +258,32 @@ $(document).ready(function () {
         successValidationMessage +
         " </p>" +
         "</div>";
-        $.ajax({
-            method: "POST",
-            url: "https://ggmt-safebarrier.com/services/email/",
-            contentType: "application/json",
-            data: clientData,
-            dataType: "json",
-        })
+      var errorMessage =
+        '<div class="success-message-container">' +
+        '<p class="success-message"> ' +
+        errValidationMsg +
+        " </p>" +
+        "</div>";
+      $.ajax({
+        method: "POST",
+        url: "https://ggmt-safebarrier.com/services/email/",
+        contentType: "application/json",
+        data: JSON.stringify(clientData),
+        dataType: "json",
+      })
         .done((data) => {
-            console.log(data.response);
+          // console.log(data);
+          let response = data.result;
+          console.log(response)
+          if (response == "success") {
             $("#contact_form").html(successMessage);
+          } else {
+            $("#contact_form").html(errorMessage);
+          }
         })
         .fail((err) => {
           console.log(err);
+          $("#contact_form").html(errorMessage);
         });
     }
   });

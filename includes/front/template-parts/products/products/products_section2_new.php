@@ -55,7 +55,7 @@
       <div class="col-6 text-center">
         <h3>Eye cover</h3>
         <div class="imgWrapper">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/eye_cover/section1/1.png" alt="">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/products/section2_new/eyecover.png" alt="">
         </div>
         <a href="<?php echo get_home_url(); ?>/eye-cover/">Click to learn on all types</a>
       </div>
@@ -64,7 +64,7 @@
       <div class="col-6 text-center">
         <h3>Face shields</h3>
         <div class="imgWrapper">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/01.png" alt="">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/products/section2_new/faceshield.png" alt="">
         </div>
         <a href="#">Click to learn on all types</a>
       </div>
@@ -87,7 +87,7 @@
       <div class="col-6 text-center">
         <h3>Aprons</h3>
         <div class="imgWrapper">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/disposable_gowns/section5/01.png" alt="">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/products/section2_new/aprons.png" alt="">
         </div>
         <a href="#">Click to learn on all types</a>
       </div>
@@ -103,7 +103,7 @@
       <div class="col-6 text-center">
         <h3>Sanitiser & Disinfections</h3>
         <div class="imgWrapper">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/sanitizer/section4/2.png" alt="">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/products/section2_new/sanitizer.png" alt="">
         </div>
         <a href="<?php echo get_home_url(); ?>/sanitizer/">Click to learn on all types</a>
       </div>
@@ -112,7 +112,7 @@
       <div class="col-6 text-center">
         <h3>N95 - respirators and mask</h3>
         <div class="imgWrapper">
-          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/surgical_masks/section6/1.png" alt="">
+          <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/products/products/section2_new/n95.png" alt="">
         </div>
         <a href="<?php echo get_home_url(); ?>/surgical-masks#section6">Click to learn on all types</a>
       </div>

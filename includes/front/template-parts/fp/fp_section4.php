@@ -43,7 +43,7 @@
           <div class="text-center slide_wrapper">
             <div class="slide_inner">
               <h3>Respirators/N95 masks</h3>
-              <a href="<?php echo home_url() ?>/surgical-masks/">
+              <a href="<?php echo home_url() ?>/surgical-masks#section6">
                 <img src="<?php echo get_template_directory_uri() ?>/dist/imgs/frontpage/section4/slide4.jpg" alt="">
               </a>
             </div>
